@@ -46,8 +46,8 @@ def clean_companies_df(company_df):
     return company_df
 
 # Load the data from CSV files
-jobs_file_path = 'data/themuse_jobs_part_1.csv'
-companies_file_path = 'data/themuse_companies_part_1.csv'
+jobs_file_path = 'data/source/themuse_jobs_part_1.csv'
+companies_file_path = 'data/source/themuse_companies_part_1.csv'
 # Add the path to your coaches CSV file if it exists
 # coaches_file_path = 'data/themuse_coaches_part_1.csv'
 
@@ -61,8 +61,8 @@ cleaned_companies_df = clean_companies_df(companies_df)
 # cleaned_coaches_df = clean_coaches_df(coaches_df)
 
 # Save the cleaned data back to CSV files
-cleaned_jobs_file_path = 'data/cleaned_themuse_jobs_part_1.csv'
-cleaned_companies_file_path = 'data/cleaned_themuse_companies_part_1.csv'
+cleaned_jobs_file_path = 'data/cleaned/cleaned_themuse_jobs_part_1.csv'
+cleaned_companies_file_path = 'data/cleaned/cleaned_themuse_companies_part_1.csv'
 # cleaned_coaches_file_path = 'data/cleaned_themuse_coaches_part_1.csv'
 
 cleaned_jobs_df.to_csv(cleaned_jobs_file_path, index=False)
