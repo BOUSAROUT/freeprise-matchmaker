@@ -4,6 +4,7 @@
 
 # Ignore data files
 data/source
+/linkedin_api
 
 
 # Ignore Poetry lock file
