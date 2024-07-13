@@ -1,0 +1,516 @@
+locationName,geoLocationName,companyName,timePeriod,description,title,profile_id,last_name
+Lyon et périphérie,Lyon et périphérie,Micropole,"{'startDate': {'month': 9, 'year': 2023}}","- Suivi de projets 
+- Réalisation d’évolutions fonctionnelles métier (cadrage besoin, atelier métier, chiffrage, développements, tests, recette, déploiement en production) 
+- Suivi de la plate-forme AWS, côté architecture / technique 
+- Optimisation des performances du cluster Redshift ",Ingénieure de données,ACoAACRoeSgBs0DH3dd8UGVOd9-d5sICm4urJt4,Anguilla
+Lyon et périphérie,Lyon et périphérie,Micropole,"{'endDate': {'month': 8, 'year': 2023}, 'startDate': {'month': 3, 'year': 2023}}",,Ingénieure de données,ACoAACRoeSgBs0DH3dd8UGVOd9-d5sICm4urJt4,Anguilla
+"Lyon, Auvergne-Rhône-Alpes, France","Lyon, Auvergne-Rhône-Alpes, France",BIPP Consulting,"{'endDate': {'month': 7, 'year': 2022}, 'startDate': {'month': 4, 'year': 2022}}",,Consultante BI,ACoAACRoeSgBs0DH3dd8UGVOd9-d5sICm4urJt4,Anguilla
+"Le Bourget-du-Lac, Auvergne-Rhône-Alpes, France","Le Bourget-du-Lac, Auvergne-Rhône-Alpes, France",Capgemini,"{'endDate': {'month': 9, 'year': 2020}, 'startDate': {'month': 9, 'year': 2019}}",,Admin Junior Base de Données,ACoAACRoeSgBs0DH3dd8UGVOd9-d5sICm4urJt4,Anguilla
+"Le Bourget-du-Lac, Auvergne-Rhône-Alpes, France","Le Bourget-du-Lac, Auvergne-Rhône-Alpes, France",Capgemini,"{'endDate': {'month': 6, 'year': 2019}, 'startDate': {'month': 4, 'year': 2019}}",,Admin Junior base de données,ACoAACRoeSgBs0DH3dd8UGVOd9-d5sICm4urJt4,Anguilla
+"Lyon, Auvergne-Rhône-Alpes, France","Lyon, Auvergne-Rhône-Alpes, France",Astek,"{'startDate': {'month': 1, 'year': 2024}}",,Lead Data Engineer,ACoAACsrAHABumjdmwsStaYeUQtsWY-Zl_CHuls,Chehouani
+"Lyon, Auvergne-Rhône-Alpes, France","Lyon, Auvergne-Rhône-Alpes, France",Astek,"{'endDate': {'month': 12, 'year': 2023}, 'startDate': {'month': 1, 'year': 2022}}","Mission Engie, Pôle Finance
+
+- Développer des briques techniques optimales pour ingérer des données hétérogènes à forte volumétrie
+- Enrichir le datalake
+- Créer/consommer des APIs
+-  Fournir des données propres et exploitables par les end-users",Data Engineer,ACoAACsrAHABumjdmwsStaYeUQtsWY-Zl_CHuls,Chehouani
+,,Volt - International,"{'endDate': {'month': 12, 'year': 2021}, 'startDate': {'month': 6, 'year': 2020}}","Sophia Antipolis,
+Mission GSF, Equipe MDM
+
+- Développement Flux entrant/sortant du MDM.
+- Développement de référentiels MDM
+- Contrôle/Reporting qualités de données en prod
+Technologies/outils: Tibco MDM, tibco bw, git, Jenkins, octopus, sql dev, sql serveur, softerra ldap",Software Development Engineer,ACoAACsrAHABumjdmwsStaYeUQtsWY-Zl_CHuls,Chehouani
+,,Volt - International,"{'endDate': {'month': 5, 'year': 2020}, 'startDate': {'month': 10, 'year': 2018}}","Sophia Antipolis
+Mission Amadeus : Hotel IT (FIGARO Project)
+Shopping team
+
+- Technical solutions studies and implementations (Kafka, Quartz)
+- Rest API development for java backend (Swagger,Protobuf, Java 1.8, Spring, Oracle, Couchbase, Git, Maven)
+- Unit test and integration test creation (JUnit, Mockito, Spring boot)
+- Implementation of metrics and visualization with grafana",Software Development Engineer,ACoAACsrAHABumjdmwsStaYeUQtsWY-Zl_CHuls,Chehouani
+"Toulouse, Occitanie, France","Toulouse, Occitanie, France",SNCF,"{'endDate': {'month': 9, 'year': 2018}, 'startDate': {'month': 3, 'year': 2018}}","Mettre en place un outils d’analyse de la production ferroviaire et de prévision de la robustesse ou fragilité des plans de transports.
+Langage : Java, Python, R",Développeur Java,ACoAACsrAHABumjdmwsStaYeUQtsWY-Zl_CHuls,Chehouani
+,,Emploi et Développement social Canada (EDSC) / Employment and Social Development Canada (ESDC),"{'startDate': {'month': 12, 'year': 2023}}",,A/IT Senior Advisor,ACoAABRvrnUBUqJdcLGmn_OIvO4hhG16cdBXveI,"Fitzpatrick (McIlkenny), B.A"
+,,Emploi et Développement social Canada (EDSC) / Employment and Social Development Canada (ESDC),"{'startDate': {'month': 3, 'year': 2020}}",,Senior Information Technology Business Analyst - Technical Advisor,ACoAABRvrnUBUqJdcLGmn_OIvO4hhG16cdBXveI,"Fitzpatrick (McIlkenny), B.A"
+,,Emploi et Développement social Canada (EDSC) / Employment and Social Development Canada (ESDC),"{'endDate': {'month': 3, 'year': 2020}, 'startDate': {'month': 8, 'year': 2019}}",,Senior Information Technology Business Analyst,ACoAABRvrnUBUqJdcLGmn_OIvO4hhG16cdBXveI,"Fitzpatrick (McIlkenny), B.A"
+,,Emploi et Développement social Canada (EDSC) / Employment and Social Development Canada (ESDC),"{'endDate': {'month': 8, 'year': 2019}, 'startDate': {'month': 5, 'year': 2016}}",,Information Technology Business Analyst,ACoAABRvrnUBUqJdcLGmn_OIvO4hhG16cdBXveI,"Fitzpatrick (McIlkenny), B.A"
+"Utrecht, Netherlands","Utrecht, Netherlands",Gemeente Utrecht,"{'startDate': {'month': 1, 'year': 2024}}","Strategisch adviseur Interne communicatie - Ontwikkelen en uitwerken interne communicatie strategie, plan en middelen - Jaarplanning corporate communicatie - Regie voeren op interne communicatie kanalen en middelen - Monitoren bereik - Sturen op content met impact - Samenwerking Newsroom & Redactie - Netwerk interne communicatie - Versterken communicatiekracht van de organisatie - Met interne communicatie bijdragen aan organisatiedoelen.",Specialist interne communicatie - Corporate & Strategie,ACoAAAT9L2YB7LjcyOqCe53ueLkQnGh10QRnFFA,Bon
+"Utrecht, Netherlands","Utrecht, Netherlands",Gemeente Utrecht,"{'endDate': {'month': 1, 'year': 2024}, 'startDate': {'month': 5, 'year': 2022}}","Bijdragen aan de positionering en profilering van Gemeente Utrecht als stad van Gezond Stedelijk Leven voor Iedereen. Verder ontwikkelen Corporate Communicatie (afdeling) en Corporate Story. Analyse interne communicatie en opstellen plan van aanpak interne communicatie. Communicatieadviseur voor interne- en corporate projecten: arbeidsmarkt campagne, nieuwe onboarding, nieuw intranet, talkshow Studio030, Podcast-series, DUS, De Utrechtse Standaard, Referendum, Leren en ontwikkelen, communicatie staking begeleiden.",Senior communicatie adviseur - Corporate & Strategie,ACoAAAT9L2YB7LjcyOqCe53ueLkQnGh10QRnFFA,Bon
+,,Sterk techniekonderwijs,"{'endDate': {'month': 6, 'year': 2022}, 'startDate': {'month': 7, 'year': 2019}}","• Communicatie advies
+• Communicatieplan opstellen en realiseren
+• Ontwikkelen eigen huisstijl en website met externe vormgevers en webbouwers
+• Contentcreatie",Communicatieadviseur Sterk Techniekonderwijs Samenwerking regio Woerden-IJsselstein,ACoAAAT9L2YB7LjcyOqCe53ueLkQnGh10QRnFFA,Bon
+Nieuwegein,Nieuwegein,ROC Midden Nederland,"{'endDate': {'month': 6, 'year': 2022}, 'startDate': {'month': 10, 'year': 2014}}","Als senior marketingcommunicatie adviseur lever ik een grote bijdrage aan de positionering en profilering van vier mbo techniekcolleges van ROC Midden Nederland. Ik werk actief mee aan de ontwikkeling en profilering van de Tech Campus Nieuwegein en de vakcentra. Waaronder de positionering van het nieuwe technisch Maak- en kenniscentrum metaal: MAKE Center. Ik lever strategisch communicatieadvies en ben de gesprekspartner van het management als het gaat om in- en externe communicatievraagstukken. Ik realiseer hiervoor marketingcommunicatieplannen en de totstandkoming van diverse communicatiemiddelen. Samen met mijn clusterteam zet ik actief in op werving. We maken o.a. content met impact, werken aan goede samenwerking met VO en de regio en leveren effectieve marketinginzichten. Dankzij de nieuwe SharePoint community en trainingen bevorderen we de communicatiekracht van de campus. Ook zetten we mooie relatie-en wervingsevents neer. Ik neem deel aan het netwerk Diversiteit dat zich hardmaakt voor meer diversiteit op de Tech Campus.",Senior Marketingcommunicatieadviseur Techniek Colleges en Tech Campus Nieuwegein,ACoAAAT9L2YB7LjcyOqCe53ueLkQnGh10QRnFFA,Bon
+"Harmonielaan 2, te Nieuwegein ","Harmonielaan 2, te Nieuwegein ",ROC Midden Nederland,"{'endDate': {'month': 1, 'year': 2019}, 'startDate': {'month': 11, 'year': 2018}}",Projectleider Opening Tech Campus & Werkbezoek Zijne Majesteit de Koning. #TechCampusBruist,Projectleider,ACoAAAT9L2YB7LjcyOqCe53ueLkQnGh10QRnFFA,Bon
+,,Network Rail,"{'startDate': {'month': 4, 'year': 2019}}",,Network Data Manager LNE & EM,ACoAABPm0XwB85JDCseWEyH7eE3pJOSFRFcI5_M,Dean
+"George stephenson house, York","George stephenson house, York",Network Rail,"{'endDate': {'month': 3, 'year': 2019}, 'startDate': {'month': 1, 'year': 2013}}",,Infrastructure Maintenance Performance Manager,ACoAABPm0XwB85JDCseWEyH7eE3pJOSFRFcI5_M,Dean
+"Forth Banks, Newcastle","Forth Banks, Newcastle",Network Rail,"{'endDate': {'month': 1, 'year': 2013}, 'startDate': {'month': 12, 'year': 2011}}",,"Performance & Assurance Engineer, Newcastle",ACoAABPm0XwB85JDCseWEyH7eE3pJOSFRFcI5_M,Dean
+"Northern House, York","Northern House, York",Network Rail,"{'endDate': {'month': 12, 'year': 2011}, 'startDate': {'month': 2, 'year': 2009}}",,"Performaxe & Assurance Engineer, York",ACoAABPm0XwB85JDCseWEyH7eE3pJOSFRFcI5_M,Dean
+"Park Lane Offices, Darlington","Park Lane Offices, Darlington",Network Rail,"{'endDate': {'month': 2, 'year': 2009}, 'startDate': {'month': 9, 'year': 2008}}",,"Signal & Telecomms Maintenance Engineer, Darlington",ACoAABPm0XwB85JDCseWEyH7eE3pJOSFRFcI5_M,Dean
+"San Gregorio Magno, Campania, Italia","San Gregorio Magno, Campania, Italia",Comune di san gregorio magno,"{'startDate': {'month': 7, 'year': 2024}}",,Funzionazio tecnico,ACoAACezuoYB1YoR1GfiOqN0KgeOu4XydTHkfno,Panarella
+,,Freelance,"{'endDate': {'month': 7, 'year': 2024}, 'startDate': {'month': 5, 'year': 2020}}",,Architetto,ACoAACezuoYB1YoR1GfiOqN0KgeOu4XydTHkfno,Panarella
+"Avellino, Italia","Avellino, Italia",Smarch studio Architettura ,"{'endDate': {'month': 7, 'year': 2024}, 'startDate': {'month': 9, 'year': 2019}}",,Architetto,ACoAACezuoYB1YoR1GfiOqN0KgeOu4XydTHkfno,Panarella
+"Salerno, Italia","Salerno, Italia",Studio architettura Maraziti,"{'endDate': {'month': 7, 'year': 2024}, 'startDate': {'month': 2, 'year': 2019}}",,Architetto,ACoAACezuoYB1YoR1GfiOqN0KgeOu4XydTHkfno,Panarella
+Centro storico,Centro storico,Comune di Atripalda,"{'endDate': {'month': 10, 'year': 2017}, 'startDate': {'month': 6, 'year': 2017}}","Arredo urbano e allestimento 
+Giullarte - Festival Internazionale di teatro di strada e antichi mestieri 2017
+",Designer,ACoAACezuoYB1YoR1GfiOqN0KgeOu4XydTHkfno,Panarella
+Madrid,Madrid,Ericsson,"{'startDate': {'month': 5, 'year': 2016}}","Operational Excellence & Internal Control Manager for the Hub Southern Europe & Africa, covering more than 45 countries. 
+
+My main responsibilities are:
+Coordination of all activities related to Improvement & Performance, Operational Excellence and SOX & Internal Control at the Company Control hub. 
+Support hubs with facilitating and coordinating activities in the Finance & Hub 
+Operational plans.
+FQI/KPI – target and performance driver within Company Control.
+Drive change to ensure local acceptance and adherence of new ways of working.
+Request for deviation from standard process when needed.
+Implement Finance process & monitor the deployment of the SOX KC in 
+cooperation with Region SCM (SOX Compliance Manager).
+Project Management for selected key projects.
+Support the Region SCMs in cooperation with Internal Control & SOX.
+Support local PwC SOX audits in cooperation with Internal Control & SOX.  ",Operational Excellence & Internal Control Manager at Company Control Hub Southern Europe & Africa,ACoAABVP3xYBqo9w7cbcGzqupcKf8IhXfxvnGeo,Dias
+Madrid,Madrid,Ericsson,"{'startDate': {'month': 8, 'year': 2003}}","Head of Accounts Payable Services for Regions Mediterranean and Western Central Europe, heading two teams: Support Specialists and Performance Drivers; covering approximately 30 countries with more than 50 companies.
+
+My main responsibilities are:
+Define the yearly Accounts Payable Strategy. 
+Monitor and follow up yearly budget. 
+Anticipate customer needs and create business value, demonstrating foresight and entrepreneurship.
+Ensure organizational commitment, drive organizational alignment and change management. 
+Handle diversity and uncertainty, scheduling workload to meet priorities and targets.
+Drive Governance meetings with internal stakeholders and within the Shared Service Organization. 
+Identify new activities to be included in scope. 
+Responsible for regional Accounts Payable KPIs: Monitor and follow up on improvement areas. 
+Coordinate Accounts Payable Operations and Finance Shared Services. 
+Manage internal and external Audits, including VAT recovering. 
+Drive efficiency within the Purchase to Pay Process: Including Root Cause Analysis and sponsoring Improvement Projects. 
+Manage escalations from internal Stakeholders.",SSO Accounts Payable Services Regional Head,ACoAABVP3xYBqo9w7cbcGzqupcKf8IhXfxvnGeo,Dias
+"Montreal, Canada Area","Montreal, Canada Area",Construction Santé Montréal,"{'startDate': {'month': 3, 'year': 2015}}",,Package Manager,ACoAABX1FXMBhaWCTpHzhDqdtt1sq3UknWTMkT8,Wan
+"Montreal, Quebec","Montreal, Quebec",SNC-Lavalin,"{'endDate': {'month': 12, 'year': 2012}, 'startDate': {'month': 6, 'year': 2010}}","Support to Civil/Structural Lead (Summer 2012 and Part-time)
+Assist the civil/structural lead in the preparation of basis for design and scope of work documents 
+● Drafted specification templates for civil earthworks such as roads grading, culverts and drainage.
+● Compiled a database of civil/structural engineering reports.
+● Researched applicable codes and standards such as CSA, NBCC, MTQ, ASTM, and AISC.
+
+Mont-Wright Project (Summer 2011 and Part-time)
+Assist with preparation of project deliverables including calculations, data sheets and drawings.
+● Verified of design calculations for a crane-supporting steel structure using MathCAD.
+● Designed steel members and connections, and foundation using StaadPro RAM modules.
+● Validated of construction drawings in accordance to project standards.
+● Planned the workflow and schedule for the update of the standard detailed drawings.
+● Assisted with the pilot implementation of TEKLA structures as a BIM software for the project.
+
+Western Range DSO Iron Ore Project (Summer 2010 and Part-time)
+Administrative support to ensure the efficient progress of the project operations, including:
+● Coordinated the fast track deployment of project personnel on site.
+● Provided a weekly progress report to HR and project manager.
+● Followed up on visa applications, medical tests and flights for local and international employees.",Engineering Intern,ACoAABX1FXMBhaWCTpHzhDqdtt1sq3UknWTMkT8,Wan
+Mauritius,Mauritius,Barclays,"{'endDate': {'month': 7, 'year': 2009}, 'startDate': {'month': 4, 'year': 2008}}","Loan Processing Centre (December 2008 - July 2009)
+● Managed a portfolio of over 50 clients awaiting mortgage disbursement and over 200 past clients.
+● Liaised with the client, legal team, and the bank branch to satisfy mortgage disbursement condition.
+● Follow-up on progress report with the bank inspectors to approve multi-phase disbursements.
+
+Credit Scoring Unit (April 2008 - November 2009)
+● Maintained the mortgage database by entering new and updated information of clients’ applications.
+● Extracted daily spreadsheet report and maintain operations by following policies and procedures.
+● Participated as a beta tester for the implementation of an updated scorecard for the loan approval.",Credit Scoring Operator,ACoAABX1FXMBhaWCTpHzhDqdtt1sq3UknWTMkT8,Wan
+"Allentown, Pennsylvania, United States","Allentown, Pennsylvania, United States",Clear Channel Airports,"{'startDate': {'month': 1, 'year': 2022}}",,Vice President of Sales,ACoAABkRZq8B8WjSGBGCrnlcpITdbhZSheB7vdI,Huddle
+,,Clear Channel Airport,"{'endDate': {'month': 1, 'year': 2022}, 'startDate': {'month': 10, 'year': 2013}}",,Regional Sales Manager,ACoAABkRZq8B8WjSGBGCrnlcpITdbhZSheB7vdI,Huddle
+"Jura, Switzerland","Jura, Switzerland",RaiffeisenCasa,"{'endDate': {'month': 10, 'year': 2023}, 'startDate': {'month': 3, 'year': 2022}}",,Conseiller Immobilier,ACoAAAL-yIsB8-BDtPqPAB4-EJW65om00-fz-go,Singleton
+"Delémont, Canton of Jura, Switzerland","Delémont, Canton of Jura, Switzerland",Domicim,"{'endDate': {'month': 12, 'year': 2021}, 'startDate': {'month': 1, 'year': 2017}}",,Real Estate Broker,ACoAAAL-yIsB8-BDtPqPAB4-EJW65om00-fz-go,Singleton
+Brussels,Brussels,DEXIN s.a.,"{'endDate': {'month': 5, 'year': 2013}, 'startDate': {'month': 10, 'year': 2000}}",www.dexin.be,Co Founder and Director,ACoAAAL-yIsB8-BDtPqPAB4-EJW65om00-fz-go,Singleton
+Brussels,Brussels,CHAMPNEYS BRUSSELS,"{'endDate': {'month': 9, 'year': 2000}, 'startDate': {'month': 9, 'year': 1999}}",www.champneys.com,Sales and Marketing Manager,ACoAAAL-yIsB8-BDtPqPAB4-EJW65om00-fz-go,Singleton
+,,UNIVERSAL Move In,"{'endDate': {'month': 8, 'year': 1999}, 'startDate': {'month': 10, 'year': 1997}}",,Sales Manager,ACoAAAL-yIsB8-BDtPqPAB4-EJW65om00-fz-go,Singleton
+Central Indiana,Central Indiana,"Therapets of Indiana,Inc.","{'startDate': {'month': 6, 'year': 2018}}",Therapy dog handler and social media coordinator ,Therapy dog handler,ACoAAAOsa78BLsZevWbVnDh86FzH6ukiecAoOzQ,McQueen
+,,Eli Lilly,"{'endDate': {'month': 6, 'year': 2018}, 'startDate': {'month': 1, 'year': 2010}}",,Clinical Trial Parenteral Manufacturing Outsourcing,ACoAAAOsa78BLsZevWbVnDh86FzH6ukiecAoOzQ,McQueen
+,,Eli Lilly and Company,"{'endDate': {'month': 12, 'year': 2009}, 'startDate': {'month': 4, 'year': 2006}}",,"Cleaning and Cross-Contamination Program owner, Clinical Trials Manufacturing and Packaging",ACoAAAOsa78BLsZevWbVnDh86FzH6ukiecAoOzQ,McQueen
+,,Eli Lilly and Company,"{'endDate': {'month': 5, 'year': 2009}, 'startDate': {'month': 8, 'year': 2004}}",,Parenteral Clinical Trial Manufacturing,ACoAAAOsa78BLsZevWbVnDh86FzH6ukiecAoOzQ,McQueen
+,,Eli Lilly and Company,"{'endDate': {'month': 7, 'year': 2004}, 'startDate': {'month': 11, 'year': 2003}}",,Parenteral Diabetes Care Technical Services,ACoAAAOsa78BLsZevWbVnDh86FzH6ukiecAoOzQ,McQueen
+"London, United Kingdom","London, United Kingdom",HarperCollins Publishers,"{'startDate': {'month': 8, 'year': 2016}}","Working with schools to enhance their experience of Collins Learning products. 
+
+www.collins.co.uk
+www.connect.collins.co.uk/school/portal.aspx",Customer Success Manager - Collins,ACoAAAQVpToBGA11X_2yF7Ee4lliEH_inoChDyI,Spiller
+Kings Place,Kings Place,Guardian News & Media,"{'endDate': {'month': 6, 'year': 2016}, 'startDate': {'month': 1, 'year': 2012}}","Production of web content, picture research, managing new and existing resources on the Guardian Teacher Network.
+
+@GuardianTeach www.theguardian.com/teacher-network","Content coordinator, Guardian Teacher Network",ACoAAAQVpToBGA11X_2yF7Ee4lliEH_inoChDyI,Spiller
+,,Guardian News & Media Ltd,"{'endDate': {'month': 1, 'year': 2012}, 'startDate': {'month': 1, 'year': 2011}}","Working with the department head to create and deliver tailored seminars and training for the Guardian Professional Networks: Careers, HE, Guardian Public, Sustainable Business, Local Government, Housing, Healthcare, Voluntary Sector, Social Enterprise, Social Care and Education.","Customer Services Manager, Guardian Professional network seminars",ACoAAAQVpToBGA11X_2yF7Ee4lliEH_inoChDyI,Spiller
+"London, United Kingdom","London, United Kingdom",Guardian News and Media Ltd,"{'endDate': {'month': 1, 'year': 2011}, 'startDate': {'month': 9, 'year': 2000}}","Sales and sales support, order processing, customer service, credit control for Guardian and Observer Digital Archive, Newsmaker, learnpremium and learnnewsdesk. Organisation of event attendance (BETT and regional shows) including marketing artwork, travel arrangements, AV equipment.",Services Manager (learn.co.uk),ACoAAAQVpToBGA11X_2yF7Ee4lliEH_inoChDyI,Spiller
+,,The National Magazine Company,"{'endDate': {'month': 9, 'year': 2000}, 'startDate': {'month': 1, 'year': 2000}}","Diary co-ordination, production of ppt presenations, personal duties, day to day running of Publishers office.","PA to Publisher, Having a Baby Magazine",ACoAAAQVpToBGA11X_2yF7Ee4lliEH_inoChDyI,Spiller
+,,,"{'endDate': {'year': 2012}, 'startDate': {'year': 1995}}",,Analista Programmatore,ACoAAA1F5AQBTG77GknoyEaqraekuEp6l7JtHfo,Ostaldo
+"Ottawa, Ontario, Canada","Ottawa, Ontario, Canada",March Networks,"{'startDate': {'month': 5, 'year': 2015}}","Client Side Developer
+Mobile Developer",Software Developer,ACoAAAfOCTwB67ztQk7jPfBM-1ljY4Fxz_TQuX0,Davies
+"Ottawa, Ontario, Canada","Ottawa, Ontario, Canada",Coach Hub,"{'endDate': {'month': 1, 'year': 2021}, 'startDate': {'month': 1, 'year': 2017}}",,Chief Technology Officer and Founder,ACoAAAfOCTwB67ztQk7jPfBM-1ljY4Fxz_TQuX0,Davies
+"Ottawa, Ontario, Canada","Ottawa, Ontario, Canada",Camps Canada,"{'endDate': {'month': 6, 'year': 2015}, 'startDate': {'month': 12, 'year': 2014}}","Backend Developer
+Frontend Developer",Full Stack Developer,ACoAAAfOCTwB67ztQk7jPfBM-1ljY4Fxz_TQuX0,Davies
+"Ottawa, Ontario, Canada","Ottawa, Ontario, Canada",Algonquin College,"{'endDate': {'month': 4, 'year': 2015}, 'startDate': {'month': 9, 'year': 2014}}",Assist with the Mobile Application Design and Development program,Teaching Assistant,ACoAAAfOCTwB67ztQk7jPfBM-1ljY4Fxz_TQuX0,Davies
+"80 Aberdeen St, Ottawa, Canada","80 Aberdeen St, Ottawa, Canada",Campusgrids,"{'endDate': {'month': 1, 'year': 2015}, 'startDate': {'month': 6, 'year': 2014}}","Server Side Developer 
+Phonegap/Cordova Developer",Mobile Developer,ACoAAAfOCTwB67ztQk7jPfBM-1ljY4Fxz_TQuX0,Davies
+,,"Mar Ivanios College, Thiruvananthapuram","{'startDate': {'month': 7, 'year': 2019}}",,Guest Lecturer,ACoAACuDdPwBEA9iD3CyEHGaEDtDUmvgYzoEFmA,J L
+United States,United States,Ecorgy Solutions Pvt Ltd,"{'startDate': {'month': 1, 'year': 2021}}",,Information Technology Recruiter,ACoAACuDdPwBEA9iD3CyEHGaEDtDUmvgYzoEFmA,J L
+India,India,"Mar Ivanios College, Thiruvananthapuram","{'endDate': {'month': 10, 'year': 2021}, 'startDate': {'month': 5, 'year': 2021}}",,Guest Lecturer,ACoAACuDdPwBEA9iD3CyEHGaEDtDUmvgYzoEFmA,J L
+,,SOTC for Holidays,"{'endDate': {'month': 3, 'year': 2019}, 'startDate': {'month': 3, 'year': 2019}}",,Intern,ACoAACuDdPwBEA9iD3CyEHGaEDtDUmvgYzoEFmA,J L
+,,Green channel holidays ,"{'endDate': {'month': 4, 'year': 2018}, 'startDate': {'month': 4, 'year': 2018}}",,Intern,ACoAACuDdPwBEA9iD3CyEHGaEDtDUmvgYzoEFmA,J L
+,,Confidentiel,"{'startDate': {'month': 9, 'year': 2021}}",,Confidential,ACoAAB9GEnEBHcQLrTMNSjXqEuVW-dBywiG79R8,Ghiati
+,,Mercure Industrie,"{'endDate': {'month': 6, 'year': 2021}, 'startDate': {'month': 12, 'year': 2020}}",,Ingenieur production et maintenance ,ACoAAB9GEnEBHcQLrTMNSjXqEuVW-dBywiG79R8,Ghiati
+Maroc,Maroc,Colgate-Palmolive,"{'endDate': {'month': 11, 'year': 2019}, 'startDate': {'month': 7, 'year': 2019}}",Projet : Réduction des pertes ,Chef de projet ,ACoAAB9GEnEBHcQLrTMNSjXqEuVW-dBywiG79R8,Ghiati
+Maroc,Maroc,MCM Maroc,"{'endDate': {'month': 5, 'year': 2019}, 'startDate': {'month': 12, 'year': 2017}}",,Responsable production exploitation,ACoAAB9GEnEBHcQLrTMNSjXqEuVW-dBywiG79R8,Ghiati
+Maroc,Maroc,Lesieur Cristal,"{'endDate': {'month': 9, 'year': 2017}, 'startDate': {'month': 3, 'year': 2017}}","Analyse et amélioration de la performance des machines & Optimisation de la production
+                         
+",Projet de fin d’études,ACoAAB9GEnEBHcQLrTMNSjXqEuVW-dBywiG79R8,Ghiati
+"Astoria ,NY","Astoria ,NY",Daryemma restaurant,"{'endDate': {'month': 1, 'year': 2023}, 'startDate': {'month': 8, 'year': 2022}}","Provide excellent customer service to guests
+Ensures team is knowledgeable concerning products and
+guest service.
+Inform customers about the day’s specials.
+Offer menu recommendations upon request.
+Take accurate food and drinks orders using a POS ordering software.
+Communicate order details to the Kitchen Staff.
+Serve food and drink orders.
+Check dishes and kitchenware for cleanliness and presentation and report any problems.
+Arrange tables and maintain a tidy dining area.
+Deliver checks and collect bill payments.",Room Service Waiter,ACoAABdHYDcBv7WqumUd074w2IOnWZhCvB3aF8Q,Elhachimi
+"Casablanca-Settat, Morocco","Casablanca-Settat, Morocco",Anatolia Turkish Restaurant,"{'endDate': {'month': 7, 'year': 2022}, 'startDate': {'month': 1, 'year': 2021}}","Present menu and provide detailed information when asked (e.g. about portions, ingredients or potential food allergies).
+Greet and escort customers to their table.
+Inform customers about the day’s specials.
+Offer menu recommendations upon request.
+Take accurate food and drinks orders using a POS ordering software.
+Arrange tables and maintain a tidy dining area.
+Carry dirty plates, glasses and silverware to kitchen for cleaning.
+Follow all relevant health department regulations.",Sales Floor Team Member,ACoAABdHYDcBv7WqumUd074w2IOnWZhCvB3aF8Q,Elhachimi
+"Bouskoura, Casablanca-Settat, Morocco","Bouskoura, Casablanca-Settat, Morocco",La Table de la Bavaroise,"{'endDate': {'month': 1, 'year': 2021}, 'startDate': {'month': 1, 'year': 2018}}","Present menu and provide detailed information when asked (e.g. about portions, ingredients or potential food allergies).
+Greet and escort customers to their table.
+Inform customers about the day’s specials.
+Offer menu recommendations upon request.
+Take accurate food and drinks orders using a POS ordering software.
+Arrange tables and maintain a tidy dining area.
+Carry dirty plates, glasses and silverware to kitchen for cleaning.
+Follow all relevant health department regulations.",Sales Floor Team Member,ACoAABdHYDcBv7WqumUd074w2IOnWZhCvB3aF8Q,Elhachimi
+Buxton,Buxton,LOMAS DISTRIBUTION LIMITED,"{'startDate': {'month': 3, 'year': 2014}}",,General Manager,ACoAAAFL6FQBaaEFv9KuknIiWXNaZvtmldzUv9Q,Durnall
+"Manchester, United Kingdom","Manchester, United Kingdom",Addleshaw Goddard,"{'endDate': {'month': 3, 'year': 2014}, 'startDate': {'month': 8, 'year': 2013}}",,Associate,ACoAAAFL6FQBaaEFv9KuknIiWXNaZvtmldzUv9Q,Durnall
+Newcastle under Lyme,Newcastle under Lyme,Knights Solicitors LLP,"{'endDate': {'month': 8, 'year': 2013}, 'startDate': {'month': 4, 'year': 2008}}",,Solicitor,ACoAAAFL6FQBaaEFv9KuknIiWXNaZvtmldzUv9Q,Durnall
+,,Knights Solicitors LLP,"{'endDate': {'month': 3, 'year': 2008}, 'startDate': {'month': 9, 'year': 2006}}",,Trainee Solicitor,ACoAAAFL6FQBaaEFv9KuknIiWXNaZvtmldzUv9Q,Durnall
+,,Wilkins & Thompson Solicitors,"{'endDate': {'month': 9, 'year': 2006}, 'startDate': {'month': 7, 'year': 2005}}",,Paralegal,ACoAAAFL6FQBaaEFv9KuknIiWXNaZvtmldzUv9Q,Durnall
+Greater Boston,Greater Boston,Smarter Bear Financial,"{'startDate': {'month': 1, 'year': 2023}}",Registered Investment Advisory,Principal,ACoAAAAC0ugBBfx8QgIvg40HI6coMMuTNPwX960,Perry
+"Boston, Massachusetts, United States","Boston, Massachusetts, United States",Numerated,"{'endDate': {'month': 12, 'year': 2022}, 'startDate': {'month': 12, 'year': 2019}}",,Chief Financial Officer,ACoAAAAC0ugBBfx8QgIvg40HI6coMMuTNPwX960,Perry
+Greater Boston Area,Greater Boston Area,Klaviyo,"{'endDate': {'month': 12, 'year': 2019}, 'startDate': {'month': 7, 'year': 2019}}",,VP Operations ,ACoAAAAC0ugBBfx8QgIvg40HI6coMMuTNPwX960,Perry
+Greater Boston Area,Greater Boston Area,Klaviyo,"{'endDate': {'month': 7, 'year': 2019}, 'startDate': {'month': 12, 'year': 2017}}",,VP Finance,ACoAAAAC0ugBBfx8QgIvg40HI6coMMuTNPwX960,Perry
+"Burlington, Massachusetts","Burlington, Massachusetts",Charles River Development,"{'endDate': {'month': 12, 'year': 2017}, 'startDate': {'month': 1, 'year': 2013}}",Successful exit with sale to State Street Bank,"Senior Director, Finance ",ACoAAAAC0ugBBfx8QgIvg40HI6coMMuTNPwX960,Perry
+"Fort Collins, Colorado, United States","Fort Collins, Colorado, United States",Bonfire Effect,"{'startDate': {'month': 3, 'year': 2024}}","Senior designer working on branding and all things related to design, branding, illustration and everything in between for print/web usage/implementation.",Senior Designer,ACoAACDWgxYBACEZAPcO6aboyNEwL8KZm-bqKS4,Lukes
+,,smART minds,"{'startDate': {'month': 1, 'year': 2009}}","Running day to day operations. Graphic design, brand strategy, branding consultation, brand direction, marketing strategy and innovation, messaging/storytelling, creative direction, print/digital design, etc. etc. ",Principal & Creative Director,ACoAACDWgxYBACEZAPcO6aboyNEwL8KZm-bqKS4,Lukes
+"Fort Collins, Colorado, United States","Fort Collins, Colorado, United States",Toolbox Creative,"{'endDate': {'month': 2, 'year': 2024}, 'startDate': {'month': 2, 'year': 2021}}","Design thinker, creative problem solver and designer of all things needing to be designed. Adding value with design to enterprises in Clean Tech, Clean Ag, 3d Printing and Affordable Housing sectors.",Type Whisperer (Senior Designer),ACoAACDWgxYBACEZAPcO6aboyNEwL8KZm-bqKS4,Lukes
+"Fort Collins, Colorado","Fort Collins, Colorado",Joy Organics,"{'endDate': {'month': 2, 'year': 2021}, 'startDate': {'month': 7, 'year': 2019}}","I implement processes, communicate with account managers about design and lead the design process to create unique, effective and beautiful packaging design and other branded materials for Joy Organics and Joy Organics partners. ",Private Label Design Lead/Marketing Graphic Designer,ACoAACDWgxYBACEZAPcO6aboyNEwL8KZm-bqKS4,Lukes
+"Fort Collins, Colorado Area","Fort Collins, Colorado Area",Gannett | USA TODAY NETWORK,"{'endDate': {'month': 6, 'year': 2019}, 'startDate': {'month': 2, 'year': 2014}}",Coordinating digital and print advertising. Designing advertising for web and print. Various production duties.,Graphic Designer,ACoAACDWgxYBACEZAPcO6aboyNEwL8KZm-bqKS4,Lukes
+"Austin, Texas, United States","Austin, Texas, United States",Miro,"{'startDate': {'month': 11, 'year': 2021}}","• In charge of newcomer onboarding 
+• Offboarding 
+•  Hardware and Software provisioning 
+• Troubleshooting Software and Hardware 
+• Managed over 200 different software accesses to software for 1600 employees 
+• Using Jira service manager was able to track, identify, and resolve issues 
+• Project management skills used to help stakeholders achieve better outcomes
+• Successfully planned and managed the build-out of new office spaces in New York, Austin, and San Francisco, overseeing site selection, lease negotiation, design, construction, and technology integration.
+• Management of contractors to help them achieve goals",Information Technology Administrator,ACoAAB-HVc8BZxzHBHytl07kEhl0FJNebS9yUnw,Thompson
+"Austin, Texas, United States","Austin, Texas, United States",Miro,"{'startDate': {'month': 11, 'year': 2021}}",,Information Technology Administrator,ACoAAB-HVc8BZxzHBHytl07kEhl0FJNebS9yUnw,Thompson
+"Austin, Texas, United States","Austin, Texas, United States",Ovivo,"{'endDate': {'month': 11, 'year': 2021}, 'startDate': {'month': 6, 'year': 2021}}","• Helped implement a CRM system in the organization 
+•Gathered and analyzed data for potential business targeting  
+• Assisted with project management for selected projects
+• Coordinated with different departmental teams to produce better business outcomes
+• Identified automation opportunities
+• Created reports, dashboards, and visualizations to understand business performance
+• Developed and maintain reporting tools
+• Collaborate with the product manager on roadmap planning and prioritization",Business Analyst,ACoAAB-HVc8BZxzHBHytl07kEhl0FJNebS9yUnw,Thompson
+Austin,Austin,Ovivo,"{'endDate': {'month': 11, 'year': 2021}, 'startDate': {'month': 8, 'year': 2018}}","•VPN Troubleshooting
+•IP configuration 
+•Programmable logic controller (PLC) integration with application
+•SCRUM team associate 
+•Application testing for development 
+•Filling the product backlog 
+•Troubleshooting with customers using the applications remotely  ",Application Support Technician for Digital Team,ACoAAB-HVc8BZxzHBHytl07kEhl0FJNebS9yUnw,Thompson
+Greater Salt Lake City Area,Greater Salt Lake City Area,Ovivo,"{'endDate': {'month': 11, 'year': 2021}, 'startDate': {'month': 7, 'year': 2017}}","•Installing software such as Auto Cad for engineers
+•Troubleshooting hardware PC management 
+•Network troubleshooting 
+•Backup data management
+• Phone-line management 
+• Using powershell for end-user management
+• Ordering hardware and software 
+• Managing data on VMs and different virtual environments 
+• Veem Backups run weekly 
+• Symantec Backups ran weekly 
+• Symantec Endpoint Protection
+• Remote Desktop Connections for end users across the world at different sites 
+• Skype Troubleshooting 
+• Zoom Troubleshooting 
+• Dameware Remote Controls 
+• 7Zip
+• Exchange Mail Server Maintenance and Troubleshooting 
+• Outlook issues and troubleshooting 
+• FTP sites 
+• MySQL running some scripts editing when needed to",IT Administrator,ACoAAB-HVc8BZxzHBHytl07kEhl0FJNebS9yUnw,Thompson
+,,BWS,,,CEO,ACoAAB3kElEBpPRoEzsQElPEycKDUVWp5-8B138,Smith
+"Logan, Queensland, Australia","Logan, Queensland, Australia",CEABA HEALTH SERVICE,"{'startDate': {'month': 1, 'year': 2024}}","Has extensive experience in leadership, organisational management and staff development experience. I have spend years in Behavioural Change Management for DFV perpetrators, EAP psychotherapeutic counselling, mental health counselling, trauma informed practice coach. 
+Owner and director of Ceaba Health Service ",Founder/Executive Director,ACoAABu9JRoBbV8T0WLRtE8YGiMvn58hqBdLR8E,ONASU 
+Australia,Australia,Assure Programs,"{'endDate': {'month': 8, 'year': 2023}, 'startDate': {'month': 7, 'year': 2023}}",,Mental Health Clinician,ACoAABu9JRoBbV8T0WLRtE8YGiMvn58hqBdLR8E,ONASU 
+"Brisbane, Queensland, Australia","Brisbane, Queensland, Australia",Open Arms - Veterans & Families Counselling,"{'endDate': {'month': 8, 'year': 2023}, 'startDate': {'month': 4, 'year': 2022}}",,MENTAL HEALH CLINICIAN ,ACoAABu9JRoBbV8T0WLRtE8YGiMvn58hqBdLR8E,ONASU 
+Australia,Australia,Central Queensland Rural Health,"{'endDate': {'month': 4, 'year': 2022}, 'startDate': {'month': 8, 'year': 2021}}",,Mental Health Clinician,ACoAABu9JRoBbV8T0WLRtE8YGiMvn58hqBdLR8E,ONASU 
+Australia,Australia,Nhulundu Health Service,"{'endDate': {'month': 3, 'year': 2022}, 'startDate': {'month': 8, 'year': 2021}}",,Mental Health Clinician,ACoAABu9JRoBbV8T0WLRtE8YGiMvn58hqBdLR8E,ONASU 
+Singapore,Singapore,Xylem,"{'startDate': {'month': 9, 'year': 2023}}","I am grateful to have been given responsibility of providing legal support to a combined region that generates a significant amount of revenue to Xylem and is an engine for change and progress. 
+
+I lead a team to do this in the way I know best - from the front and with vigor (and also healthy doses of humor). 
+
+I practice great sensitivity for local conditions and my focus is on localizing legal tools and processes so that English (as a lingua franca) doesn’t become an obstacle but a mere guidepost in order to ensure that we can all speak and work on the same frequency of solving water and effecting positive change in the world. 
+
+I continue to work collaboratively and with a view towards ensuring harmonized, aligned, and highly contextualized legal support is provided to all; water adapts its shape to the container it is put in - I believe legal support should be as flexible. 
+
+
+
+","Legal Director, China, North Asia, and South-east Asia",ACoAABRIh_cBKzTpfTLtomiWKXQaRXrx59tm1ME,Sim
+Singapore,Singapore,Xylem,"{'endDate': {'month': 9, 'year': 2023}, 'startDate': {'month': 3, 'year': 2023}}","I solve critical and advanced water issues in novel, creative, and commercially friendly ways. 
+
+I actively create and foster united, aligned coalitions and help drive mission success whether it be an internal initiative, a go-to market product design, or an external negotiation with exacting clients or savvy suppliers. 
+
+I find great inspiration in the flexibility and flowing strength of water and I try very hard to integrate that into my work product and service delivery. Google up the inimitable Bruce Lee’s “Be Water, My Friend” from the 1971 Pierre Berton interview to see what I mean. 
+
+I lead from the front and with the foundation of servant leadership deeply embedding in how I do it - in doing so I was fortunate enough to be able to provide interim legal support to the Middle East/Türkiye and Africa regions to plug a coverage gap. 
+
+
+",Legal Director for ANZ and SEA,ACoAABRIh_cBKzTpfTLtomiWKXQaRXrx59tm1ME,Sim
+Singapore,Singapore,Xylem Inc.,"{'endDate': {'month': 3, 'year': 2023}, 'startDate': {'month': 6, 'year': 2020}}","I solve water issues - this takes the form of problem-solving from the varied perspectives of an external Xylem client, our ultimate end-users, internal stakeholders, and from a legal and compliance perspective. 
+
+I actively create win-win outcomes and I firmly believe that things do not have to be a zero-sum game. Water is for everyone - something I focus on when I am negotiating terms. 
+
+Along the way, I’ve constructed a deep well of templates and simple-to-follow SOPs to help move more product out efficiently and effectively in order to ultimately ensure that water gets where it needs to go and to help mitigate water inequality. 
+
+I work collaboratively and creatively - because when you are dealing with pressing water problems that sometimes cross jurisdictional boundaries, there is always room to say (1) I don’t know; (2) I’ll find out more; (3) What can we do differently this time round? 
+
+",Regional Legal Counsel (SEA & Oceania),ACoAABRIh_cBKzTpfTLtomiWKXQaRXrx59tm1ME,Sim
+Singapore,Singapore,Sodexo,"{'endDate': {'month': 6, 'year': 2020}, 'startDate': {'month': 7, 'year': 2016}}","I assembled and enabled a team of outstanding legal counsels whilst overseeing all legal matters originating out of and into ASEAN, Korea, Japan (and formerly Hong Kong too) across all areas of the business. In the process, I helped acquire a business and work to integrate it into the Sodexo way. 
+
+I am most proud of the fact that my team has gone on to achieve bigger and better things. I like to think I have a small contributory part in that. 
+
+I am also happy to say that the legal and compliance issues I got tasked to resolve were resolved effectively and continued to stay resolved. 
+
+I had a ton of fun along the way (and got promoted a few times for my efforts). Ultimately, I did my best to make every day a better day (true to Sodexo’s old motto). 
+
+",SEA Legal Counsel,ACoAABRIh_cBKzTpfTLtomiWKXQaRXrx59tm1ME,Sim
+Singapore,Singapore,SMRT Corporation Ltd,"{'endDate': {'month': 7, 'year': 2016}, 'startDate': {'month': 12, 'year': 2013}}","I learnt what it was to work with great and dedicated people and to stay on mission for a greater purpose (providing critical transport services to the public whilst keeping it affordable and commercially viable). 
+
+I developed a deep appreciation for being part of a team and understanding the power behind being in a small group of thoughtful and committed people to help change the world (huge nod to the West Wing). 
+
+I also helped to move the needle for a number of special projects (including M&A, Policy Formulation, Investigations, and IP realization) and I realized that I am never going to lose my love for pushing things to the next level. ",Legal Counsel,ACoAABRIh_cBKzTpfTLtomiWKXQaRXrx59tm1ME,Sim
+Brussels,Brussels,Euroclear,"{'startDate': {'month': 1, 'year': 2024}}",,Product Owner,ACoAABpMmPIBormhZfPTJAwnqzzwPDtLfhiz9Yw,Merola
+"Brussels Area, Belgium","Brussels Area, Belgium",Capgemini,"{'endDate': {'month': 1, 'year': 2024}, 'startDate': {'month': 8, 'year': 2017}}",,Managing Consultant,ACoAABpMmPIBormhZfPTJAwnqzzwPDtLfhiz9Yw,Merola
+"Brussels Area, Belgium","Brussels Area, Belgium",ProCapital,"{'endDate': {'month': 7, 'year': 2017}, 'startDate': {'month': 7, 'year': 2011}}","Specialized in corporate actions and transactions processing, business process management and process automation.",Business Analyst,ACoAABpMmPIBormhZfPTJAwnqzzwPDtLfhiz9Yw,Merola
+"Brussels Area, Belgium","Brussels Area, Belgium",ProCapital Belgium,"{'endDate': {'month': 7, 'year': 2011}, 'startDate': {'month': 1, 'year': 2009}}",Settlement and transfer area,Back Office Manager,ACoAABpMmPIBormhZfPTJAwnqzzwPDtLfhiz9Yw,Merola
+"Brussels Area, Belgium","Brussels Area, Belgium",Euroclear,"{'endDate': {'month': 1, 'year': 2009}, 'startDate': {'month': 4, 'year': 2005}}","Supervising and managing the proper functioning of Euroclear systems and settlement fl ows. Expert
+in international securities clearing and markets rules and regulations. Assist clients in their daily
+assets portfolio management and operations (dedicated client of Pictet Geneva and Société
+Générale.",Settlement Specialist,ACoAABpMmPIBormhZfPTJAwnqzzwPDtLfhiz9Yw,Merola
+"Hyderabad, Telangana, India","Hyderabad, Telangana, India",Infosys,"{'startDate': {'month': 10, 'year': 2022}}",,Senior System Engineer,ACoAAB_B1BMBCvIAkYyXkCFHHcV6KOa8VRKwk28,DAS
+India,India,Infosys,"{'startDate': {'month': 1, 'year': 2021}}",,System Engineer,ACoAAB_B1BMBCvIAkYyXkCFHHcV6KOa8VRKwk28,DAS
+"Hyderabad, Telangana, India","Hyderabad, Telangana, India",Infosys,"{'endDate': {'month': 3, 'year': 2022}, 'startDate': {'month': 1, 'year': 2021}}",,System Engineer,ACoAAB_B1BMBCvIAkYyXkCFHHcV6KOa8VRKwk28,DAS
+"New Delhi, Delhi, India","New Delhi, Delhi, India",Design Atelier-Urbis,"{'startDate': {'month': 6, 'year': 2022}}",,Junior Architect,ACoAADmzQSEByrw2OD4LVgFZQ5429e2OQf-GyMA,Ali
+,,Design Action Group - India,,,Internship Trainee,ACoAADmzQSEByrw2OD4LVgFZQ5429e2OQf-GyMA,Ali
+"New Delhi, Delhi, India","New Delhi, Delhi, India",Design Action Group - India,"{'startDate': {'month': 1, 'year': 2022}}",,Architectural Intern,ACoAADmzQSEByrw2OD4LVgFZQ5429e2OQf-GyMA,Ali
+,,NGC,,"Oversee a staff of analysts, programmers and tester.  Manage project specific tasks associated with staffing, resource allocation, budgeting, oversight, and customer relations.",Technical Manager,ACoAAATTlqgBY1PCpguSbZjRREHGZxlOh1rA-so,Hodel
+,,Northrop Grumman Corporation,{'startDate': {'year': 1996}},"Oversee a staff of analysts, programmers and tester.  Manage project specific tasks associated with staffing, resource allocation, budgeting, oversight, and customer relations.",Manager,ACoAAATTlqgBY1PCpguSbZjRREHGZxlOh1rA-so,Hodel
+"Çankaya, Ankara, Türkiye","Çankaya, Ankara, Türkiye",TİKA - Türk İşbirliği ve Koordinasyon Ajansı,"{'startDate': {'month': 8, 'year': 2015}}",,Bilgisayar Teknolojisi ve Programlama,ACoAADRbkYUBgqEoPnpJzmW1NDketZmH-VSKm7U,YEŞİLBAŞ
+"Jönköping, Sverige","Jönköping, Sverige",DOMBY COMMUNICATION,{'startDate': {'year': 2023}},,Ägare,ACoAACl81S4Bo9vi0EiBsvh2sSLTLEpjTaleD44,DOMBY 
+"Värnamo, Jönköping, Ljungby, Växjö Sverige","Värnamo, Jönköping, Ljungby, Växjö Sverige",Mockfjärds,"{'endDate': {'month': 1, 'year': 2024}, 'startDate': {'month': 3, 'year': 2022}}",,Distriktsansvarig säljare/projektledare,ACoAACl81S4Bo9vi0EiBsvh2sSLTLEpjTaleD44,DOMBY 
+"Skillingaryd, Jönköping, Sverige","Skillingaryd, Jönköping, Sverige",Bullseye Communication,"{'endDate': {'month': 1, 'year': 2024}, 'startDate': {'month': 11, 'year': 2020}}",,Grundare,ACoAACl81S4Bo9vi0EiBsvh2sSLTLEpjTaleD44,DOMBY 
+,,Vaggeryds Kommun,"{'endDate': {'month': 8, 'year': 2022}, 'startDate': {'month': 4, 'year': 2015}}",,Resurspedagog,ACoAACl81S4Bo9vi0EiBsvh2sSLTLEpjTaleD44,DOMBY 
+Martorell ,Martorell ,Residencia anoia,"{'startDate': {'month': 6, 'year': 2019}}",cuidadora ayudar en todo lo que el usuario necesite.,cuidadora de personas en Domicilios,ACoAAAl2ltgBK2YAoZpjiNiHPox-n1ztDjv5Ri0,sancheztomas
+"Barcelona y alrededores, España","Barcelona y alrededores, España",cuidadora particular,"{'endDate': {'month': 6, 'year': 2019}, 'startDate': {'month': 8, 'year': 2017}}",,cuidadora en domicilio,ACoAAAl2ltgBK2YAoZpjiNiHPox-n1ztDjv5Ri0,sancheztomas
+parets del valles,parets del valles,limpiadoralimpiadora,"{'endDate': {'month': 11, 'year': 2016}, 'startDate': {'month': 8, 'year': 2016}}",,operariaoperaria,ACoAAAl2ltgBK2YAoZpjiNiHPox-n1ztDjv5Ri0,sancheztomas
+Piera,Piera,"Limpiezas Barcino, S.A.","{'endDate': {'month': 3, 'year': 2016}, 'startDate': {'month': 2, 'year': 2015}}",,Limpieza de oficinas,ACoAAAl2ltgBK2YAoZpjiNiHPox-n1ztDjv5Ri0,sancheztomas
+,,Groupe SAMSIC,"{'endDate': {'month': 2, 'year': 2015}, 'startDate': {'month': 2, 'year': 2014}}",,limpiadora,ACoAAAl2ltgBK2YAoZpjiNiHPox-n1ztDjv5Ri0,sancheztomas
+"Indianapolis, Indiana, United States","Indianapolis, Indiana, United States",Indiana Association of Soil and Water Conservation Districts,"{'startDate': {'month': 1, 'year': 2024}}",,"Director, Resilient Indiana",ACoAAA95bN8Bzs4qgVfv4yiinuQy0rMpBO9Eozg,Leader
+,,The National Association of Conservation Districts,"{'endDate': {'month': 12, 'year': 2023}, 'startDate': {'month': 1, 'year': 2023}}",,Director of Conservation Programs,ACoAAA95bN8Bzs4qgVfv4yiinuQy0rMpBO9Eozg,Leader
+Washington D.C. Metro Area,Washington D.C. Metro Area,The National Association of Conservation Districts,"{'endDate': {'month': 1, 'year': 2023}, 'startDate': {'month': 4, 'year': 2019}}",,Projects and Partnership Coordinator,ACoAAA95bN8Bzs4qgVfv4yiinuQy0rMpBO9Eozg,Leader
+"Indianapolis, Indiana","Indianapolis, Indiana",Indiana State Department of Agriculture,"{'endDate': {'month': 4, 'year': 2019}, 'startDate': {'month': 8, 'year': 2016}}",,Director of Soil Health,ACoAAA95bN8Bzs4qgVfv4yiinuQy0rMpBO9Eozg,Leader
+"Indianapolis, IN","Indianapolis, IN",Indiana State Department of Agriculture,"{'endDate': {'month': 8, 'year': 2016}, 'startDate': {'month': 12, 'year': 2013}}",,Program Manager of Ag and Environmental Affairs,ACoAAA95bN8Bzs4qgVfv4yiinuQy0rMpBO9Eozg,Leader
+Polokane,Polokane,Bokoni Platinum Mines Pty Ltd,"{'startDate': {'month': 10, 'year': 2011}}","QUALITY ADMINISTRATION OF ACCOUNT PAYMENT
+QUERIES & GRIR ADMINISTRATION.
+IMPLEMENT AND USE THREE WAY INVOICE MATCHING.
+CREDITORS RECON FROM STATEMENT AND AGE ANALYSIS
+ENSURE THE SMOOTH OPERATION OF THE ACCOUNT PAYMENTS DEPARTMENT AND THE GR /IR.
+SUPERVISE ADMINISTRATION OF ALL ACCOUNT PAYABLE ORDERS AND INVOICES.
+ENSURE DATA ACCURACY AND TIMELINESS.
+ENSURE EFFECTIVE ADMINISTRATIVE SYSTEMS FOR ACCOUNT PAYMENTS.
+FOLLOW UP ON OUTSTANDING INVOICES
+MONITOR ALL OUTPUT OF DEPARTMENTS.
+SPEEDY AND EFFECTIVE RESPOND TO ALL QUERIES OR PROBLEMS REGARDING ACCOUNT PAYMENTS SUBMITTED BY INTERNAL AND EXTERNAL SUPPLIERS.
+INVESTIGATION INTO ERRORS THAT MAY OCCUR DURING ACCOUNT PAYMENT PROCESS.
+PREPARE REPORTS OF THE GR / IR ACCOUNT.
+SUPERVISE IMPLEMENTATION OF NEW ADMINISTRATION SYSTEMS.
+MONTHYL RECONS
+ANALYZE REPORTS AND DATA FOR ACCURACY.
+ENSURE HIGH STANDARD OF HOUSEKEEPING.
+SUPERVISE SAFE DATA CAPTURING WITH DAILY BACKUP.
+PARTICIPATE IN REQUIRED MEETINGS.
+MONITOR AGE ANALYSIS
+PROBLEM SOLVING
+EFFECTIVE TWO WAY COMMUNICATIONS WITH TEAM MEMBERS.
+GENERATING IMPROVEMENT IDEAS.
+CAPTURING AND PROCCESING A HIGH VOLUME OF INVOICES
+FULL FUNCTION ACCOUNT PAYABLE
+RECEIVING OF MATERIALS",Senior Administrator GR/IR queries,ACoAABAStLgBqyYgEKG9BQCTBEpfaTzYM4JvELY,Difero
+"Irving, TX","Irving, TX",BlackBerry Corporation,"{'startDate': {'month': 7, 'year': 2014}}",,Tax Analyst - Federal & State Income - US Operations,ACoAABEi5FcBD632cuc822Yw3QU4MmWZkiCnb04,Heimlich
+,,Dance Bigelow Sharp & Co.,"{'endDate': {'month': 7, 'year': 2014}, 'startDate': {'month': 6, 'year': 2012}}",,Senior Accountant,ACoAABEi5FcBD632cuc822Yw3QU4MmWZkiCnb04,Heimlich
+,,Excel Telecommunications,"{'endDate': {'month': 9, 'year': 2009}, 'startDate': {'month': 6, 'year': 2000}}",,Tax Manager,ACoAABEi5FcBD632cuc822Yw3QU4MmWZkiCnb04,Heimlich
+Costa Rica,Costa Rica,AMERICA DENTAL,"{'startDate': {'month': 9, 'year': 2017}}","Aesthetics bio health dentist. 
+Safe mercury amalgam removal 
+Zirconium dental implants 
+Holistic dentist ",America Dental,ACoAABOGrkwBJOUZp0w1VLFHebwwDqe-543Y7cE,Ramírez
+"Escazú, San Jose, Costa Rica","Escazú, San Jose, Costa Rica",America dental,"{'startDate': {'month': 3, 'year': 2016}}",,"Aesthetic dentist, General dentist, all on 4",ACoAABOGrkwBJOUZp0w1VLFHebwwDqe-543Y7cE,Ramírez
+Belen,Belen,Healthy Company Latam,"{'endDate': {'month': 3, 'year': 2016}, 'startDate': {'month': 1, 'year': 2016}}",Odontologa general,Odontóloga,ACoAABOGrkwBJOUZp0w1VLFHebwwDqe-543Y7cE,Ramírez
+,,Consultorio privado,{'startDate': {'year': 2016}},,Psicología clínica,ACoAAAHezKQB8HsfPhv_LQcCNezgdUYZj5QtEsI,Calvo
+,,Universidad Centroamericana de Ciencias Sociales - UCACIS,"{'startDate': {'month': 9, 'year': 2020}}",,Profesora de Psicología Evolutiva I y II,ACoAAAHezKQB8HsfPhv_LQcCNezgdUYZj5QtEsI,Calvo
+,,Universidad Centroamericana de Ciencias Sociales - UCACIS,"{'startDate': {'month': 5, 'year': 2016}}",,Profesora de Filosofía de la Ciencia,ACoAAAHezKQB8HsfPhv_LQcCNezgdUYZj5QtEsI,Calvo
+,,FIMRC: Foundation for International Medical Relief of Children,"{'endDate': {'month': 5, 'year': 2022}, 'startDate': {'month': 2, 'year': 2020}}",,Psicólogo clínico,ACoAAAHezKQB8HsfPhv_LQcCNezgdUYZj5QtEsI,Calvo
+,,CENDEROS,"{'endDate': {'month': 7, 'year': 2019}, 'startDate': {'month': 8, 'year': 2018}}","Psicóloga de casas de acogida de personas solicitantes de refugio. Atención clínica, talleres, informes Psicosociales.",Psicóloga,ACoAAAHezKQB8HsfPhv_LQcCNezgdUYZj5QtEsI,Calvo
+Dubai,Dubai,Chef Middle East,"{'startDate': {'month': 4, 'year': 2018}}",,"Category Manager - UAE, Oman, Qatar",ACoAAANmVjcBZzumYKnWlwtPPIaMQgiHUKywRyI,Mathews
+Dubai,Dubai,Arla Foods,"{'endDate': {'month': 4, 'year': 2018}, 'startDate': {'month': 4, 'year': 2016}}",,"Regional Foodservice Commercial, Application and Category Manager - MENA",ACoAAANmVjcBZzumYKnWlwtPPIaMQgiHUKywRyI,Mathews
+"Dubai, United Arab Emirates","Dubai, United Arab Emirates",Arla Foods,"{'endDate': {'month': 3, 'year': 2016}, 'startDate': {'month': 9, 'year': 2014}}",,Regional Foodservice Manager - Middle East and Africa,ACoAAANmVjcBZzumYKnWlwtPPIaMQgiHUKywRyI,Mathews
+UAE - Perfect Foods Factory,UAE - Perfect Foods Factory,Tanmiah Food Company,"{'endDate': {'month': 6, 'year': 2014}, 'startDate': {'month': 8, 'year': 2013}}",,General Manager Sales,ACoAAANmVjcBZzumYKnWlwtPPIaMQgiHUKywRyI,Mathews
+"Dubai, UAE","Dubai, UAE",Federal Foods,"{'endDate': {'month': 8, 'year': 2013}, 'startDate': {'month': 1, 'year': 2012}}","	Handling Dubai and Northern Emirates.
+	Annual Budgeting and planning.
+	Cross-section Channel Management, which includes Hotels, Bakeries, Deli, Palace Supplies, QSR’s, Airline Catering and other Catering Companies.
+	Heading a team of over 25 sales personnel
+	Monthly forecast meetings with Business Managers.
+	Maintain healthy Distributor- Principal Relationship. 
+	Review of Payment Terms and Credit Limits before approval.
+	Participating in major Tenders and Negotiations.
+	Meeting Principals for discussions related to Foods Service.",Area Sales Manager,ACoAAANmVjcBZzumYKnWlwtPPIaMQgiHUKywRyI,Mathews
+"Dubai, United Arab Emirates","Dubai, United Arab Emirates",United Safety,"{'startDate': {'month': 4, 'year': 2010}}","H2S Specialist & HSE Supervisor in Middle East oil fields.
+This Position includes:
+- Training New hired and Junior supervisors
+- HSE Audits & Reports
+- Participating as a key supervisor in simultaneous high-risk operations
+Working As a Senior H2S Supervisor in Onshore/ Offshore and H2S production facilities in Iran, Kish Island and Persian Gulf  Rig sites and  Also Land Oil rigs in Iraq- Kurdistan region.
+Perform H2S Awareness courses for some companies such as KAR - DNO - DQE and National Iranian Petroleum, PetroPars and China Petroleum Technology & Development Corporation",HSE & H2S Safety Supervisor,ACoAAAxmWfwBtf3fHpIsqEvL06MJwOxWsE-oaIo,Kia
+Iran,Iran,Mahan Air,"{'endDate': {'year': 2010}, 'startDate': {'year': 2007}}",Worked on all Domestic & international flights as a senior flight attendant ,Flight attendant,ACoAAAxmWfwBtf3fHpIsqEvL06MJwOxWsE-oaIo,Kia
+Dubai,Dubai,Abu Dhabi Commercial Bank,"{'startDate': {'month': 9, 'year': 2015}}",,Credit Collections and Verification Analyst,ACoAAAuHFSUBrU1AsoOBHW9Xw0-rDybySakai2A,Das
+"Dubai, UAE","Dubai, UAE",Saca Advertising LLC,"{'endDate': {'month': 8, 'year': 2015}, 'startDate': {'month': 4, 'year': 2014}}",,Accounts Officer,ACoAAAuHFSUBrU1AsoOBHW9Xw0-rDybySakai2A,Das
+"Kerala, India","Kerala, India",CIJ,"{'endDate': {'month': 2, 'year': 2014}, 'startDate': {'month': 3, 'year': 2011}}",,Administration Manager,ACoAAAuHFSUBrU1AsoOBHW9Xw0-rDybySakai2A,Das
+"Kansas, United States","Kansas, United States",Pittsburg State University,"{'endDate': {'month': 12, 'year': 2023}, 'startDate': {'month': 8, 'year': 2022}}","Assist in undergrad courses; Theory of Structures, Estimation, Concrete and scheduling software.",Graduate Teaching Assistant,ACoAABx-an8BnQSXAx0Bh1lQHaNhKQ8ORQr1OMI,Ahmed
+abu dhabi,abu dhabi,Emirates global aluminium,"{'startDate': {'month': 9, 'year': 2012}}",,Power Plant Engineer,ACoAABAaHn4BFhLcH02cP_zduHwbzQIA_0lNVm0,Kapse
+United Arab Emirates,United Arab Emirates,Emirates Global Aluminium (EGA​),"{'startDate': {'month': 9, 'year': 2012}}",,Assistant system controller,ACoAABAaHn4BFhLcH02cP_zduHwbzQIA_0lNVm0,Kapse
+,,GMR Rajahmundry Energy Limited,"{'endDate': {'month': 8, 'year': 2012}, 'startDate': {'month': 7, 'year': 2011}}",,Power Plant Engineer,ACoAABAaHn4BFhLcH02cP_zduHwbzQIA_0lNVm0,Kapse
+,,Genting Lanco power India private ltd,"{'endDate': {'month': 5, 'year': 2011}, 'startDate': {'month': 6, 'year': 2008}}",,Power Plant Engineer,ACoAABAaHn4BFhLcH02cP_zduHwbzQIA_0lNVm0,Kapse
+,,"Liuyang Ever Life Bamboo Industry Co.,ltd ","{'startDate': {'month': 6, 'year': 2018}}",,Manager Sales,ACoAACg6yNkB2fTio6sEYfKiOoHraU2h50jY6uc,Yan
+,,Self-employed,"{'startDate': {'month': 1, 'year': 2019}}","Orchestrated weekly and monthly video campaigns and maintained social media presence.
+Utilize Adobe Creative Apps, Capcut, and Canva for promotional materials and design projects.
+Plan, create, and execute unique video ideas.
+Travel to events for fresh and relevant content.",Freelance Video Editor,ACoAABlQGTABNuAdDR07uCt3Ns9MrfUIcxuJdnU,Murphy
+,,Self Employed,"{'startDate': {'month': 10, 'year': 2020}}","Ensure all required lighting and sound equipment are connected, tested and ready for the event.
+Curate and perform unique playlists catering to the audience of the venue.
+Travel to and from venues with all required equipment.",Lighting Technician and Sound Engineer,ACoAABlQGTABNuAdDR07uCt3Ns9MrfUIcxuJdnU,Murphy
+,,Self Employed,"{'startDate': {'month': 8, 'year': 2018}}","Founded a successful training business, demonstrating motivation and self-starting capabilities.
+Utilized cold calls and social media to engage with leads and self-market services.
+Designed and hosted group fitness programs, tailoring workouts to individual needs, body types, and injuries.",Personal Trainer,ACoAABlQGTABNuAdDR07uCt3Ns9MrfUIcxuJdnU,Murphy
+,,F45 Training,"{'startDate': {'month': 6, 'year': 2023}}","Promote and sell F45 memberships, contributing to growth and retention.
+Coach and motivate members through tailored workouts while ensuring proper form to prevent injuries.
+Curate and provide unique high-energy playlists to enhance the workout experience.",Coach,ACoAABlQGTABNuAdDR07uCt3Ns9MrfUIcxuJdnU,Murphy
+"Avon, Ohio, United States","Avon, Ohio, United States",Personal Trainer,"{'startDate': {'month': 8, 'year': 2018}}","Self-employed in charge of my own business.
+Self-market business through multiple social media platforms.
+Create programs for each client and provide support for healthy lifestyles.
+Host programs with multiple clients at a time for group sessions.
+Manage the created programs and problem solve for each person’s needs and body types and injuries.
+Maintain client satisfaction and encourage them to keep moving towards their goals.
+",Certified Personal Trainer,ACoAABlQGTABNuAdDR07uCt3Ns9MrfUIcxuJdnU,Murphy
+,,Boeing,"{'startDate': {'month': 5, 'year': 1996}}",,Director of Rotorcraft Flight Operations,ACoAAARRkrYBcJIqcVj7jKG5gwjfaeC2dFuIqqU,metzger
+,,US Army,"{'endDate': {'month': 4, 'year': 1992}, 'startDate': {'month': 1, 'year': 1986}}",,Experimental Test Pilot,ACoAAARRkrYBcJIqcVj7jKG5gwjfaeC2dFuIqqU,metzger
+,,Self employed,{'startDate': {'year': 1981}},,Consultant Oral Surgeon,ACoAABJrqawBk-sOxvB0XM5YRUqPpJF_zH4iNl8,Chakrabarty
+Minatoku Tokyo Japan,Minatoku Tokyo Japan,"All Personal, Inc","{'startDate': {'month': 6, 'year': 2017}}",,CIO/CDO,ACoAAAep9JQB0DlobdFprpjivTapwWBTOb0w8yc,Minato
+Shibuya-ku Tokyo Japan.,Shibuya-ku Tokyo Japan.,"MedPeer,Inc","{'endDate': {'month': 7, 'year': 2014}, 'startDate': {'month': 3, 'year': 2007}}",,"CTO, System Engineer",ACoAAAep9JQB0DlobdFprpjivTapwWBTOb0w8yc,Minato
+Shibuya-ku Tokyo Japan.,Shibuya-ku Tokyo Japan.,DeNA,"{'endDate': {'month': 2, 'year': 2008}, 'startDate': {'month': 9, 'year': 2005}}",,System Engineer,ACoAAAep9JQB0DlobdFprpjivTapwWBTOb0w8yc,Minato
+Minato-ku Tokyo Japan,Minato-ku Tokyo Japan,Macromedia Inc,"{'endDate': {'month': 8, 'year': 2005}, 'startDate': {'month': 4, 'year': 2003}}","Macromedia,Inc was acquired by Adobe at 2005 year.",System Engineer,ACoAAAep9JQB0DlobdFprpjivTapwWBTOb0w8yc,Minato
+"Hamilton, NJ","Hamilton, NJ",Rosetta,"{'endDate': {'month': 12, 'year': 2013}, 'startDate': {'month': 9, 'year': 2010}}","Responsibilities included managing and mentoring team of five Search Engine Optimization strategists, successfully managing large budgets and forecasting for several SEO accounts, spearheading all interaction with internal and external clients, managing all communications with European SEO vendor for European client, spearheading all SEO business development for east coast, developing intuitive keyword mapping strategies through extensive research, creating successful SEO-informed copy recommendations, preparing optimized and localized page titles/meta tags/HTML code, partnering with technology and user experience team leads to set foundation for all client sites using SEO best practices, optimizing on-site images/videos/links, setting overarching strategy for link building outreach campaigns, leading educational SEO 101 classes for new non-media Rosetta employees, keeping clients and SEO teams up-to-date on latest SEO news and best practices, honing my skills as pharmaceutical search marketing expert, monitoring webmaster tools for multiple SEO accounts, and writing polished POV articles on pharma SEO topics.",Search Engine Optimization (SEO) Manager,ACoAAAEVwZoBfkuSNmrypAB-Jvb39WSH3VjLHws,Marston
+,,Rosetta,"{'endDate': {'month': 9, 'year': 2010}, 'startDate': {'month': 10, 'year': 2005}}","Job duties included optimizing all aspects of website content for mostly pharmaceutical clients, leading communications with internal and external clients, performing extensive keyword research, developing intuitive keyword mapping strategies, creating research-informed page titles/meta tags, writing and optimizing HTML code, optimizing several technical aspects of client sites, monitoring SEO keyword rankings and preparing in-depth monthly SEO performance reports, utilizing SEO metrics and conversion data to make ongoing strategic decisions, evaluating performance of SEM ads, writing strategic text ads for some paid search campaigns, spearheading online link building campaigns, analyzing search engine algorithm trends, hosting SEO 101 classes for non-media Rosetta employees and actively participating in new business pitches.",Senior SEO Strategist,ACoAAAEVwZoBfkuSNmrypAB-Jvb39WSH3VjLHws,Marston
+,,Trymark Consulting Group,"{'endDate': {'month': 9, 'year': 2005}, 'startDate': {'month': 1, 'year': 2003}}","Daily activities included optimizing website content for Fortune 500 consumer goods and retail clients, performing in-depth keyword analysis and mapping strategies, creating meta tags and writing HTML code, closely monitoring keyword rankings and various other SEO metrics, promoting online games and sweepstakes/contests to various relevant sites and online directories, conducting link building outreach for client sites, analyzing search engine algorithm trends and preparing monthly SEO activity reports for clients.",Search Engine Optimization Specialist,ACoAAAEVwZoBfkuSNmrypAB-Jvb39WSH3VjLHws,Marston
+Palma de Mallorca y alrededores,Palma de Mallorca y alrededores,Brok-air Consulting,"{'startDate': {'month': 5, 'year': 2013}}",,TMA,ACoAAApezLkBlzYHHzSYBs88pIYNW974dMvDfV4,Hidalgo Titos
+,,Spanair/Globalia,"{'endDate': {'year': 2013}, 'startDate': {'year': 1994}}",,tma,ACoAAApezLkBlzYHHzSYBs88pIYNW974dMvDfV4,Hidalgo Titos
+Palma de Mallorca,Palma de Mallorca,Spanair,"{'endDate': {'month': 2, 'year': 2012}, 'startDate': {'month': 2, 'year': 2000}}",,TMA. (Linced Aircraft Engineer),ACoAAApezLkBlzYHHzSYBs88pIYNW974dMvDfV4,Hidalgo Titos
+Palma de Mallorca,Palma de Mallorca,Spanair,"{'endDate': {'month': 2, 'year': 2012}, 'startDate': {'month': 2, 'year': 2000}}","During 12 years I have performed several tasks in line and hangar experience, PFC, Daily check, A-check, Job cards,troubleshooting, engine and APU replacement in fleet MD80, Boing 717 and A320/321.",oficial 2º,ACoAAApezLkBlzYHHzSYBs88pIYNW974dMvDfV4,Hidalgo Titos
+"Dallas, Texas, United States","Dallas, Texas, United States",JLL,"{'startDate': {'month': 8, 'year': 2022}}","I process payments received from tenants, assist the Property Manager with ongoing projects, and assist the building Security Director with issues that he may have, as I held the Security Director role for 4 years at this location; a 36-Story Class A High Rise Office building in downtown Dallas.",Property Administrator,ACoAACELxoEBThiGcgVLM04GkPtcYLR5FudSKgs,Dunn
+"Dallas, Texas, United States","Dallas, Texas, United States",Dunn Executive Services,"{'startDate': {'month': 2, 'year': 2016}}","I founded my own private investigation company in 2016. I manage all daily operations of the company and I am responsible for all business and financial decisions to include:  Invoicing, federal and state taxes, licensing and regulatory compliance.
+
+Texas DPS Private Security Bureau License Number is A-01067901.
+",Owner/Manager/Private Investigator,ACoAACELxoEBThiGcgVLM04GkPtcYLR5FudSKgs,Dunn
+"Museum Tower, Dallas TX","Museum Tower, Dallas TX",First Service Residential,"{'startDate': {'month': 1, 'year': 2018}}","Provided concierge services for a premier 42 story residential high rise.  Created a training manual for new hire staff, set up appointments for transportation needs and reservations.  Responded to emergencies and facilitated the movement of guests and contractors.  Initially worked full-time, but currently switched to part-time.",Part-time Concierge,ACoAACELxoEBThiGcgVLM04GkPtcYLR5FudSKgs,Dunn
+"Harwood Center, Dallas TX","Harwood Center, Dallas TX",iidon Security Associates,"{'endDate': {'month': 8, 'year': 2022}, 'startDate': {'month': 11, 'year': 2018}}","In this capacity, I managed the daily operations of 10 security employees. Created and managed the training of the security staff for new hire employees as well as continuous in service training.  Conducted investigations as needed, as well as managing the CCTV and access control security systems.  
+
+",Director of Security,ACoAACELxoEBThiGcgVLM04GkPtcYLR5FudSKgs,Dunn
+Dallas/Fort Worth Area,Dallas/Fort Worth Area,"HPST Services, LLC","{'endDate': {'month': 1, 'year': 2018}, 'startDate': {'month': 5, 'year': 2016}}","As Assistant Property Manager I am responsible for coordinating the activities of a staff of four full-time staff members and four contractors working at a family residence in the Preston Hollow neighborhood of Dallas, Texas.  During an extensive remodel of the property, I ensure the orderly flow of contractors into and out of the property.  I also use my expertise of the property to answer questions that may arise.   I assist the Property Manager with ensuring that costs are responsible with no excessive expenditures in regards to the 25.6 acre estate.",Assistant Property Manager,ACoAACELxoEBThiGcgVLM04GkPtcYLR5FudSKgs,Dunn
+"Riga, Latvia","Riga, Latvia",Einsteins Autoskola,"{'startDate': {'month': 1, 'year': 2017}}",,Managing Director,ACoAAAfSrYcB1oyKqfdcDkIOaRpvg6qYA_WwsGk,Poceviča
+"Valmiera, Latvia","Valmiera, Latvia",Einsteins Autoskola,"{'endDate': {'month': 1, 'year': 2017}, 'startDate': {'month': 1, 'year': 2014}}",,Customer Account Manager,ACoAAAfSrYcB1oyKqfdcDkIOaRpvg6qYA_WwsGk,Poceviča
+,,Paychex,{'startDate': {'year': 2017}},,National Marketing Manager,ACoAACZp3vABECYBzq-P--JNhOnlZNhB-FwSBZg,Craig
+,,Xilinx,"{'endDate': {'year': 2014}, 'startDate': {'year': 2012}}",,Regional Coordinator,ACoAACZp3vABECYBzq-P--JNhOnlZNhB-FwSBZg,Craig
+,,WILLIAMS-SONOMA UK LIMITED,"{'endDate': {'year': 2012}, 'startDate': {'year': 2009}}",,National Vice President,ACoAACZp3vABECYBzq-P--JNhOnlZNhB-FwSBZg,Craig
+,,Wisconsin Energy Institute,"{'endDate': {'year': 2009}, 'startDate': {'year': 2005}}",,Senior Lead,ACoAACZp3vABECYBzq-P--JNhOnlZNhB-FwSBZg,Craig
+,,SHAWAHIG ENGINEERING CO.,"{'endDate': {'month': 11, 'year': 2023}, 'startDate': {'month': 11, 'year': 2018}}",,Khartoum. Sudan,ACoAACNqZZQBoPuhXl4bpNskyJ5MJOH-zWU6gHo,Mohammed
+,,CONE for CONstruction & Engineering,"{'endDate': {'month': 11, 'year': 2018}, 'startDate': {'month': 11, 'year': 2017}}",,Khartoum. Sudan,ACoAACNqZZQBoPuhXl4bpNskyJ5MJOH-zWU6gHo,Mohammed
+,,Udc For construction & contractor,"{'endDate': {'month': 11, 'year': 2017}, 'startDate': {'month': 12, 'year': 2014}}",,Khartoum. Sudan,ACoAACNqZZQBoPuhXl4bpNskyJ5MJOH-zWU6gHo,Mohammed
+,,Hartford HealthCare Medical Group,"{'startDate': {'month': 9, 'year': 2022}}",,Infection Prevention Program Manager,ACoAACEnWEQBPA7WKwiDCTBFIrbzMDLPOndbeHI,"Murdzek MHS, M(ASCP), CIC"
+,,*,"{'startDate': {'month': 9, 'year': 2022}}",,*,ACoAACEnWEQBPA7WKwiDCTBFIrbzMDLPOndbeHI,"Murdzek MHS, M(ASCP), CIC"
+"Bridgeport, Connecticut, United States","Bridgeport, Connecticut, United States",Yale New Haven Health,"{'endDate': {'month': 9, 'year': 2022}, 'startDate': {'month': 7, 'year': 2020}}",,Infection Prevention Manager,ACoAACEnWEQBPA7WKwiDCTBFIrbzMDLPOndbeHI,"Murdzek MHS, M(ASCP), CIC"
+,,"Bristol Hospital and Health Care Group, Inc.","{'endDate': {'month': 3, 'year': 2022}, 'startDate': {'month': 12, 'year': 2014}}",,Medical Technologist,ACoAACEnWEQBPA7WKwiDCTBFIrbzMDLPOndbeHI,"Murdzek MHS, M(ASCP), CIC"
+,,Yale New Haven Hospital,"{'endDate': {'month': 7, 'year': 2020}, 'startDate': {'month': 6, 'year': 2016}}",,Infection Preventionist,ACoAACEnWEQBPA7WKwiDCTBFIrbzMDLPOndbeHI,"Murdzek MHS, M(ASCP), CIC"
+Lutterworth,Lutterworth,COOMBS CATERING PARTNERSHIP LIMITED,"{'startDate': {'month': 8, 'year': 2017}}","Managing Operations in an infectiously enthusiastic family owned and run contract catering business. Overseeing the operational management of the increasing number of catering contract wins within the Business & Industry, Education and Charitable sectors ",General Manager Operations,ACoAAAWVdZMB_PvXZbha60l6B9U3ym69rDVjKXc,Hopkins
+Midlands,Midlands,Taylor Shaw,"{'endDate': {'month': 7, 'year': 2017}, 'startDate': {'month': 1, 'year': 2013}}",,Operations Manager,ACoAAAWVdZMB_PvXZbha60l6B9U3ym69rDVjKXc,Hopkins
+South West,South West,MITIE,"{'endDate': {'month': 12, 'year': 2012}, 'startDate': {'month': 10, 'year': 2008}}",,Regional Operations Manager,ACoAAAWVdZMB_PvXZbha60l6B9U3ym69rDVjKXc,Hopkins
+GB South,GB South,Catering Partnership Ltd,"{'endDate': {'month': 10, 'year': 2008}, 'startDate': {'month': 7, 'year': 2006}}",Business operation and development,General Manager Operations south,ACoAAAWVdZMB_PvXZbha60l6B9U3ym69rDVjKXc,Hopkins
+South West,South West,Catering Partnership Ltd,"{'endDate': {'month': 7, 'year': 2006}, 'startDate': {'month': 1, 'year': 2000}}",,Regional Operations Manager,ACoAAAWVdZMB_PvXZbha60l6B9U3ym69rDVjKXc,Hopkins
+,,pragma Informatik,"{'startDate': {'month': 9, 'year': 1997}}",,eidg. dipl. Wirtschaftsinformatiker,ACoAACFMo0sBG0q6Ihnt6IeNnKRYy0PO4ohaulw,Jacober
+,,Viscon Hatchery Automation,"{'startDate': {'month': 12, 'year': 2017}}",,"Area Sales Manager Asia, USA, Canada, France",ACoAAAnmfpMB4Gn34zzs0A1LyUmYUAZiZR9H4oU,Bergel
+,,Viscon B.V.,"{'startDate': {'month': 8, 'year': 2010}}",,sales engineer,ACoAAAnmfpMB4Gn34zzs0A1LyUmYUAZiZR9H4oU,Bergel
+"Portsmouth, Rhode Island, United States","Portsmouth, Rhode Island, United States",Home Healthsmith LLC,"{'startDate': {'month': 7, 'year': 2023}}",,Aging In Place Specialist,ACoAAA7bL5QBgoZBsgrcSL0GHKpZkoZ8O00ZQIc,Cordeiro
+,,Home Healthsmith LLC,"{'endDate': {'month': 7, 'year': 2023}, 'startDate': {'month': 1, 'year': 2021}}",,Administration,ACoAAA7bL5QBgoZBsgrcSL0GHKpZkoZ8O00ZQIc,Cordeiro
+Forestview,Forestview,RehabCare and Kindred Hospital Rehabilitation Services,"{'endDate': {'month': 1, 'year': 2021}, 'startDate': {'month': 5, 'year': 2010}}",,Program Assistant,ACoAAA7bL5QBgoZBsgrcSL0GHKpZkoZ8O00ZQIc,Cordeiro
+,,Custom House Coffee,"{'endDate': {'year': 2009}, 'startDate': {'year': 2006}}",,Supervisor,ACoAAA7bL5QBgoZBsgrcSL0GHKpZkoZ8O00ZQIc,Cordeiro
+"Toronto, Canada Area","Toronto, Canada Area",BMO Financial Group,"{'startDate': {'month': 5, 'year': 2011}}",Oracle/SQL/postgres/mariadb  DBA,Senior Database Administrator,ACoAAAkMX5cBjCu9zEpPJlbZ7cB23KXEartUK6o,Singh
+Greater St. Louis Area,Greater St. Louis Area,State of Missouri,"{'startDate': {'month': 1, 'year': 2019}}","Representing the people of the 79th District. Advocating and fighting for access to better education, healthcare is a right, and equity in ALL systems.",State Representative,ACoAAA23NWIBdYQrG685eVOr0unuKM92k6VIJSI,Frazier- Bosley
+,,La Rosé Apparel,"{'startDate': {'month': 1, 'year': 2014}}",,"Creator, Designer",ACoAAA23NWIBdYQrG685eVOr0unuKM92k6VIJSI,Frazier- Bosley
+Greater St. Louis Area,Greater St. Louis Area,Original Dopeness Apparel,"{'startDate': {'month': 1, 'year': 2012}}","Original Dopeness Apparel is a clothing/apparel line that focuses on creating things that have a meaning and a history. Nothing we do is ordinary, but everything we do is original. Were You Born Original? Original Dopeness were originals are Made!",Owner,ACoAAA23NWIBdYQrG685eVOr0unuKM92k6VIJSI,Frazier- Bosley
+,,City of St. Louis,"{'endDate': {'month': 10, 'year': 2016}, 'startDate': {'month': 6, 'year': 2009}}",,Parking Attendant,ACoAAA23NWIBdYQrG685eVOr0unuKM92k6VIJSI,Frazier- Bosley
+,,Southern Muscle Radio,"{'endDate': {'month': 8, 'year': 2016}, 'startDate': {'month': 8, 'year': 2014}}",,Hostess of Brown Sugar Uncut,ACoAAA23NWIBdYQrG685eVOr0unuKM92k6VIJSI,Frazier- Bosley
+,,Prestige Worldwide Industries,,,Sales Manager,ACoAACScz-kBm1uQI7A-Twucoav_RLCm_7heII0,Whitaker
+,,Cammebys,,,VP,ACoAAAMylQ4BLnQoeGzGxzksNuwoTt3s3AUCoKo,Schron
+"Amersfoort, Utrecht, Netherlands","Amersfoort, Utrecht, Netherlands","Gibson Brands, Inc.","{'startDate': {'month': 8, 'year': 2021}}","Strategic management of eCommerce, marketplaces and retail direct to consumer businesses",Director of DTC,ACoAAAXB88gBTFP1sAiz_S6aSJvbeve9rYgHxgQ,Sykes
+,,BISSELL ,"{'endDate': {'month': 9, 'year': 2021}, 'startDate': {'month': 10, 'year': 2020}}","- Leader of the digital team at BISSELL international
+- Manage, maintain and optimise digital platform, PIM & CRM
+- Performance marketing management across Netherlands & Germany with external digital agency
+- Expansion of corporate charity to European markets working with major foundations in key European markets",Senior EMEA Digital & eCom Marketing Manager,ACoAAAXB88gBTFP1sAiz_S6aSJvbeve9rYgHxgQ,Sykes
+"Amsterdam Area, Netherlands","Amsterdam Area, Netherlands",BISSELL International Trading Company B.V.,"{'endDate': {'month': 9, 'year': 2021}, 'startDate': {'month': 1, 'year': 2018}}","Since joining BISSELL I have taken the lead in digital transformation, implementing a new web platform, PIM & CRM system currently live in 12+ markets and counting across Europe and Asia. I have introduced direct eCommerce to the business through the development of functionality using Magento.
+Now with the new D2C platform live, I encourage on-site conversion through performance marketing initiatives, including paid search, social, display, YouTube etc to achieve a sustainable ROAS.
+",EMEA Digital (& eCom) Marketing Manager,ACoAAAXB88gBTFP1sAiz_S6aSJvbeve9rYgHxgQ,Sykes
+,,Pets at Home,"{'endDate': {'month': 9, 'year': 2017}, 'startDate': {'month': 6, 'year': 2015}}","I was hired as an agency secondment for Pets at Home but quickly became an essential part of the team delivering fantastic results for all external digital marketing projects and campaigns. I was quickly recruited directly and created a position within the company that exists to this day. 
+My responsibilites were to maximise brand and partner budget spend and increase investment through effective management of all external digital channels including; paid social, paid search, display and YouTube. I also created and ran the affiliates channel to deliver incremental digital spend and growth for the business.",Digital Marketing Manager,ACoAAAXB88gBTFP1sAiz_S6aSJvbeve9rYgHxgQ,Sykes
+,,Enjoy Digital,"{'endDate': {'month': 6, 'year': 2015}, 'startDate': {'month': 5, 'year': 2014}}","As account manager at Enjoy Digital it was my responsibility to manage all digital development and marketing projects for my clients. I assisted in winning pitches for new work and successfully managed complex integration projects for the top clients at the agency including; 
+- JLA: who moved their full direct marketing spend to digital following significant success
+- Care UK: wherein I managed the development of their internal intranet system including social networking feature
+- CostCutter- Geo-targeted, custom content D2C site and backend ordering system for franchisees
+- Park Leisure- Online holiday home portfolio with integrated booking system",Account Manager,ACoAAAXB88gBTFP1sAiz_S6aSJvbeve9rYgHxgQ,Sykes
+"Hadımköy, İstanbul, Türkiye","Hadımköy, İstanbul, Türkiye",REDPEP Textile ,"{'startDate': {'month': 9, 'year': 2021}}",,Dijital Dönüşüm ve Yazılım Müdürü ,ACoAADOw3GUB_vF6K8BqEJff5fe2w14xpKiaj4w,ÇAM
+,,Queenteks,"{'endDate': {'month': 8, 'year': 2021}, 'startDate': {'month': 8, 'year': 2020}}",,Enterprise Resources Planning Project Manager,ACoAADOw3GUB_vF6K8BqEJff5fe2w14xpKiaj4w,ÇAM
+Türkiye,Türkiye,ÜnteksGroup,"{'endDate': {'month': 8, 'year': 2020}, 'startDate': {'month': 12, 'year': 2019}}",,Enterprise Resources Planning Project Manager,ACoAADOw3GUB_vF6K8BqEJff5fe2w14xpKiaj4w,ÇAM
+"Esenyurt, İstanbul, Türkiye","Esenyurt, İstanbul, Türkiye",erateks,"{'endDate': {'month': 12, 'year': 2019}, 'startDate': {'month': 8, 'year': 2017}}",,Erp,ACoAADOw3GUB_vF6K8BqEJff5fe2w14xpKiaj4w,ÇAM
+"Boston, Massachusetts, United States","Boston, Massachusetts, United States",Boston Medical Center (BMC),"{'startDate': {'month': 2, 'year': 2024}}",,Mobile Device Applications Analyst,ACoAABz_GdkB7wgWu5KgAFufrJFJL5V1xWCn65o,Hillman
+"Dedham, Massachusetts, United States","Dedham, Massachusetts, United States",Ursuline Academy-Dedham,"{'startDate': {'month': 12, 'year': 2021}}",,Technology Support Specialist,ACoAABz_GdkB7wgWu5KgAFufrJFJL5V1xWCn65o,Hillman
+"Milford, Massachusetts, United States","Milford, Massachusetts, United States","Mayflower Council, BSA","{'endDate': {'month': 12, 'year': 2021}, 'startDate': {'month': 9, 'year': 2018}}","The position of a District Executive is to achieve progress towards goals specializing in program development through collaborative relationships, volunteer recruitment and training, fundraising, membership recruitment and retention.  Part of our Mayflower Council Membership and Unit Service Team.
+
+Headwaters District - 12 wonderful cities and towns in the Metro-West of Massachusetts
+",District Executive,ACoAABz_GdkB7wgWu5KgAFufrJFJL5V1xWCn65o,Hillman
+"Plymouth, Massachusetts","Plymouth, Massachusetts",Camp Squanto,"{'endDate': {'month': 8, 'year': 2018}, 'startDate': {'month': 6, 'year': 2017}}","National Camping School certified Aquatics Facility Director, Merit Badge Counselor, BSA Lifeguard Instructor, Aquatics Staff manager and trainer.
+Seasonal job: 2017 and 2018
+
+As an Aquatics Director at every summer camp I have worked at, the job has three components; providing management as the lead professional lifeguard, mentorship as the lead instructor for Aquatics and leadership as Aquatics area manager.
+
+These three primary duties also include:
+Safety and quality of all camp aquatics activities
+General program planning and management including coordination with the total camp
+program
+Policy determination and application
+Leadership and supervision of personnel
+Care and maintenance of equipment and facilities
+Aquatics staff training
+Special youth instruction 
+And Unit leader training",Aquatics Director,ACoAABz_GdkB7wgWu5KgAFufrJFJL5V1xWCn65o,Hillman
+"Kingston, Massachusetts, United States","Kingston, Massachusetts, United States",Camp Norse,"{'endDate': {'month': 8, 'year': 2016}, 'startDate': {'month': 6, 'year': 2016}}","As an Aquatics Director at every summer camp I have worked at, the job has three components; providing management as the lead professional lifeguard, mentorship as the lead instructor for Aquatics and leadership as Aquatics area manager.",Aquatics Director,ACoAABz_GdkB7wgWu5KgAFufrJFJL5V1xWCn65o,Hillman
