@@ -1,5 +1,620 @@
-authority,name,timePeriod,profile_id,last_name
-ASP Construction,Health and Safety on Construction Sites,"{'startDate': {'month': 4, 'year': 2012}}",ACoAABX1FXMBhaWCTpHzhDqdtt1sq3UknWTMkT8,Wan
-PMI,PMP Certification,"{'startDate': {'month': 4, 'year': 2013}}",ACoAAATTlqgBY1PCpguSbZjRREHGZxlOh1rA-so,Hodel
-,Six Sigma,"{'startDate': {'month': 4, 'year': 2006}}",ACoAAATTlqgBY1PCpguSbZjRREHGZxlOh1rA-so,Hodel
-,Microsoft Office Word,,ACoAABlQGTABNuAdDR07uCt3Ns9MrfUIcxuJdnU,Murphy
+profile_id,meta,subtitle,title
+margot-bon-51a04624,Issued Jun 2013,Van der Hilst Communicatie,Senior Communicatieprofessional C (BNP4)
+steve-latimer-3364327,Issued Jan 2022 See credential,IBM,IBM Power Systems Enterprise Linux Technical V2
+steve-latimer-3364327,Issued Jan 2022 See credential,IBM,IBM Power Systems Infrastructure as a Service Technical V2
+steve-latimer-3364327,Issued Jan 2022 See credential,IBM,IBM Power Systems Solution Foundation
+steve-latimer-3364327,Issued Jan 2021 See credential,IBM,IBM Power Systems Infrastructure Sales Foundation V2
+steve-latimer-3364327,Issued Jan 2021 See credential,IBM,IBM Power Systems Infrastructure Sales Foundation V2
+steve-latimer-3364327,Issued Dec 2020 See credential,IBM,Cloud Pak for Data Sales Foundations
+steve-latimer-3364327,Issued Dec 2020 See credential,IBM,IBM Journey to Cloud Sales Essentials
+steve-latimer-3364327,Issued Dec 2020 See credential,IBM,IBM Power Systems Cloud and Cognitive V2
+steve-latimer-3364327,Issued Dec 2020 See credential,IBM,Systems Consultative Sales Foundation
+steve-latimer-3364327,Issued Sep 2020 See credential,IBM,IBM Global Financing Sales Mastery Expert Professional v1
+steve-latimer-3364327,Issued Sep 2020 See credential,IBM,IBM Power Systems Cognitive Masters V2
+steve-latimer-3364327,Issued Sep 2020 See credential,IBM,IBM Power Systems POWER9 V2
+steve-latimer-3364327,Issued Sep 2020 See credential,IBM,IBM Systems Business Partner Artificial Intelligence on IBM POWER9
+steve-latimer-3364327,Issued Sep 2020 See credential,IBM,IBM Systems Business Partner SAP HANA on IBM POWER9
+steve-latimer-3364327,Issued Aug 2020 See credential,IBM,IBM Hybrid Multicloud on Power
+steve-latimer-3364327,Issued Mar 2019 See credential,IBM,All Flash Storage Foundations V2
+steve-latimer-3364327,Issued Mar 2019 See credential,IBM,IBM Cloud Private for Power Systems
+steve-latimer-3364327,Issued Mar 2019 See credential,IBM,SAP HANA on Power Systems
+steve-latimer-3364327,Issued Jan 2019 See credential,IBM,IBM Power Systems POWER9
+steve-latimer-3364327,Issued Jul 2016,VMware,VSP - MO (Management Operations 6)
+steve-latimer-3364327,Issued Jul 2015 See credential,IBM,IBM Big Data and Analytics Sales Mastery v2
+steve-latimer-3364327,Issued May 2015 See credential,IBM,IBM Certified Sales Specialist - Power Systems with POWER8 V1
+steve-latimer-3364327,Issued Sep 2020 Expires Sep 2022,Red Hat,Red Hat Sales Engineer Specialist - Container Platform
+steve-latimer-3364327,Issued Jul 2020 Expires Jul 2022,Red Hat,Red Hat Sales Engineer Specialist - Automation
+steve-latimer-3364327,Issued Jul 2020 Expires Jul 2022,Red Hat,Red Hat Sales Engineer Specialist - Cloud Infrastructure
+steve-latimer-3364327,Issued Jul 2020 Expires Jul 2022,Red Hat,Red Hat Sales Specialist - Red Hat Ansible Automation for Mid-Market and SMB
+steve-latimer-3364327,Issued Jul 2020 Expires Jul 2022,Red Hat,Red Hat Sales Specialist - Red Hat Enterprise Linux
+steve-latimer-3364327,Issued Jun 2020 Expires Jun 2022,Red Hat,Red Hat Sales Specialist - Hybrid Cloud Infrastructure
+steve-latimer-3364327,Issued Jun 2020 Expires Jun 2022,Red Hat,Red Hat Sales Specialist - IT Automation and Management
+steve-latimer-3364327,Issued Jun 2019 Expires Jun 2021,Red Hat,Red Hat Sales Specialist - IT Optimazation
+steve-latimer-3364327,Issued Mar 2017 Expires Mar 2019,IBM,IBM Power Systems with POWER8 Sales Skills V2
+steve-latimer-3364327,Issued Jul 2016 Expires Jul 2018,-,Red Hat Sales Specialist - Business Process Automation
+steve-latimer-3364327,Issued Jul 2016 Expires Jul 2018,-,Red Hat Sales Specialist - Middleware Application Development
+steve-latimer-3364327,Issued Jul 2016 Expires Jul 2018,-,Red Hat Sales Specialist - Middleware Migration
+steve-latimer-3364327,Issued Jul 2016 Expires Jul 2018,-,Red Hat Sales Specialist - PaaS
+steve-latimer-3364327,Issued Jul 2016 Expires Jul 2018,-,Red Hat Sales Specialist - PaaS Development
+steve-latimer-3364327,Issued Jul 2016 Expires Jul 2018,-,Red Hat Sales Specialist - Platform 2.0
+steve-latimer-3364327,Issued Jul 2016 Expires Jul 2018,-,Red Hat Sales Specialist - Platform Migration
+steve-latimer-3364327,Issued Jul 2016 Expires Jul 2018,-,Red Hat Sales Specialist - Storage
+steve-latimer-3364327,Issued Jul 2016 Expires Jul 2018,-,Red Hat Sales Specialist - Virtualization
+steve-latimer-3364327,,IBM,All Flash Storage Foundations V2
+steve-latimer-3364327,,-,IBM Certified Specialist - Power Systems Sales For AIX & Linux
+steve-latimer-3364327,See credential,IBM,IBM POWER9 Business Partner Sales Foundations V1
+gerardludovicwan,Issued Apr 2012,ASP Construction,Health and Safety on Construction Sites
+kirk-davies,,Coursera,Cryptography 1 - Coursera
+keerthi-j-l-2785a2184,Issued Oct 2013,CDIT LLC,diploma in computerised financial management
+keerthi-j-l-2785a2184,,CDIT LLC,DCA
+keerthi-j-l-2785a2184,,Travelport,Galileo
+duncanperry,,Institute of Management Accounting,Certified Management Accountant
+andresjaramillomoyano,Issued Oct 2021 Credential ID WGM32PC9,The Safer Food Group,Level 2 Award in Food Safety for Catering
+andresjaramillomoyano,Issued Aug 2021,Mishcon de Reya LLP,Mentoring Scheme
+andresjaramillomoyano,Issued Jul 2021 Credential ID JLPFRPFRSL-HQBNWQWB-YBTWSGDBDR See credential,LexisNexis,LexisNexis Foundation Certificate
+andresjaramillomoyano,Issued Jun 2021,Travers Smith,Insight into Dispute Resolution with Travers Smith
+andresjaramillomoyano,Issued Mar 2021,Murgitroyd,Virtual Open Day
+andresjaramillomoyano,Issued Nov 2020,Herbert Smith Freehills,Virtual Open Day
+andresjaramillomoyano,Issued Sep 2019 Credential ID TLC/19/207,Royal Society of Biology,Home Office Personal License (PIL) Training Certificate
+andresjaramillomoyano,Issued May 2018,eBay,Achieved Top Seller Status
+andresjaramillomoyano,Issued Dec 2019 Expires Mar 2020 Credential ID I25857099,UK Home Office,Procedure Individual License (PIL)
+wayne-sim-673b6b95,Issued Apr 2012,Singapore Mediation Centre,Associate Mediator
+wayne-sim-673b6b95,Issued Nov 2011,Chartered Institute of Arbitrators,ACIArb
+wayne-sim-673b6b95,Issued Dec 2018 Expires Jan 2021,IAPP - International Association of Privacy Professionals,CIPP/A
+rose-hodel-a0815023,Issued Apr 2013,PMI,PMP Certification
+rose-hodel-a0815023,Issued Apr 2006,-,Six Sigma
+daniel-madrigal-acu%c3%b1a-64616467,Issued Nov 2022 See credential,LinkedIn,Customer Experience: Journey Mapping
+daniel-madrigal-acu%c3%b1a-64616467,Issued Dec 2021 See credential,Data Coach,Zenith Data Explorer: Tableau Server User Essentials
+daniel-madrigal-acu%c3%b1a-64616467,Issued May 2021 Credential ID 50717219-6642,"Scaled Agile, Inc.",Certified SAFe 5 Scrum Master
+daniel-madrigal-acu%c3%b1a-64616467,Issued Apr 2021 Credential ID OPENBADGEPASSPORT-340935 See credential,GE 360,Lean Six Sigma Green Belt
+daniel-madrigal-acu%c3%b1a-64616467,Issued Nov 2020 Credential ID 812283 See credential,SCRUMstudy - Accreditation Body for Scrum and Agile,Scrum Master Certified
+daniel-madrigal-acu%c3%b1a-64616467,Issued Mar 2020,Cámara de Industrias de Costa Rica,Accounting Foundations
+daniel-madrigal-acu%c3%b1a-64616467,Issued Dec 2019,INTECO - Instituto de Normas Técnicas de Costa Rica,Auditor Inte ISO 9001: 2015
+daniel-madrigal-acu%c3%b1a-64616467,Issued Oct 2018,SAP,SAP Financial & Controlling
+daniel-madrigal-acu%c3%b1a-64616467,Issued Sep 2018,PXS,Lean ToolBox For Services
+daniel-madrigal-acu%c3%b1a-64616467,Issued Aug 2018,Universidad Nacional,Advanced Excel
+daniel-madrigal-acu%c3%b1a-64616467,Issued May 2017,Tecnológico de Costa Rica,Design Thinking
+daniel-madrigal-acu%c3%b1a-64616467,Issued May 2021 Expires May 2023 Credential ID TLLDGDKLGT-HSXHHMTY-RPDLJRPPKL,CertiProf,OKR Certified Professional - OKRCP
+daniel-madrigal-acu%c3%b1a-64616467,Issued Mar 2021 Expires Mar 2022 Credential ID 2989207 See credential,Project Management Institute,Disciplined Agile Scrum Master (DASM)
+shakeel-ahmed-59311b114,Credential ID YQE6JP2HQQ7S See credential,Columbia University in the City of New York,Construction Management
+shakeel-ahmed-59311b114,Credential ID Civil/42371,Pakistan Engineering Council (PEC),Registered Engineer
+shakeel-ahmed-59311b114,,Microsoft,Work Smarter with Microsoft Excel
+daniel-murphy-894283ba,,-,Microsoft Office Word
+dave-marston-1b611a6,Issued May 2013,-,Google Adwords Certification Exam
+dave-marston-1b611a6,,BrightEdge,BrightEdge Certified Professional
+dave-marston-1b611a6,,Rosetta,Technical SEO Certification
+matt-pritchard,Issued Jan 2000,Institution of Mechanical Engineers,"CEng, MIMechE"
+christina-murdzek,Issued Jan 2019,"CBIC (Certification Board of Infection Control and Epidemiology, Inc.)",CIC
+christina-murdzek,Issued Jan 2019 Expires Dec 2024 Credential ID MHS,"CBIC (Certification Board of Infection Control and Epidemiology, Inc.)",Certified in Infection Control (CIC)
+christina-murdzek,,American Society for Clinical Pathology (ASCP),M(ASCP)
+minju-hong-bsn-rn-1a7801239,Issued Jul 2018 Expires May 2024 Credential ID 205504430563,American Heart Association,Basic Life Support for Healthcare Providers (BLS)
+minju-hong-bsn-rn-1a7801239,Issued Jul 2021 Expires Jul 2023 Credential ID RN61181075,Washington State Department of Health,Registered Nurse
+minju-hong-bsn-rn-1a7801239,Issued Aug 2018 Expires Jul 2022 Credential ID NC60893122,Washington State Department of Health,Certified Nursing Assistant
+parminder-singh-733a0a42,Issued May 2019 Credential ID 582023 See credential,NobleProg,MariaDB Database Administration
+parminder-singh-733a0a42,Issued Aug 2016,oracle,oracle 12c certified
+parminder-singh-733a0a42,Issued Jan 2011,-,"Oracle Certified Expert, Oracle Real Application Clusters 11g and Grid Infrastructure Administrator"
+parminder-singh-733a0a42,Issued Jan 2009,-,oracle 11g OCP
+parminder-singh-733a0a42,Issued Mar 2008,-,oracle 10 g OCP
+parminder-singh-733a0a42,See credential,NobleProg,Certificate of Course Completion in PostgreSQL for Administrators
+claire-sykes-00842528,Issued Dec 2019 See credential,Growth Tribe Academy,Growth Hacking
+claire-sykes-00842528,,Google,Google Tag Manager
+robert-hillman-b89b07116,Issued Apr 2018,Massachusetts Department of Education,"Provisional Teachers License, Physics, 8-12"
+kadari-mwene-kabyana-33b0008b,,"Pearson Peacekeeping Center, Cornwallis, Nova Scotia, Canada",Humanitarian Challenge: Emergency Response in Peace Operations
+julia-garcia-antenucci-6077951a6,Issued Mar 2021 Credential ID 11028541.18529.OCWICD_00­1 See credential,FGV Online,INTRODUÇÃO À COMUNICAÇÃO NA ERA DIGITAL
+julia-garcia-antenucci-6077951a6,Issued Mar 2021 Credential ID XKkw44507218Jyr See credential,Escola Nacional de Administração Pública ENAP,Introdução à Libras
+julia-garcia-antenucci-6077951a6,Issued Jan 2021 See credential,CollabDesign,Intensivo de Design Gráfico
+julia-garcia-antenucci-6077951a6,Issued Jun 2020 Credential ID 2245584_388 See credential,Laureate Digital,Cultura da Convergência
+julia-garcia-antenucci-6077951a6,Issued Jun 2020 Credential ID LMS1401258011587269177 See credential,ANBIMA Certificação e Educação,Planeje sua Liberdade
+julia-garcia-antenucci-6077951a6,Issued Apr 2020 Credential ID 1956879_219 See credential,Laureate International Universities,Comunicação Eficaz
+julia-garcia-antenucci-6077951a6,Issued Apr 2020 Credential ID Verifique a autenticidade na URL See credential,Sebrae,Criatividade
+tracyeform,Issued Aug 2012 Credential ID ADB299607,Adobe,Adobe Certified Expert (ACE)
+prateek-chitpur-710a1a12a,Issued Jul 2020 See credential,IBM,Deep Learning
+prateek-chitpur-710a1a12a,Issued Jun 2020 See credential,IBM,Introduction to Deep Learning & Neural Networks with Keras
+prateek-chitpur-710a1a12a,Issued Jun 2020 Credential ID 6f4c997f54cc45a5b3bbfe7b86f15c13 See credential,Cognitive Class,Machine Learning with Python
+prateek-chitpur-710a1a12a,Issued Jun 2020 Credential ID UC-438fd144-44b9-4eee-87a5-7dac092e6ef6 See credential,Udemy: Online Courses,Spark and Python for Big Data with PySpark
+sujata-singh-88323823,Issued Jul 2020,NHRD Bangalore Chapter,Design Thinking for People Managers
+sujata-singh-88323823,Issued Jul 2020 See credential,Microsoft,Microsoft Certified: Azure Fundamentals
+sujata-singh-88323823,Issued Apr 2019 Credential ID GR750546885KS,AXELOS Global Best Practice,ITIL® Foundation Certificate in IT Service Management
+sampath-kumar-ugane-krishna-iyengar-07941b2a,Issued May 2020 Expires May 2022 See credential,PwC,Digital Acumen
+sampath-kumar-ugane-krishna-iyengar-07941b2a,Issued Jan 2020 Expires Jan 2022 See credential,PwC,Human-Centered Design
+sampath-kumar-ugane-krishna-iyengar-07941b2a,,Oracle,Oracle Global Human Resources Cloud 2017 Certified Implementation Specialist
+sampath-kumar-ugane-krishna-iyengar-07941b2a,,Oracle,PeopleSoft Application Developer I: PeopleTools & PeopleCode
+christianzerial,Issued Dec 2020 Credential ID GR671212926CZ,PeopleCert,ITIL® Foundation Certificate in IT Service Management
+christianzerial,Issued May 2020 Credential ID H417-8247 See credential,Microsoft,Microsoft Certified: Azure Fundamentals
+murtaza-kachwala,Issued Jun 2022 See credential,Cisco,ONEx Agile Fundamentals
+murtaza-kachwala,Issued Jun 2022 See credential,Cisco,ONEx Agile Fundamentals
+murtaza-kachwala,,APICS Supply Chain Council,CSCP
+michael-thiel-86855b103,Issued Sep 2011,W. L. Gore & Associates,Technical Writing Certification
+michael-thiel-86855b103,Issued Feb 2001,US Coast Guard Academy,Operator of Uninspected Passenger Vessels (OUPV)
+sirabi-joukakelian-zoboyan-ppcc-073163134,Issued Jan 2020 See credential,LinkedIn,Banish Your Inner Critic to Unleash Creativity
+sirabi-joukakelian-zoboyan-ppcc-073163134,Issued May 2017,Canada School of Public Service/ École de la Fonction Publique du Canada,Manager Development Program/Programme de Perfectionnement des Gestionnaires
+prikankshit,Issued Dec 2022 See credential,York University,Student Alumni Ambassador 22-23
+prikankshit,Issued Jul 2021 Credential ID UC9XQUJ3FWSE See credential,Coursera,Financial Markets (with Honors)
+prikankshit,Issued Jul 2021 Credential ID DX6S8V5JY7BR See credential,Coursera,International Business Specialization
+prikankshit,Issued Jun 2020 Credential ID 9WCBKV2Z6PEJ See credential,Coursera,Esports Specialization
+aadcampos,Issued Aug 2020 Credential ID 000822 See credential,DATAB,Imersão no Power BI e Projetos
+aadcampos,Issued Jul 2020 See credential,Alura Cursos Online,Data Science: Introdução a análise de series temporais
+aadcampos,Issued Jul 2020 Credential ID 6L5NFXDTZPK5 See credential,Coursera,Foundations for Big Data Analysis with SQL
+aadcampos,Issued Jul 2020 Credential ID YAJHC4CDPWHT See credential,Coursera,Getting Started with Azure
+aadcampos,Issued Jul 2020 Credential ID HE7QFCCWZYV2 See credential,Coursera,Machine Learning Pipelines with Azure ML Studio
+aadcampos,Issued Jun 2020 Credential ID 5ef3aa0ae32fc36e3e29c7b8 See credential,Data Science Academy,Microsoft Power BI para Data Science
+aadcampos,Issued Jun 2020 Credential ID YZLWRWF8TEPC See credential,Coursera,Programa de cursos integrados: Python 3 Programming
+aadcampos,Issued Nov 2019 See credential,DataCamp,Python Programmer Track
+aadcampos,Issued Sep 2019 See credential,Udemy Brasil,Gestão Ágil com Scrum COMPLETO + 3 Cursos BÔNUS
+aadcampos,Issued Sep 2010 Credential ID ITIL/US422330 See credential,APM Group,ITIL Foundation Level
+ameen-zakariya-0383367a,Issued Jan 2009 Credential ID L-12009 See credential,"Executive Director, Standard Tea Co.",Becholer of Arts
+criselda-del-carmen-sepulveda-vallejos-a08a9676,Issued Jun 2014,Codeser formacion para el trabajo Sence .,operador en mantenimiento de maquinaria industrial para la mineria
+criselda-del-carmen-sepulveda-vallejos-a08a9676,Issued Dec 2011 Credential ID operador de maquinaria,Etyca profecional,Operadores de maquinaria pesada
+miguel-%C3%A1ngel-c%C3%A1ceres-fuentes-80a584123,Issued Jan 2017 See credential,Actívate con Google,Curso de Analítica Web
+miguel-%C3%A1ngel-c%C3%A1ceres-fuentes-80a584123,Issued Oct 2016 See credential,Actívate con Google,Curso de Introducción al Desarrollo Web (primera parte)
+miguel-%C3%A1ngel-c%C3%A1ceres-fuentes-80a584123,Issued Aug 2016 See credential,Actívate con Google,Curso básico de Marketing Digital
+alfredo-rueda-abb82111a,,-,OFFICE 2009
+aleahvaske,Issued Jun 2022 See credential,HRCI,Certificate in Diversity and Inclusion in HR Management
+aleahvaske,Issued Apr 2022 See credential,University of Northern Iowa - College of Business,Business Ethics
+aleahvaske,Issued Jan 2021 See credential,Microsoft,Microsoft Excel Expert (Office 2016)
+aleahvaske,Issued Jul 2020 See credential,University of Northern Iowa - College of Business,Early Founders Program
+aleahvaske,Issued Sep 2018 Expires Sep 2022,Archdiocese of Dubuque,Virtues
+aleahvaske,Issued May 2021 Expires May 2022,Google,Google Ads
+aleahvaske,Issued Nov 2019 Expires Nov 2020,Principal Financial Group,Anti-Money Laundering Certified
+aleahvaske,Issued Apr 2014 Expires Jun 2020,American Red Cross,Lifeguard & Water Safety Training
+aleahvaske,Issued Jul 2016 Expires Jul 2019,Trioak Foods Inc,Pork Quality Assurance Plus
+thomyiawright,Issued Nov 2022 Credential ID WUXX3EDNR4ZH See credential,Coursera,Foundations of Digital Marketing and E-commerce
+conan-cardoz-98097728,Issued Nov 2019 Credential ID AX1678 See credential,Naukrigulf,Certified Recruiter
+conan-cardoz-98097728,Issued Dec 2022 Expires Dec 2023 See credential,SAP,SAP Product Knowledge 2022 - SAP SuccessFactors Employee Central Core Expert (SFX)
+conan-cardoz-98097728,Issued Dec 2022 Expires Dec 2023 See credential,SAP,SAP Product Knowledge 2022 - SAP SuccessFactors Platform Expert (SFX)
+conan-cardoz-98097728,Credential ID AX2657 See credential,Naukrigulf,Certified Advanced Recruiter
+conan-cardoz-98097728,Credential ID 92D913C6D8214442B85E2E83D1A8B81A See credential,Lynda.com,Learning LinkedIn Recruiter
+savio-jose-63556362,Issued Oct 2019,ASML,Managing for Non Managers
+savio-jose-63556362,Issued May 2019,Safe Agile,SAFe Agilist Scrum Master Certification
+savio-jose-63556362,Issued Jul 2013 Credential ID CSCO12440395,Cisco,Cisco Certified Network Associate
+savio-jose-63556362,Issued Jun 2013,RST Forum,Cisco Certified Network Professional - Switching
+savio-jose-63556362,Issued Jun 2013,Systech Computers,Java
+savio-jose-63556362,Issued May 2013,RST Forum,Cisco Certified Network Professional - Routing
+savio-jose-63556362,Issued Nov 2011,University of Cambridge,Carbon Credits
+savio-jose-63556362,Issued Oct 2011,Consumer Guidance Society of India,How to be a smart investor
+savio-jose-63556362,Issued Aug 2011,Ankit Fadia,Ethical Hacking and Information Security
+julian-ortega-03215b127,,-,Life Guard
+matt-lawrence-ba-hons-7853a79,Ausgestellt: März 2022,Omni Training Academy,Legislative Update
+matt-lawrence-ba-hons-7853a79,Ausgestellt: Juni 2006,Recruitment & Employment Confederation,MREC
+alaa-el-said-56740659,,Nokia Academy,Bronze Certification
+alaa-el-said-56740659,,Nokia Academy,Silver Certification
+matthew-culajay-b95b1213b,Issued Jun 2021,Mentor Collective,Trained Mentor
+bagus-satya-mas,Issued Jan 2022 Credential ID yuhc-DwKY See credential,Microsoft,Microsoft Power Platform Fundamentals
+bagus-satya-mas,Issued Nov 2021 Credential ID I103-1422 See credential,Microsoft,Microsoft Azure AI Fundamentals
+bagus-satya-mas,Issued Nov 2021 Credential ID y9AR-DwWR See credential,Microsoft,Microsoft Azure Data Fundamentals
+bagus-satya-mas,Issued May 2021 Credential ID YUFRRXD55UCP See credential,DeepLearning.AI,TensorFlow: Data and Deployment Specialization
+bagus-satya-mas,Issued Apr 2021 Credential ID ENQ4ZHN7D5SL See credential,DeepLearning.AI,Structuring Machine Learning Projects
+bagus-satya-mas,Issued Mar 2021 Credential ID 56FY83S2KC8X See credential,DeepLearning.AI,DeepLearning.AI TensorFlow Developer Specialization
+bagus-satya-mas,Issued Mar 2021 Credential ID D6QGA9T4REDG See credential,Google,Google IT Automation with Python Specialization
+bagus-satya-mas,Issued Mar 2021 Credential ID Z7FVGTMJHCGA See credential,Google,Google IT Support Specialization
+bagus-satya-mas,Issued Mar 2021 Credential ID WPWPKJ5LHSXL See credential,Imperial College London,Mathematics for Machine Learning Specialization
+bagus-satya-mas,Issued Feb 2022 Expires Feb 2025 Credential ID 2021-C-010558,Logical Operations,Artificial Intelligence Associate
+bagus-satya-mas,Issued Nov 2021 Expires Nov 2024 Credential ID No. Reg. TIK 1565 11440 2021,Badan Nasional Sertifikasi Profesi (BNSP),Associate Data Scientist
+bagus-satya-mas,Issued Oct 2021 Expires Oct 2024 Credential ID ERZR47W92ZYV See credential,Dicoding Indonesia,Belajar Machine Learning untuk Pemula
+bagus-satya-mas,Issued Sep 2021 Expires Sep 2024 Credential ID 38155861 See credential,TensorFlow Certificate Program,TensorFlow Developer Certificate
+bagus-satya-mas,Issued May 2021 Expires May 2024 Credential ID 53XEEGV6YXRN See credential,Dicoding Indonesia,Memulai Pemrograman Dengan Python
+bagus-satya-mas,Issued Apr 2021 Expires Apr 2024 Credential ID RVZK458ROPD5 See credential,Dicoding Indonesia,Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)
+bagus-satya-mas,Issued Mar 2021 Expires Mar 2024 Credential ID 4EXGYV0K1XRL See credential,Dicoding Indonesia,Belajar Dasar Visualisasi Data
+emrecruit,Issued Mar 2015,SHRM,SHRM-CP
+emrecruit,Issued May 2000,CALC Canterbury Corp,Microsoft Office Specialist Master Certification (MOS)
+emrecruit,Credential ID 86403,AIRS,Advanced Certified Internet Recruiter (ACIR)
+emrecruit,Credential ID 86404,AIRS,Certified Diversity Recruiter (CDR)
+emrecruit,Credential ID 79276,AIRS,Certified Internet Recruiter (CIR)
+emrecruit,Credential ID 90617,AIRS,Certified Social Media Recruiter (CSMR)
+emrecruit,Credential ID 86405,AIRS,Certified Social Sourcing Recruiter (CSSR)
+emrecruit,Credential ID 90584,AIRS,Elite Certified Recruitment Expert (ECRE)
+emrecruit,Credential ID 86406,AIRS,Professional Recruiter Certification (PRC)
+emrecruit,,HR Certification Institute - HRCI,Professional in Human Resources Certification (PHR®)
+bob-zanlungo-9273524,Issued Aug 2020 See credential,Mortgage Bankers Association,Mortgage Action Alliance Member
+jameswalshtexas,Issued Jun 2019 Expires Jun 2022 Credential ID 712188,SCRUMstudy - Accreditation Body for Scrum and Agile,Scrum Fundamentals Certified (SFC)
+jameswalshtexas,Issued Aug 2019 Expires Aug 2020 Credential ID 65997428-8135,"Scaled Agile, Inc.",SAFe Product Owner/Product Manager
+brenda-calkins-cpa-751ab412,Issued Jan 2003 See credential,"Murrieta, CA",Certified QuickBooks Pro Advisor
+brenda-calkins-cpa-751ab412,Issued Jan 1999 Credential ID 60879 See credential,California Board of Accountancy,Certified Public Accountant
+brenda-calkins-cpa-751ab412,See credential,"Murrieta, CA",Certified QuickBooks On Line Pro Advisor
+ben-polimer-a6b30916,,Commonwealth of Massachusetts,Massachusetts 2a/1c Hoisting License
+ben-polimer-a6b30916,,Massachusetts Department of Agricultural Resources,Massachusetts Pesticide Applicators
+kelsey-mccarthy,Issued Jul 2019,Commonwealth of Massachusetts,Registered Nurse
+giteshpatel21,Issued Jan 2020,Epic,Willow Inpatient Pharmacy Analyst Certificate
+giteshpatel21,Issued Apr 2018,American Pharmacists Association,APhA Medication Therapy Management (MTM) Certification
+giteshpatel21,Issued Jan 2017 See credential,The center of health and Wellness,Tuberculin Skin Test Training
+giteshpatel21,Issued Jul 2016,KENTUCKIANA REGIONAL PLANNING AND DEVELOPMENT AGENCY,SHIP Medicare Part D Training Certificate
+giteshpatel21,Issued May 2016 See credential,Sullivan University,Sterile Compounding Course Certificate
+giteshpatel21,Issued Apr 2016 See credential,American Pharmacists Association,Pharmacy Immunization Delivery Certification
+giteshpatel21,Issued Aug 2018 Expires Jun 2020 Credential ID 26027821A See credential,Indiana Board of Pharmacy,Pharmacist
+giteshpatel21,Issued Sep 2018 Expires Feb 2019 Credential ID 020199,Kentucky Board of Pharmacy,Pharmacist
+giteshpatel21,Issued Jul 2015 Expires Jul 2018,American Heart Association,Cardiopulmonary Resuscitation (CPR)
+ziv-shadar-4959511,Issued Jan 2017 See credential,LinkedIn,Windows 10 Administration
+ziv-shadar-4959511,Issued Jan 2017 See credential,LinkedIn,Windows 10 Tips and Tricks
+ziv-shadar-4959511,,Microsoft,MCSE
+matthias-schmidt-59415167,Issued Jun 2022,Microsoft,Microsoft Certified: Azure Fundamentals
+matthias-schmidt-59415167,Issued Mar 2021,Accenture,Trained Technology Architect
+matthias-schmidt-59415167,Issued Dec 2020,Data Vault Alliance,Certified Data Vault 2 Practitioner
+matthias-schmidt-59415167,Issued Apr 2020 Credential ID MSMT0000015971,Accenture,Technical Architect Associate
+matthias-schmidt-59415167,Issued Apr 2017 See credential,Hortonworks,HDP Certified Developer
+matthias-schmidt-59415167,Issued Nov 2016 Credential ID RE-5548,IREB GmbH,IREB CPRE® Foundation Level
+matthias-schmidt-59415167,Issued Jun 2022 Expires Jun 2023,Microsoft,Microsoft Certified: Azure Data Engineer Associate
+matthias-schmidt-59415167,Issued Mar 2021 Expires Mar 2023 Credential ID K84YNq See credential,Google,Google Cloud Certified Professional Data Engineer
+matthias-schmidt-59415167,Issued Jun 2020 Expires Jun 2022 Credential ID 100-023-470,Cloudera,CCA Spark and Hadoop Developer
+matthias-schmidt-59415167,,-,ITIL V3 Foundation Certificate in IT Service Management
+devasu,Issued Sep 2022 See credential,LinkedIn,Speaking Confidently and Effectively
+devasu,Issued Aug 2022 See credential,LinkedIn,Project Management Tips
+devasu,Issued Feb 2022 See credential,LinkedIn,Project Management Foundations: Requirements
+tomasz-kaleta-883821187,Issued Dec 2022,Manufacturing Training Center,Train the on the Job Trainer!
+tomasz-kaleta-883821187,Issued Nov 2021,Tke Knowlege,Horizontal & Vertical Transport Braveau
+tomasz-kaleta-883821187,Issued Dec 2017,SKK Sp. z o. o.,Course for motor-powered forklift truck operators for in-plant transportation and safe replacement of cylinders
+tomasz-kaleta-883821187,Issued Jul 2016,Kraksky Sp. z o. o.,Static-line parachute course
+tomasz-kaleta-883821187,Issued Apr 2011,Politechnika Krakowska im. Tadeusza Kościuszki,Computer aided design and structural analysis (Catia V5 program)
+tomasz-kaleta-883821187,Issued Mar 2010,Politechnika Krakowska im. Tadeusza Kościuszki,3D design (Catia V5 program)
+tomasz-kaleta-883821187,Issued Nov 2021 Expires Nov 2026,The Knowlege,Elektrische Pallettruck & Stapelaar
+tomasz-kaleta-883821187,Issued Apr 2022 Expires Apr 2025,ROVC,Safely Performing HV Stress Testing
+markdidolci,Issued Feb 2020,SC Real Estate Commission,SC Real Estate Broker
+markdidolci,Issued May 2014,NJ Department of Banking & Insurance - Real Estate Commission,NJ Real Estate Sales License
+markdidolci,Issued Jan 2018 Expires Dec 2023,SC Banking and Insurance,SC Life and Health Insurance Producer
+sankarshan1993,,IBM,IBM Cloud Services and Advanced Java Certification
+avinash-agarwal-47124223,Issued Feb 2022 See credential,Indian Institute of Management Ahmedabad,New Associate Director Programme 2021 for PwC
+avinash-agarwal-47124223,Issued Nov 2020 See credential,SAP,Intelligent Enterprise 2021 - Source to Pay
+avinash-agarwal-47124223,Issued Nov 2020 See credential,SAP,Intelligent Enterprise 2021 - Source to Pay
+avinash-agarwal-47124223,Issued Nov 2020 See credential,SAP,SAP Innovation & Advisory Knowledge 2020 - Intelligent Enterprise - Source to Pay
+adamtarbox,Issued Aug 2011,CompTIA,CompTIA A+ certified
+adamtarbox,Issued Aug 2011,CompTIA,CompTIA Network+
+adamtarbox,Issued Aug 2011,CompTIA,CompTIA Security+
+laura-kaplan-lcsw-90687314,Issued Oct 2013 Expires Oct 2018,Board of Social Work,LICSW
+laura-kaplan-lcsw-90687314,Credential ID Application Pending,Tennessee Board of Social Work,LCSW
+lauramurach,Issued Dec 2021 See credential,LinkedIn,Delivering an Authentic Elevator Pitch
+lauramurach,Issued May 2021 See credential,LinkedIn,Having Career Conversations with Your Team
+lauramurach,Issued Apr 2021 Credential ID https://verify.loma.org/badge/D74AC31A07154C2492F1ACF2CA6AEB92 See credential,LOMA,"Fellow, Life Management Institute (FLMI)"
+lauramurach,Issued Mar 2021 See credential,LinkedIn,Setting Team and Employee Goals Using SMART Methodology
+lauramurach,Issued Feb 2021 See credential,LinkedIn,Virtual Performance Reviews and Feedback
+lauramurach,Issued Dec 2020 See credential,LinkedIn,Coaching and Developing Employees
+lauramurach,Issued Sep 2018 See credential,LIMRA,LLIF
+emilianorezende,Issued Nov 2021 See credential,SAP,Advisory Knowledge - Cloud Mindset Fundamentals
+sebastian-suarezp,Issued Dec 2022 Credential ID g11vBGicCJ See credential,Universidad Autónoma de Bucaramanga,Misión TIC 2022 UNAB | Aplicaciones WEB y Desarrollo Backend
+sebastian-suarezp,Issued Nov 2022 Credential ID ENEL2DRvIK See credential,Universidad Autónoma de Bucaramanga,Misión TIC 2022 Ciclo 3 | Desarrollo de Software
+sebastian-suarezp,Issued Aug 2022 Credential ID SAJ36K89V4FH See credential,Coursera,Neural Networks and Deep Learning
+sebastian-suarezp,Issued Aug 2022 Credential ID SAJ36K89V4FH See credential,DeepLearning.AI,Neural Networks and Deep Learning
+sebastian-suarezp,Issued Jul 2022 See credential,Universidad Autónoma de Bucaramanga,Misión TIC 2022 Ciclo 1
+simonscherer,,Australian Marketing Institute,Fellow Certified Practicing Marketer (FAMI CPM)
+joy-h-lewis-do-phd-bb5aa510,Issued Jun 2022 Expires Jun 2026 Credential ID 49483232 See credential,CITI Program,Biomedical Research - Basic/Refresher
+anna-luiza-gibson-387a46b3,Issued Apr 2021,Escola Conquer,Criatividade e Resolução de Problemas
+anna-luiza-gibson-387a46b3,Issued Mar 2021,Escola Conquer,Comunicação Assertiva
+anna-luiza-gibson-387a46b3,Issued Feb 2021,Escola Conquer,Como Negociar Melhor e Vender Mais
+anna-luiza-gibson-387a46b3,Issued Feb 2021,Escola Conquer,Smart Working - Produtividade e Gestão do Tempo
+anna-luiza-gibson-387a46b3,Issued Jul 2020,Escola Conquer,Finanças Pessoais
+anna-luiza-gibson-387a46b3,Issued May 2020 See credential,Escola Conquer,Certificado Curso Inteligencia Emocional
+anna-luiza-gibson-387a46b3,Issued Oct 2015,Ibmec,Marketing de Relacionamento e CRM
+jabal-nur-b36a7820,Issued Jul 2021 See credential,LinkedIn,Excel: Advanced Formulas and Functions
+jabal-nur-b36a7820,Issued Jun 2021 See credential,LinkedIn,Learning Data Analytics
+anita-rodriguez-25585874,Issued Mar 2006,"Developing Procedures, Policies & Documentation",Information Mapping
+adrian-epps-79632212b,Issued May 2016,Clemson University,Six Sigma Green belt
+andrea-catalano-4ab3b635,Issued Jun 2019,Innovazioni Servizi S.r.l.,Corso Rischio Alto 16 ore - D.Lgs. 81/08 -Accordo Stato Regioni 2011
+andrea-catalano-4ab3b635,Issued Feb 2014 Expires Feb 2019 Credential ID 14VE00143PO1,RINA Services,Termografia Infrarossa
+mahesh-babu-n-7a79a474,Issued Aug 2017 Credential ID 371800000674GPG See credential,Goods And Services Tax Network,GST Practitioner
+barak-milel-87765617b,,Israel Bar Association,Licensed lawyer
+silvialarroca,Issued Jul 2020,The CPD Certification Service,Interior Design Diploma
+peilinlee,Issued Apr 2017,Rutgers Business School,Rutgers Business School Mini-MBA: Marketing in Digital Age
+peilinlee,,University of Bocconi,Management of Fashion and Luxury Companies
+malifci16,Issued Jan 2018 See credential,LinkedIn,Twelve-Factor Applications
+malifci16,Issued Dec 2017 See credential,LinkedIn,Learning Spring with Spring Boot
+jonahmolina,Issued Feb 2022 Credential ID 13727,Infraspection Institute,Level II Certified Infrared Thermographer
+jonahmolina,Issued Dec 2020 Credential ID 13727,Infraspection Institute,Level I Certified Infrared Thermographer
+jonahmolina,Issued Jan 2010 See credential,JLPT Creditors,Japanese Language Proficiency Test N3
+ken-comeiro-06a1a43b,Issued Aug 2015 Expires Aug 2020,-,American Nurses Credentialing Center
+satish-chavan-49b6765a,Issued Nov 2022 Credential ID MDB8f484g2id4 See credential,MongoDB,M100: MongoDB for SQL Pros
+satish-chavan-49b6765a,Issued Nov 2022 Credential ID MDBakpg0x9i60 See credential,MongoDB,M320: MongoDB Data Modeling
+satish-chavan-49b6765a,Issued Dec 2020 See credential,Snowflake,SnowPro Core Certification
+alexmfranks,Issued Feb 2020 See credential,LinkedIn,Administrative Human Resources
+alexmfranks,Issued Jul 2015 Expires Jul 2020 See credential,National Registry of Food Safety Professionals (NRFSP),Certified Food Safety Manager
+alisa-joseph-9b49141b6,Issued Jul 2021 Expires Dec 2022,New York State Department of Financial Services,Independent Adjuster
+christy-gonzalez-8189383a,,Universal Schools & Colleges of Health & Human Services,Certified Phlebotomist
+ashleymwalden,,-,Certified Hotel Administrator
+ashleymwalden,,Hilton,Hampton GM certified
+f%C3%A9lix-gonz%C3%A1lez-004283b2,Issued Apr 2020 Credential ID 268 PW2 AR3,Google Actívate,Aplicaciones Móviles - Activate
+f%C3%A9lix-gonz%C3%A1lez-004283b2,Issued Apr 2020 Credential ID 3GM TTD W2C,Google Actívate,Cloud Computing
+f%C3%A9lix-gonz%C3%A1lez-004283b2,Issued Apr 2020 Credential ID AAK SVW MX8 See credential,Google Actívate,Curso de Introducción al Desarrollo Web: HTML y CSS (1/2)!
+f%C3%A9lix-gonz%C3%A1lez-004283b2,Issued Apr 2020 Credential ID SAT K5L KNE See credential,Google Actívate,Fundamentos de Marketing Digital
+f%C3%A9lix-gonz%C3%A1lez-004283b2,Issued Oct 2016,Google,fotógrafo de de confianza Google
+f%C3%A9lix-gonz%C3%A1lez-004283b2,See credential,Activate Inc @ Google,Activa tu Negocio
+hashan-rathnayaka-58a259141,Issued Jan 2021 Credential ID 212809,Engineering Council Sri Lanka,Associate Engineer
+hashan-rathnayaka-58a259141,Issued Mar 2019 Credential ID AM-26516,Institution of Engineers Sri Lanka (IESL),Associate Member
+nafeemahmed,Issued Mar 2018 See credential,Lynda.com,"Business Etiquette: Phone, Email, and Text"
+nafeemahmed,Issued Mar 2018 See credential,Lynda.com,Creating and Giving Business Presentations
+nafeemahmed,Issued Mar 2018 See credential,Lynda.com,Critical Thinking
+nafeemahmed,Issued Mar 2018 See credential,Lynda.com,Having Difficult Conversations
+nafeemahmed,Issued Mar 2018 See credential,Lynda.com,Influencing Others
+nafeemahmed,Issued Mar 2018 See credential,Lynda.com,Prezi Essential Training
+nafeemahmed,Issued Mar 2018 See credential,Lynda.com,Transitioning from Manager to Leader
+makenzie-carter-80a366a4,,American Registry of Radiologic Technologists,ARRT (S)
+renjith-rema-prabhakaran-262013bb,,Sun Microsystems,Java SCJP 1.5
+jared-barlow,Issued Aug 2022 Credential ID 56701489 See credential,Cicerone® Certification Program,Certified Beer Server
+terynce-butts-4145766a,Issued Jul 2021 Expires Jun 2026,Georgia Professional Standards Commission,American Sign Language (P-12)
+terynce-butts-4145766a,Issued Jul 2021 Expires Jun 2026,Georgia Professional Standards Commission,English (6-12)
+terynce-butts-4145766a,Issued Jul 2021 Expires Jun 2026,Georgia Professional Standards Commission,Reading (P-12)
+terynce-butts-4145766a,Issued Jul 2021 Expires Jun 2026,Georgia Professional Standards Commission,Special Education: Deaf Education (P-12)
+terynce-butts-4145766a,Issued Jul 2021 Expires Jun 2026,Georgia Professional Standards Commission,"Special Education: Language Arts (P-5, 4-8, 6-12)"
+terynce-butts-4145766a,Issued Sep 2011 Expires Aug 2016,New York State Education Department,Deaf and Hard of Hearing
+terynce-butts-4145766a,Issued Sep 2011 Expires Aug 2016,New York State Education Department,English Language Arts (7-12)
+stevenrosschmm,Issued Apr 2012 Credential ID 9002739,National Environmental Health Association,Registered Environmental Health Specialist/Registered Sanitarian (REHS/RS)
+stevenrosschmm,Issued Apr 2004 Credential ID 2162,NFPA,Certified Fire Protection Specialist (CFPS)
+stevenrosschmm,Issued Apr 2004 Credential ID 4613,State of Nevada,Water Distribution Operator D-1
+stevenrosschmm,Issued Nov 2003 Credential ID 1865,State of Nevada,Certified Environmental Manager (CEM)
+stevenrosschmm,Issued Jul 2003 Credential ID 12005,Institute of Hazardous Materials Management,Certified Hazardous Materials Manager (CHMM)
+stevenrosschmm,,"Logistical Solutions, LLC",24-Hour Hazardous Waste Operations and Emergency Response (HAZWOPER)
+stevenrosschmm,,"The Asbestos Institute, Inc.",Asbestos Contractor/Supervisor
+stevenrosschmm,,Tank Management Services,Class A/B UST Operator
+stevenrosschmm,,Karl Koontz & Associates,EPA Method 9 Emissions Evaluator
+barbara-lavelle-36893814b,Issued Sep 2006,Accounting Technicians Ireland,Certified Accounts Technician
+alefalmeida,Issued Jan 2022,Viver de Contabilidade,Contador Profissional
+alefalmeida,Issued Jan 2022,Escola Conquer,Produtividade e Gestão do Tempo
+alefalmeida,Issued Aug 2021 See credential,Escola Conquer,Comunicação & Oratória
+alefalmeida,Issued Jun 2021 See credential,Receita Previsível®️,Sales Development Representative
+bkhan74,Issued Aug 2022 Expires Aug 2024,New Jersey Board of Pharmacy,New Jersey State Board of Pharmacy
+michelle-ehrhardt-ma-cpcs-25864530,,NAMSS - National Association Medical Staff Services,CPCS
+phuphang,Issued May 2017 See credential,Udacity,Full Stack Web Developer Nanodegree
+phuphang,Issued Feb 2016,American Heart Association | American Stroke Association,CPR
+phuphang,Issued Jun 2015,Microsoft,Microsoft Solutions Specialist
+phuphang,Issued May 2015,Microsoft,Microsoft Licensing Solutions Specialist Lite
+pietrodomenicostano-a20aa795,Issued Jun 2022,Allianz Partners,Diploma in Private Medical Insurance
+pietrodomenicostano-a20aa795,Issued May 2022,Insurance Institute of Ireland,Certificate in Insurance Practice: CIP-01 CIP-02 CIP-05
+pandeyg2106,Issued Sep 2017 Credential ID UC-VZ3GO397 See credential,Udemy,Big Data Testing
+pandeyg2106,Issued Sep 2017 Credential ID 85791941578499,International Scrum Institute™,Certified Scrum Master
+pandeyg2106,Issued Feb 2014,Indian Testing Board,ISTQB Foundation Level
+pandeyg2106,Issued Feb 2014,Simplilearn,Six Sigma Green Belt
+christopher-palmer-ei-77479b93,Issued Jun 2010 Credential ID A-25262,National Council of Examiners for Engineering and Surveying,Engineering Intern (Engineer in Training)
+gautam-kumar-b5b4b961,Issued Jun 2017,IBMR Business School,Post Graduate Program in Management
+gautam-kumar-b5b4b961,,-,ADCA
+irma-arevalo-ccp-phr-shrm-cp-722950a0,Issued Dec 1997 Expires Jun 2025 See credential,HR Certification Institute - HRCI,Professional in Human Resources® (PHR®)
+irma-arevalo-ccp-phr-shrm-cp-722950a0,Issued Jun 2015 Expires Jun 2024 Credential ID 047305,SHRM,SHRM CP
+irma-arevalo-ccp-phr-shrm-cp-722950a0,Issued Mar 1993 Expires Feb 2023,World at Work,Certified Compensation Professional CCP
+lynsey-jackson-88094a90,,-,NVQ Level 2 in Business Administration
+lynsey-jackson-88094a90,,-,NVQ Level 3 in Business Administration
+rosemarymendez,Issued Nov 2022,Esade,Customer Experience Management
+rosemarymendez,Issued Jan 2015,University of the Andes,Specialization in Negotiation
+rosemarymendez,Issued Jan 2012,University of the Andes,Marketing and Sales Strategic Management
+mehulpajwani,Issued Oct 2021 See credential,LinkedIn,Excel: Macros and VBA for Beginners
+james-egan-b5b5613b,Issued Oct 2014,NSW Fair Trading,Real Estate Certificate of Registration
+sarah-culverhouse-a6021a10,Issued Sep 2020 Credential ID HarvardX: PH278.Ax See credential,Harvard University,Health effects of climate chang
+priya-tiwari-94b176a0,Issued Nov 2014 Credential ID 1192770-283 See credential,Aspiring Minds,AMCAT Certified in English Comprehension
+priya-tiwari-94b176a0,Issued Oct 2014 Credential ID 1192770-282 See credential,Aspiring Minds,AMCAT Certified Telesales Professional
+priya-tiwari-94b176a0,Issued Sep 2014 Credential ID 1192770-195 See credential,Aspiring Minds,AMCAT Certified Channel Sales Professional
+priya-tiwari-94b176a0,Issued Sep 2014 Credential ID 1192770-210 See credential,Aspiring Minds,AMCAT Certified Customer Service Specialist
+vaibhavtole,Issued Sep 2021,Udemy,"Complete GDPR, GDPR Certification, data protection, privacy"
+vaibhavtole,Issued Sep 2020,Treadstone 71,Cyber Threat Intelligence Tradecraft
+vaibhavtole,Issued Jan 2020,NETMONASTERY Inc.,DCE ( DNIF Certified Engineer )
+vaibhavtole,Issued Sep 2017 Credential ID ECC34479983533,EC Council,Certified Chief Information Security Officer (C|CISO)
+vaibhavtole,Issued Jul 2014 Credential ID 9980034808413375 See credential,AXELOS,PRINCE2 Foundation
+vaibhavtole,Issued Aug 2013 Credential ID 1317031 See credential,ISACA,Certified in Risk and Information Systems Control™ (CRISC)
+vaibhavtole,Issued Jun 2009 Credential ID 0975175 See credential,ISACA,Certified Information Systems Auditor® (CISA)
+vaibhavtole,Issued Aug 2014 Expires Aug 2019 Credential ID 9980034808413375 See credential,AXELOS,PRINCE2 Practitioner
+vaibhavtole,,EC Council,Certified Ethical Hacker (CEH v5)
+vaibhavtole,,BSI ( British Standards Institution ),ISO 27001 Lead Auditor
+michael-merselis-52055411a,Issued Mar 2021,Gallatin Association of REALTORS®,Broker
+mikhail-polianskii-261a5416b,Issued Oct 2017,TestDAF Insitut,TestDAF Zertifikat
+justin-chinakidzwa-fia-cera-ab326164,Issued May 2020,Udemy,The 2020 Data Science Bootcamp
+justin-chinakidzwa-fia-cera-ab326164,,Institute and Faculty of Actuaries,CERA
+justin-chinakidzwa-fia-cera-ab326164,,Institute and Faculty of Actuaries,FIA
+rikesh-tailor-a63291100,Issued Apr 2019 See credential,Media Training Ltd,InDesign CC : Intermediate
+rikesh-tailor-a63291100,Issued Mar 2019 See credential,Media Training Ltd,Illustrator CC : Intermediate
+chan-xianhao-905228142,Issued Apr 2021,Institute of Technical Education,National ITE Certificate In Brodcadt Media And Technology
+chan-xianhao-905228142,Issued Jan 2015,Institute of Technical Education,National ITE Certificate in Digital Animation
+chan-xianhao-905228142,Issued Jan 2012,-,Singapore-Cambridge General Certificate of Education Normal (Technical) Level
+chan-xianhao-905228142,Issued Jan 2008,-,Primary School Leaving Examination (PSLE)
+ana-burleson-62654850,,PITC Institute,"Beginning Together Certification, Module 5"
+ana-burleson-62654850,,San Diego,Child Development Program Director Permit
+ana-burleson-62654850,,PITC Institute,Infant/Toddler Specialist Trainer
+ana-burleson-62654850,,Southwestern Community College District,SWC Tutor Training Course NC-47 Certification
+ana-burleson-62654850,,Southwestern Community College District,SWC Tutor Training Course NC-48 Certification
+ana-burleson-62654850,,WestEd/PITC,"WestEd Program for Infant/Toddler Caregivers, Modules 1-5"
+marcela-rodr%c3%adguez-10a35a26,Issued Jan 2018 Expires Jan 2023,CMIM,Colegio Mexicano de Medicina Interna
+mohammed-obaid-naiyer-15914714,Issued Jun 2022 Credential ID 2084,Uptime Institute,Accredited Operations Specialist
+mohammed-obaid-naiyer-15914714,Issued Dec 2017 Credential ID 2178,Uptime Institute,Accredited Tier Designer
+mohammed-obaid-naiyer-15914714,,-,CCNA®
+mohammed-obaid-naiyer-15914714,,-,CDCP®
+mohammed-obaid-naiyer-15914714,,-,ITIL®
+mohammed-obaid-naiyer-15914714,,-,ITSM®
+davidpalacioslopez,Issued Nov 2022,Microsoft,Microsoft Learn Cloud Skill Challenge (Microsoft Ignite 2022)
+davidpalacioslopez,Issued Nov 2022,Microsoft,Microsoft Security Operations Analyst (SC-200)
+davidpalacioslopez,Issued Jan 2022,Government of Spain,Driving License
+davidpalacioslopez,Issued Aug 2020 Credential ID UC-8cd96419-fa3e-4383-b94c-db7ceebed1df See credential,TCM Security,Practical Ethical Hacking - The Complete Course
+davidpalacioslopez,Issued Jul 2020 Credential ID ADP L56 MQ9 See credential,Google Actívate,Cloud Computing
+davidpalacioslopez,Issued Oct 2016,Cambridge Assessment English,Cambridge English
+bhakti-tiwari-93926a178,Issued Jul 2014,"Makhanlal Chaturvedi National University of Journalism and Communication, Bhopal",Pgdca
+jakobpersson,Issued Jun 2022 See credential,LinkedIn,Learning 3D Graphics on the Web with Three.js
+jakobpersson,Issued Jun 2022 See credential,LinkedIn,Node.js: Microservices
+donna-brockway-6762469b,Issued Jun 2016,AHIMA,Registered Health Information Technician (RHIT)
+matthewlowden,Issued Jul 2011,Zend Technologies,Zend PHP Certification
+andy-ambrus-467a635,Issued Jun 2022,California State Polytechnic University-Pomona,SPIDAcalc
+andy-ambrus-467a635,Issued May 2022,California State Polytechnic University-Pomona,AutoCAD
+andy-ambrus-467a635,Issued May 2022,California State Polytechnic University-Pomona,Electric Utility Planner
+andy-ambrus-467a635,Issued Nov 2013 Expires Nov 2015,American Heart Association | American Stroke Association,CPR/AED
+andy-ambrus-467a635,,Mt. San Antonio College,Advanced Physical Fitness Specialist
+andy-ambrus-467a635,,American College of Sports Medicine,Exercise Leader
+andy-ambrus-467a635,,Apex Fitness Inc.,Fitness Professional
+andy-ambrus-467a635,,American College of Sports Medicine,Health Fitness Instructor
+andy-ambrus-467a635,,Aerobics and Fitness Association of America (AFAA),Nutrition Specialist
+andy-ambrus-467a635,,National Academy of Sports Medicine (NASM),Personal Trainer
+andy-ambrus-467a635,,Aerobics and Fitness Association of America (AFAA),Personal Trainer/Fitness Counselor
+andy-ambrus-467a635,,Aerobics and Fitness Association of America (AFAA),Resistance Training/ Weight Room
+carli-tyson,Issued Sep 2021 Credential ID 38211749,CITI Program,Certified Social Behavioral Educational Researcher
+mazen-haddad,,-,Business Management
+mazen-haddad,,-,Welding Inspector and Supervisor
+robincarlsson1,Issued Oct 2015 Credential ID 4A7A8513393A497F9E9A9FE5961A8B42 See credential,lynda.com,Autodesk Inventor
+robincarlsson1,Issued Sep 2015 Credential ID DCA04D50259D4CDF8A052B779D29F2CF See credential,lynda.com,Autodesk Inventor- Sheet metal
+robincarlsson1,Issued Nov 1989,Transportstyrelsen,Körkort
+hilarubinsteinlevy,Issued Jun 2022,Shibolet ESG – Shibolet Consulting Ltd.,ESG Practitioner
+hilarubinsteinlevy,Issued Oct 2021 See credential,LinkedIn,Digital Marketing Foundations
+hilarubinsteinlevy,Issued Dec 2018,Miller Heiman Group,Large Account Management Process℠ (LAMP®)
+demere-hood-9a3a671a8,Emitido em mar. de 2020 Nº da credencial tSyVMY9FTY,The Violand Institute,Business Etiquette
+demere-hood-9a3a671a8,Emitido em mar. de 2020 Nº da credencial Fixbw3ieX,The Violand Institute,Delivering Outstanding Customer Service
+demere-hood-9a3a671a8,Emitido em fev. de 2020 Expira em fev. de 2025 Nº da credencial 182679,"Seagull Environmental Management Company, Inc.",Lead-Safe Renovation Contractor
+demere-hood-9a3a671a8,Emitido em mar. de 2020 Expira em mar. de 2021 Nº da credencial 865303,"International CPR Institute, Inc.",Bloodborne Pathogens
+demere-hood-9a3a671a8,Emitido em fev. de 2020 Expira em fev. de 2021 Nº da credencial 00071,Matterport,Actionable Insights Matterport Certified
+demere-hood-9a3a671a8,Emitido em jul. de 2016 Expira em jul. de 2020,IICRC,Water Damage Restoration
+oliviabettin,Issued Jan 2021,Eloqua,Eloqua Master 2020
+oliviabettin,Issued Sep 2020 Expires Sep 2021 Credential ID 56147192,Google,Google Ads Display Certified
+oliviabettin,Issued Sep 2020 Expires Sep 2021 Credential ID 46723484,Google,Google Ads Search Certified
+stefan-kalenderov-4ba886164,Issued Jan 2022 Credential ID 22882514,Salesforce,B2C Commerce Developer
+mohamed-moustafa-17029170,,Japan International Cooperation Agency (JICA),TOT for waste water pipe lines.TOT in water and waste water field.AutoCAD 2D•ICDL•Pipe lines maintenance •SOP at Yachoo.co – 2011 at Japan•Non-Revenue Water Management in JICA – 2012 at Japan•Pumps and valves maintenance•Maintenance for diesel engine
+benjamin-ashaley-amuah-aa7364118,Issued Aug 2006,NIIT - India,Computer Desktop and Network Administrator
+guillermopanich,Issued Dec 2010,University of Cambridge,International General Certificate of Secondary Education (IGCSE)
+guillermopanich,Issued Dec 2008,University of Cambridge,First Certificate in English (FCE)
+guillermopanich,Issued Jan 2021 Expires Jan 2023 Credential ID 1320270 See credential,Scrum Alliance,Certified ScrumMaster®
+guillermopanich,Issued Apr 2013 Expires Apr 2015,ETS,TOEFL iBT 107/120
+mkaprelian,Issued Dec 2020 See credential,Coderhouse,Product Manager
+syed-m-hassan-01066aa1,Issued Apr 2021,Blue Prism,RPA Developer Training
+syed-m-hassan-01066aa1,Issued Jun 2020,Automation Anywhere,Automation Anywhere Certified Advance RPA Professional
+syed-m-hassan-01066aa1,Issued Nov 2019,UiPath,RPA Developer Advanced
+syed-m-hassan-01066aa1,Issued Jul 2016 Credential ID S0016781884,SAP,SAP Certified Application Associate - Procurement with SAP ERP 6.0 EhP6 (C_TSCM52_66)
+syed-m-hassan-01066aa1,,UiPath,Uipath Business Analyst
+merle-seifert-6852ba1a6,,Handelskammer Hamburg,Coachingkompetenz für Führungskräfte und Berater (IHK)
+lmiguelm,Issued Jul 2020 Credential ID UC-1f108aaf-fd30-46e1-99df-ef7d9b2fdd67 See credential,COD3R,Curso Vue JS 2 - O Guia Completo (incl. Vue Router & Vuex)
+lmiguelm,Issued Jul 2020 Credential ID FLCWBQCCJJ-SDJGFFJF-WHFTNZTQHK,CertiProf,Scrum Foundation Professional Certificate (SFPC)
+lmiguelm,Issued May 2020 Credential ID UC-598e914a-03d1-44f9-9714-65fe7b9fde69 See credential,Udemy,Java Completo 2020 Programação Orientada a Objetos +Projetos
+lmiguelm,Issued May 2020 Credential ID UC-777b530c-b8b8-49d5-909f-74afd8fe1498 See credential,Udemy,React Js do zero ao avançado na prática
+vittoria-grifagni-89072075,Issued Jun 2015,"INAIL, Istituto Nazionale Assicurazione contro gli Infortuni sul Lavoro",Coordinatore della sicurezza in fase di esecuzione
+vittoria-grifagni-89072075,Issued Jun 2015,"INAIL, Istituto Nazionale Assicurazione contro gli Infortuni sul Lavoro",Coordinatore sicurezza in fase di progettazione
+vittoria-grifagni-89072075,Issued Jun 2015,"INAIL, Istituto Nazionale Assicurazione contro gli Infortuni sul Lavoro",Responsabile del servizio di prevenzione e protezione
+bruce-jordan-fellows-dc-fianm-ms-cscs-1ba79490,Issued Nov 2019,IANM,Diplomate in Chiropractic Orthopedics
+bruce-jordan-fellows-dc-fianm-ms-cscs-1ba79490,Issued Nov 2018,The Dry Needling Institute,Dry Needling
+bruce-jordan-fellows-dc-fianm-ms-cscs-1ba79490,Issued Apr 2018,-,Mulligan MWM Upper Extremity
+bruce-jordan-fellows-dc-fianm-ms-cscs-1ba79490,Issued Mar 2015,ROCKTAPE,Certified Rocktape Provider
+bruce-jordan-fellows-dc-fianm-ms-cscs-1ba79490,Issued Jun 2011,National Strength and Conditioning Association (NSCA),Certified Strength and Conditioning Specialist
+donis-long-35839aab,,American Red Cross,CPR Certification
+biviana-capera-caballero,Issued Feb 2022,Global Reporting Initiative (GRI),Estándares para reportes de sostenibilidad GRI
+biviana-capera-caballero,Issued Sep 2021,Basura Cero Global,Implementación del Sistema Basura Cero
+biviana-capera-caballero,Issued Jan 2021,Bureau Veritas Group,Auditor interno ISO 50001:2018
+biviana-capera-caballero,Issued Dec 2020,ICONTEC,"Auditor interno integral ISO 9001, 14001, 45001 : 2018"
+biviana-capera-caballero,Issued Jun 2018,SGS,Auditor inocuidad alimentaria BRC
+duncan-macdonald-53950a2b,Issued Apr 2020 See credential,LinkedIn,Key Account Management
+duncan-macdonald-53950a2b,Issued Apr 2020 See credential,LinkedIn,Time Management: Working from Home
+sandraobergruber,Issued Jan 2015,The Center for Transformational Presence,Certified Transformational Presence Coach
+sandraobergruber,Issued Jan 2013,Bosch,Cultural Consultant
+sandraobergruber,Issued Jan 2012,International Coach Academy,Certified Professional Coach
+sandraobergruber,Issued Jan 2004,FoBiS Systemisches Institut für Bildung Forschung und Beratung,Systemic Counselor in Youth Welfare Departments
+sandraobergruber,Issued Jan 2012 Expires Jan 2018,International Coach Federation,Associate Certified Coach
+bhaskara-varma-namburi-82b153171,,ISTQB - International Software Testing Qualifications Board,ISTQB
+farooq-kavupadath-2a166b130,Issued Aug 2014,Iaam edapal,Excel
+farooq-kavupadath-2a166b130,,-,TALLY ERP 9
+usamasuhailquddusi,Wydany lut 2022 Identyfikator poświadczenia 9X2HRB65HBWP Zobacz poświadczenie,Coursera | Google,Ask Questions to Make Data-Driven Decisions
+usamasuhailquddusi,Wydany sty 2022 Identyfikator poświadczenia 7FMM5D3SZ8EQ Zobacz poświadczenie,Coursera | Google,"Foundations: Data, Data, Everywhere"
+usamasuhailquddusi,Wydany gru 2021 Identyfikator poświadczenia b9bbff4926ddff77f36cff153ec25f3704e78780 Zobacz poświadczenie,DataCamp,Introduction to Python
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,Careers in Supply Chain and Operations
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,"Develop Critical-Thinking, Decision-Making, and Problem-Solving Skills"
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,Develop Your Presentation Skills
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,Grammar Foundations
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,Manage Change and Develop Your Adaptability Skills
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,MySQL Essential Training
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,Negotiation Foundations
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,PowerPoint: Silicon Valley Presentation Secrets
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,Purchasing Foundations
+usamasuhailquddusi,Wydany mar 2021 Zobacz poświadczenie,LinkedIn,Supply Chain Foundations
+usamasuhailquddusi,Wydany lut 2021 Zobacz poświadczenie,LinkedIn,SAP ERP Essential Training
+usamasuhailquddusi,Wydany sty 2021 Identyfikator poświadczenia AW0NIxeYv6iuyYuNQu4TrBT_4J0z Zobacz poświadczenie,LinkedIn,Learning SAP MM (Materials Management)
+usamasuhailquddusi,Wydany gru 2018 Identyfikator poświadczenia 5NyT-4TCm Zobacz poświadczenie,Microsoft,Microsoft Office Specialist Excel 2016
+usamasuhailquddusi,Wydany gru 2018 Identyfikator poświadczenia dwzT-DwBR Zobacz poświadczenie,Microsoft,Microsoft Office Specialist PowerPoint 2016
+usamasuhailquddusi,Wydany gru 2018 Identyfikator poświadczenia X24n-XMYL Zobacz poświadczenie,Microsoft,Microsoft Office Specialist Word 2016
+usamasuhailquddusi,Wydany maj 2018,Pakistan Engineering Council (PEC),Registered Engineer
+usamasuhailquddusi,Wydany wrz 2013,NED University of Engineering and Technology,Basic Autocad Course
+morten-klementsen-71b68919,Issued Jan 2018 See credential,Disc,Autorisert DISC-analytiker
+stanleyhuang-,,Google,Google Project Management Certificate
+ken-hoffman-553587101,,-,Illinois Licensed Real Estate Broker
+david-rowan-674164115,Issued Feb 2020 See credential,LinkedIn,How to Present and Stay on Point
+dario-quental-63808a38,Issued Jun 2019,Cisco Networking Academy,Cybersecurity Essentials - EN 0118
+dario-quental-63808a38,Issued May 2019,Linux Professional Institute,NDG Linux Essentials - EN 2019
+dario-quental-63808a38,Issued Dec 2014 Credential ID wMMql-HauN See credential,Microsoft,Microsoft Office Specialist Excel 2013
+dario-quental-63808a38,Issued Dec 2014 Credential ID wMxL6-Hauv See credential,Microsoft,Microsoft Office Specialist PowerPoint 2013
+dario-quental-63808a38,Issued Dec 2014 Credential ID wMLwS-HaXp See credential,Microsoft,Microsoft Office Specialist Word 2013
+pallavi-dwivedi-351984199,Issued Jun 2022 Credential ID ps7afkh28gmx See credential,LinkedIn,LinkedIn Marketing Solutions Fundamentals
+pallavi-dwivedi-351984199,Issued Mar 2022 Expires Mar 2023 See credential,Meta,Meta Certified Media Buying Professional
+pallavi-dwivedi-351984199,Issued Jun 2021 Expires Jun 2022 See credential,Facebook,Facebook Certified Media Planning Professional
+pallavi-dwivedi-351984199,Issued Aug 2019 Expires Aug 2020,Google AdWords Certified,Google Ad Words certified
+pallavi-dwivedi-351984199,Issued Sep 2018 Expires Aug 2019,Google,DV360 Certified
+garrett-white-484b5242,Issued Oct 2015,-,TIPS Trainer Certification
+garrett-white-484b5242,Issued Mar 2015 See credential,-,Green Dot Training
+garrett-white-484b5242,Issued Jul 2015 Expires Jul 2018,-,TIPS Certified
+steve-kristjanson-8173812a,Issued Oct 2004,NACHA,AAP - Accredited ACH Professional
+steve-kristjanson-8173812a,Issued Jul 2005 Expires Jun 2017 See credential,Association for Financial Professionals,Certified Treasury Professional
+rrondini,Issued Feb 2019 See credential,ForgeRock,ForgeRock Identity Management Accredited Consultant
+rrondini,Issued Apr 2017 See credential,ForgeRock,ForgeRock Certified Access Management Specialist
+rrondini,Issued Mar 2015 See credential,ForgeRock,ForgeRock Access Management Advanced Skills
+rrondini,Issued Oct 2014 See credential,ForgeRock,ForgeRock Access Management Accredited Consultant
+rrondini,Issued Oct 2014 See credential,ForgeRock,ForgeRock Access Management Accredited Mentor
+daniel-turnipseed-69431462,Issued Sep 2018,Dataquest.io,Python Programming: Intermediate Course
+daniel-turnipseed-69431462,Issued Aug 2018,Dataquest.io,Python Programming: Beginner Course
+evan-l-graham-phd-b52428159,Issued Jul 2022 See credential,LinkedIn,Creating a Culture of Collaboration
+evan-l-graham-phd-b52428159,Issued May 2022 See credential,LinkedIn,Communication within Teams
+evan-l-graham-phd-b52428159,Issued May 2022 See credential,LinkedIn,Leading at a Distance
+evan-l-graham-phd-b52428159,Issued May 2022 See credential,LinkedIn,New Manager Foundations
+evan-l-graham-phd-b52428159,Issued May 2022 See credential,LinkedIn,Strategic Thinking
+evan-l-graham-phd-b52428159,Issued May 2022 See credential,LinkedIn,Workshop Facilitation
+evan-l-graham-phd-b52428159,Issued Apr 2022 See credential,LinkedIn,Change Management Foundations
+stevesteel,Ausgestellt: Apr. 2020 Nachweis anzeigen,LinkedIn,Body Language for Leaders
+stevesteel,Ausgestellt: Apr. 2020 Nachweis anzeigen,LinkedIn,Negotiation Foundations
+stevesteel,Ausgestellt: Apr. 2020 Nachweis anzeigen,LinkedIn,Negotiation Skills
+stevesteel,Ausgestellt: Apr. 2020 Nachweis anzeigen,LinkedIn,Organization Communication
+stevesteel,,IOSH,IOSH Managing Safely
+stevesteel,,Chartered Management Institute,Level 5 Diploma in Management
+stevesteel,,AXELOS Global Best Practice,Prince2 Foundation
+stevesteel,,AXELOS Global Best Practice,Prince2 Practitioner
+wyatt-craig-0004a815a,,South Carolina Department of Insurance,Insurance Producer
+dinesh-silva-632a297,Délivrance le févr. 2022 Voir la référence,Microsoft,Microsoft Certified: Azure Administrator Associate
+dinesh-silva-632a297,Délivrance le juin 2020 Voir la référence,Microsoft,MCSE: Productivity — Certified 2020
+dinesh-silva-632a297,Délivrance le juin 2020 Voir la référence,Microsoft,Microsoft 365 Certified: Enterprise Administrator Expert
+dinesh-silva-632a297,Délivrance le mai 2020 Voir la référence,Microsoft,MS-101 Microsoft 365 Mobility and Security
+dinesh-silva-632a297,Délivrance le avr. 2020 Voir la référence,Microsoft,MS-100 Microsoft 365 Identity and Services
+dinesh-silva-632a297,Délivrance le juin 2018 Voir la référence,Microsoft,MCSE : Cloud Platform and Infrastructure 2018
+dinesh-silva-632a297,Délivrance le avr. 2016 Voir la référence,(ISC)²,Certified Information Systems Security Professional (CISSP)
+dinesh-silva-632a297,Délivrance le mars 2016 Voir la référence,(ISC)²,Associate of (ISC)²
+dinesh-silva-632a297,Délivrance le mars 2016 ID 478090 du diplôme,(ISC)²,CISSP - Certified Information Systems Security Professional
+dinesh-silva-632a297,Délivrance le févr. 2014 Voir la référence,(ISC)²,Systems Security Certified Practitioner (SSCP)
+dinesh-silva-632a297,Délivrance le févr. 2022 Expiration le févr. 2023 Voir la référence,Microsoft,Microsoft Certified: Azure Administrator Associate
+dinesh-silva-632a297,Délivrance le févr. 2022 Expiration le févr. 2023 Voir la référence,Microsoft,Microsoft Certified: Azure Administrator Associate
+dinesh-silva-632a297,Délivrance le févr. 2022 Expiration le févr. 2023 Voir la référence,Microsoft,Microsoft Certified: Azure Administrator Associate
+dinesh-silva-632a297,ID 3306776 du diplôme Voir la référence,Microsoft,MCSE: Server Infrastructure
+dinesh-silva-632a297,ID 478090 du diplôme,ISC2,Systems Security Certified Practitioner (SSCP)
+dinesh-silva-632a297,ID 137763 du diplôme,VMware,VMWare vSphere 5.1
+piotrjankiewicz,Issued Jan 2018,The Coaching Academy,Mentor Coach
+piotrjankiewicz,Issued Jul 2017,International Coach Federation,ACC
+piotrjankiewicz,Issued Jan 2013,Grupa SET sp. z o.o.,Workshop Facilitation Certificate Programme
+piotrjankiewicz,Issued Feb 2012,Extended DISC,Extended DISC Certified User
+piotrjankiewicz,Issued Nov 2011,The Coaching Academy,Corporate / Executive Coaching Diploma
+gokulakrishnan-jayakrishnan-a649b317,Issued May 2022 Expires May 2024,Scrum Alliance,Certified Scrum Master
+gokulakrishnan-jayakrishnan-a649b317,Issued Mar 2007 Expires Mar 2010,"Certified Software Tester, QAI (March 2007 – March 2010)","Certified Software Tester, QAI (March 2007 – March 2010)"
+ashraf-bekhit-3b46866b,Issued Jul 2015 See credential,edX,edX Honor Code Certificate for The Rise of Superheroes and Their Impact On Pop Culture
+ashraf-bekhit-3b46866b,See credential,edX,edX Verified Certificate for The Rise of Superheroes and Their Impact On Pop Culture
+aj-godbolt-ba777a24,Issued Jun 2021 See credential,LinkedIn,Agile Project Leadership
+aj-godbolt-ba777a24,Issued Jun 2021 See credential,LinkedIn,Cert Prep: Scrum Master
+krystal-debaker-1477653a,,Flirty Girl Fitness,Flirty Girl Fitness Instructor Certification
+krystal-debaker-1477653a,,MOSSA,Group Fight Instructor Certification
+krystal-debaker-1477653a,,MOSSA,Group Power Instructor Certification
+krystal-debaker-1477653a,,MOSSA,Group Ride Instructor Certification
+krystal-debaker-1477653a,,International Sports Science Association,ISSA Personal Training Certification
+krystal-debaker-1477653a,,YogaFit,Level 1 Yoga Instructor Certification
+krystal-debaker-1477653a,,Healthways,Silver Sneaker Yoga Instructor Certification
+krystal-debaker-1477653a,,Healthways,Silver Sneakers Cardio Instructor Certification
+krystal-debaker-1477653a,,Healthways,Silver Sneakers Classic Instructor Certification
+krystal-debaker-1477653a,,Mad Dogg Athletics®,Spinning Instructor Certification
+krystal-debaker-1477653a,,Zumba,Zumba Instructor Certification
+victor-lau-8243a1160,Issued Jan 2022,GARP FRM Program,Passed all parts of FRM exam
+victor-lau-8243a1160,Issued Feb 2021,CFA Institute,Passed CFA all 3 levels
+victor-lau-8243a1160,Issued Jul 2020,Hong Kong Securities and Investment Institute,HKSI Paper 1
+lindseyknapton,,-,Bing Ads Accredited Professional
+lindseyknapton,,-,Google Adwords Certified - Search & Display
+lindseyknapton,,-,Google Video Advertising Advanced Certification
+lindseyknapton,,-,Personal First Aid & CPR Certified
+tanmoy-basak-2543a797,Issued Jan 2020 See credential,Microsoft,Microsoft Certified: Azure Fundamentals
+tanmoy-basak-2543a797,Issued Mar 2017 See credential,Microsoft,Exam 533: Implementing Microsoft Azure Infrastructure Solutions
+tanmoy-basak-2543a797,Issued Dec 2016,Amazon Web Services,AWS Certified Solutions Architect - Associate
+harold-schmidt-a189b6110,,Gap International,Gap International Executive Challenge
+jenniferliesener,Issued Feb 2020 Expires Jun 2023 See credential,SHRM,SHRM - Certified Professional (SHRM-CP)
+malia-jones-35475a188,Issued May 2012,University of St. Thomas,Teaching License- 5-8 Middle School Science/ 9-12 High School Biology
+rohit-c-p-9236a533,Issued Aug 2019,CIMA,Advanced Diploma in Management Accounting.
+rahmi-ayaz-77803564,Issued Sep 1996 Expires Jun 1997,mersin university,pedegojik formasyon
+jeancooi,,-,K-12 School Counselor
+tobias-marti-9b7200163,Issued May 2023 See credential,Zurich Insurance,Gustav Käser Consulting & Sales Training
+nickrramos,,American Heart Association,CPR/AED
+mohamed-negm-796334a8,Issued Sep 2019 Credential ID bd0baa53a2e74583a5eae41e8a621cef See credential,edX,Mohamed Negm
+mohamed-negm-796334a8,Issued Jan 2015 Credential ID 0000,Etisalat Misr,Top Sales Performance
+nagylagouveia,Issued Sep 2018,Google,Cresça com o Google - Marketing Digital
+nagylagouveia,Issued Apr 2019 Expires May 2021 See credential,HubSpot Academy,Inbound
+nagylagouveia,Issued Apr 2019 Expires Apr 2020,RD University,Introdução ao Inbound Marketing
+mohamed-ibrahim-roushdy-cia-b95b067,Issued Jul 2013,IIA-The Institute of Internal Auditors,Certified Internal Auditor (CIA)
