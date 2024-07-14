@@ -4,9 +4,18 @@ import data_processing_functions
 
 # Define the input and output file paths
 input_csv = 'data/source/raw_profiles.csv'
+input_csv_job_posting = 'data/source/raw_job_postings.csv'
+input_csv_job_summary = 'data/source/raw_job_summary.csv'
+input_csv_job_skills = 'data/source/raw_job_skills.csv'
+input_csv_job_company = 'data/source/raw_company.csv'
 experience_output_csv = 'data/cleaned/experiences_data.csv'
 education_output_csv = 'data/cleaned/education_data.csv'
 certifications_output_csv = 'data/cleaned/certifications_data.csv'
+output_file_name_with_hash_posting = 'job_posting_data.csv'
+output_file_name_with_hash_summary = 'job_summary_data.csv'
+output_file_name_with_hash_skills = 'job_skills_data.csv'
+output_file_name_with_hash_company = 'company_data.csv'
+output_dir_with_hash = 'data/cleaned'
 
 # Read the profiles CSV file
 df = pd.read_csv(input_csv)
@@ -65,6 +74,17 @@ certifications_df = pd.DataFrame(certifications_data)
 os.makedirs(os.path.dirname(certifications_output_csv), exist_ok=True)
 certifications_df.to_csv(certifications_output_csv, index=False)
 
+# Add hash IDs based on job_link and save to new files
+try:
+    data_processing_functions.add_hash_id_and_save(input_csv_job_posting, output_dir_with_hash, output_file_name_with_hash_posting)
+    data_processing_functions.add_hash_id_and_save(input_csv_job_summary, output_dir_with_hash, output_file_name_with_hash_summary)
+    data_processing_functions.add_hash_id_and_save(input_csv_job_skills, output_dir_with_hash, output_file_name_with_hash_skills)
+    data_processing_functions.add_hash_id_and_save(input_csv_job_company, output_dir_with_hash, output_file_name_with_hash_company)
+except PermissionError as e:
+    print(f"PermissionError: {e}")
+
 print(f"Experience data has been successfully written to {experience_output_csv}")
 print(f"Education data has been successfully written to {education_output_csv}")
 print(f"Certifications data has been successfully written to {certifications_output_csv}")
+print(f"Job posting data with hash IDs has been successfully written to {output_file_name_with_hash_posting} in {output_dir_with_hash}")
+print(f"Job summary data with hash IDs has been successfully written to {output_file_name_with_hash_summary} in {output_dir_with_hash}")

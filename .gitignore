@@ -3,7 +3,7 @@
 .envrc
 
 # Ignore data files
-data/source
+/data
 /linkedin_api
 /archive
 

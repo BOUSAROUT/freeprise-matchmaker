@@ -1,5 +1,13 @@
 import json
 import re
+import hashlib
+import os
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import udf
+from pyspark.sql.types import StringType
+
+# Initialize Spark session
+spark = SparkSession.builder.appName("DataProcessing").getOrCreate()
 
 # Generalized function to clean and parse the JSON string
 def clean_and_parse_json(json_str):
@@ -11,7 +19,7 @@ def clean_and_parse_json(json_str):
             json_str = re.sub(r'}\s*{', '},{', json_str)
             return json.loads(json_str)
         except json.JSONDecodeError as e:
-            print(f"Error decoding JSON: {e} in string: {json_str[:1000]}...")
+            print(f"Error decoding JSON: {e}")
             return []
     return []
 
@@ -74,3 +82,28 @@ def extract_certifications_data(parsed_data, profile_id):
         }
         extracted_data.append(filtered_item)
     return extracted_data
+
+# Function to add hash ID to each row based on the job_link and save the file using PySpark
+def add_hash_id_and_save(input_file_path, output_dir, output_file_name):
+    # Load the CSV file using PySpark
+    df = spark.read.csv(input_file_path, header=True, inferSchema=True)
+
+    # Generate a new hash ID for each row based on the job_link
+    def generate_hash_id(job_link):
+        if job_link is None:
+            return None
+        return hashlib.sha256(job_link.encode('utf-8')).hexdigest()
+
+    hash_udf = udf(generate_hash_id, StringType())
+
+    # Add the hash_id column
+    df = df.withColumn("hash_id", hash_udf(df["job_link"]))
+
+    # Create the output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Save the cleaned data to the specified file path
+    output_file_path = os.path.join(output_dir, output_file_name)
+    df.write.csv(output_file_path, header=True, mode="overwrite")
+
+    print(f"Data with hash IDs saved to {output_file_path}")
