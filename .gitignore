@@ -6,6 +6,7 @@
 /data
 /linkedin_api
 /archive
+/database
 
 
 # Ignore Poetry lock file
