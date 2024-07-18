@@ -36,6 +36,16 @@ exclude_user_cols = [
     'timezone'
 ]
 
+exclude_portfolio_cols = [
+    'content_type',
+    'featured',
+    'files',
+    'articles',
+    'jobs',
+    'categories',
+    'last_modify_date',
+    'position'
+]
 
 # Get a freelancersdk Session object to use the api
 def get_fln_session() -> Session:
@@ -86,11 +96,37 @@ def search_freelance_users(session: Session, query: Union[str, List[str]]) -> Di
     else:
         return result
 
+# Search for portfolios based on user ds
+def sample_get_portfolios(session, user_ids):
+    user_ids = user_ids
+    try:
+        portfolios = get_portfolios(session, user_ids=user_ids)
+    except PortfoliosNotFoundException as e:
+        print('Error message: {}'.format(e.message))
+        print('Server: response: {}'.format(e.error_code))
+        return None
+    else:
+        return portfolios
+
+
+# Transform the data such that it can be converted into a data
+def create_portfolio_df(result, exclude_cols):
+    # Rearrange the api results dict such that each row is a portfolio id with user id as a foreign key
+    if result:
+        portfolios = []
+        users = result['users'].keys()
+        for k in users:
+            portfolios+=(result['portfolios'][k])
+    print('Got {} portfolios from {} users.'.format(len(portfolios), len(users)))
+
+    df = pd.DataFrame.from_records(portfolios)
+    return df.drop(exclude_cols, axis=1)
 
 
 if __name__ == '__main__':
     session = get_fln_session()
     # Get a list of dataframes by searching keywords one by one
+    #!!!!To do refactor the following!!!!#
     df_list = [pd.DataFrame.from_dict(search_freelance_users(session,keyword)['users']) for keyword in search_keywords]
     print("Returning results")
     # Concatenate list into one consolidated dataframe
@@ -99,6 +135,9 @@ if __name__ == '__main__':
     final_user_df = user_df.drop(exclude_user_cols, axis=1)
     print(f"User dataframe shape: {final_user_df.shape}")
     # Export csv
+    #!!!!To do refactor the following!!!!#
+    # Fix the dict bug
+    # df.to_parquet('myfile.parquet', engine='fastparquet')
     final_user_df.to_csv('data/raw/fln_users.csv', index=False)
     # !!!!!!!TO DO deduplicate rows in the final_user_df!!!!!!!
     # !!!!!!!Get a unique list of user ids to call other apis!!!!!!!
