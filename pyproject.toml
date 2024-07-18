@@ -15,6 +15,10 @@ pyspark = "^3.5.1"
 apache-airflow = "^2.9.3"
 psycopg2-binary = "2.9.9"
 docutils = "0.17"
+freelancersdk = "^0.1.20"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
