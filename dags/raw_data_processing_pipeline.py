@@ -1,7 +1,12 @@
+import sys
 import os
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 import pendulum
+
+# Ensure the raw_data_processing module can be found
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'raw_data_processing')))
+
 from raw_data_processing.extract_from_raw_data import extract_from_raw_data
 
 AIRFLOW_HOME = os.getenv("AIRFLOW_HOME")

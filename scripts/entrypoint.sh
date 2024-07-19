@@ -1,9 +1,12 @@
-#!/usr/bin/env bash
+#!/bin/sh
+set -e
 
-# Create an empty postgres db inside "postgres" container (airflow db init)
-# Then create an empty db schema with airflow metadata tables
-airflow db upgrade
+# Initialize the database
+if [ "$1" = "scheduler" ] || [ "$1" = "webserver" ]; then
+  poetry run airflow db init
+  # Create admin user if it does not exist
+  poetry run airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true
+fi
 
-airflow users create -r Admin -u admin -p admin -e admin@example.com -f admin -l airflow
-
-airflow webserver
+# Start the requested service
+exec poetry run airflow "$@"
