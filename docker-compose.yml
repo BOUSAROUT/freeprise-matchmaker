@@ -15,37 +15,39 @@ services:
 
   scheduler:
     build: .
-    command: scheduler
+    command: ["scheduler"]
     depends_on:
       - postgres
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:${POSTGRES_PASSWORD}@postgres:5432/db
-      PYTHONPATH: "/app/airflow/raw_data_processing:/app/airflow/dags"
+      PYTHONPATH: "/app/airflow:/app/airflow/raw_data_processing:/app/airflow/dags"
     volumes:
       - ./dags:/app/airflow/dags
       - ./logs:/app/airflow/logs
       - ./raw_data_processing:/app/airflow/raw_data_processing
-      - ./data:/app/airflow/data  # Mount the data directory
+      - ./api_calls:/app/airflow/api_calls
+      - ./data:/app/airflow/data
     networks:
       - freeprise-network
     entrypoint: ["./scripts/entrypoint.sh"]
 
   webserver:
     build: .
-    command: webserver
+    command: ["webserver"]
     depends_on:
       - postgres
       - scheduler
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:${POSTGRES_PASSWORD}@postgres:5432/db
-      PYTHONPATH: "/app/airflow/raw_data_processing:/app/airflow/dags"
+      PYTHONPATH: "/app/airflow:/app/airflow/raw_data_processing:/app/airflow/dags"
     volumes:
       - ./dags:/app/airflow/dags
       - ./logs:/app/airflow/logs
       - ./raw_data_processing:/app/airflow/raw_data_processing
-      - ./data:/app/airflow/data  # Mount the data directory
+      - ./api_calls:/app/airflow/api_calls
+      - ./data:/app/airflow/data
     ports:
       - "8080:8080"
     networks:

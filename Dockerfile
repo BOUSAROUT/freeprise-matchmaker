@@ -17,8 +17,7 @@ COPY scripts scripts
 RUN chmod +x scripts/entrypoint.sh
 
 COPY pyproject.toml poetry.lock ./
-COPY raw_data_processing /app/airflow/raw_data_processing
-COPY dags dags
+COPY raw_data_processing ./raw_data_processing
 
 # Install Python dependencies using poetry
 RUN pip3 install --upgrade --no-cache-dir pip \
@@ -26,7 +25,7 @@ RUN pip3 install --upgrade --no-cache-dir pip \
     && poetry install --only main
 
 # Ensure raw_data_processing is in the PYTHONPATH
-ENV PYTHONPATH="${PYTHONPATH}:/app/airflow/raw_data_processing"
+ENV PYTHONPATH="${PYTHONPATH}:/app/airflow/raw_data_processing:/app/airflow"
 
 # Set JAVA_HOME
 ENV JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
