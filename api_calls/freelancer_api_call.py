@@ -14,8 +14,8 @@ from pandera.typing import DataFrame
 # Load environment variables from .env file
 load_dotenv()
 
-# Keywords to search the freelancer api with
-search_keywords = ['engineer', 'data', 'design', 'web']
+# # Keywords to search the freelancer api with for testing only
+# search_keywords = ['engineer', 'data', 'design', 'web']
 
 # User data columns that are ignored
 exclude_user_cols = [
@@ -76,6 +76,22 @@ def get_fln_session() -> Session:
     url = os.environ.get('FLN_URL')
     oauth_token = os.environ.get('FLN_API_TOKEN')
     return Session(oauth_token=oauth_token, url=url)
+
+
+def get_search_terms(infile: str) -> List[str]:
+    """
+    Get search terms for the freelancer api from an input file
+    Args: None
+    Returns:
+        Session object
+    """
+    with open(infile, 'r') as file:
+        search_terms = file.read().replace('\n', ' ')
+
+    results = search_terms.split()
+    print(f"{len(results)} keywords to search for in the freelancer api")
+    return results
+
 
 # Search for freelancer_users
 def get_freelance_users(session: Session, query: Union[str, List[str]]) -> Dict:
@@ -249,8 +265,11 @@ def user_df_light_cleanse(df: DataFrame, cols: List[str]) -> DataFrame:
 if __name__ == '__main__':
     # The following steps describe the data extraction process for the freelancer.com user and portfolio data
     session = get_fln_session()
+    search_terms = get_search_terms('freelancer_unique_search_terms.txt')
+    # For testing, search using the first 20 keywords only
+    test_keywords = search_terms[0:20]
     # Create the user dataframe
-    user_df = create_user_df(session, search_keywords, exclude_user_cols, 'data/raw/fln_users.parquet')
+    user_df = create_user_df(session, test_keywords, exclude_user_cols, 'data/raw/fln_users.parquet')
     # Get the list of unique users
     user_ids = get_unique_user_ids(user_df)
     # Extract user dict columns that require ETL to cleanse (e.g. deduplication)
