@@ -28,7 +28,7 @@ jobs:
       with:
         image: freeprise/freeprise-matchmaker
         tags: v1, latest
-        registry: registry-url.io
+        registry: docker.io
         dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
