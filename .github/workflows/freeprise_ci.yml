@@ -1,4 +1,4 @@
-name: basic CI
+name: freeprise CI
 on:
   push:
     branches: [ master, main ]
