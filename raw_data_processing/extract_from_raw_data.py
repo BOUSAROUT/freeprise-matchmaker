@@ -5,11 +5,11 @@ import data_processing_functions
 def extract_from_raw_data():
     # Define the input and output file paths
     input_csv = 'data/raw/raw_profiles.csv'
-    input_csv_job_company = 'data/raw/raw_company.csv'
+    #input_csv_job_company = 'data/raw/raw_company.csv'
     experience_output_csv = 'data/cleaned/experiences_data.csv'
     education_output_csv = 'data/cleaned/education_data.csv'
     certifications_output_csv = 'data/cleaned/certifications_data.csv'
-    output_dir_with_hash = 'data/cleaned'
+    #output_dir_with_hash = 'data/cleaned'
 
     # Read the profiles CSV file
     df = pd.read_csv(input_csv)
