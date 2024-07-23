@@ -5,11 +5,10 @@ import data_processing_functions
 def extract_from_raw_data():
     # Define the input and output file paths
     input_csv = 'data/raw/raw_profiles.csv'
-    #input_csv_job_company = 'data/raw/raw_company.csv'
     experience_output_csv = 'data/cleaned/experiences_data.csv'
     education_output_csv = 'data/cleaned/education_data.csv'
     certifications_output_csv = 'data/cleaned/certifications_data.csv'
-    #output_dir_with_hash = 'data/cleaned'
+    cleaned_profile_output_csv= 'data/cleaned/cleaned_profile_data.csv'
 
     # Read the profiles CSV file
     df = pd.read_csv(input_csv)
@@ -67,6 +66,12 @@ def extract_from_raw_data():
     os.makedirs(os.path.dirname(certifications_output_csv), exist_ok=True)
     certifications_df.to_csv(certifications_output_csv, index=False)
 
+    data_processing_functions.extract_profile_data(df, cleaned_profile_output_csv)
+
     print(f"Experience data has been successfully written to {experience_output_csv}")
     print(f"Education data has been successfully written to {education_output_csv}")
     print(f"Certifications data has been successfully written to {certifications_output_csv}")
+    print(f"cleaned profile data has been successfully written to {cleaned_profile_output_csv}")
+
+if __name__ == "__main__":
+    extract_from_raw_data()

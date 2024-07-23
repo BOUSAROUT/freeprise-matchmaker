@@ -74,3 +74,26 @@ def extract_certifications_data(parsed_data, profile_id):
         }
         extracted_data.append(filtered_item)
     return extracted_data
+
+# Function to extract the column needed from profiles
+def extract_profile_data(profile_df, destination_folder):
+    if profile_df.empty:
+        return profile_df
+
+    required_columns = ["id", "name", "current_company:company_id", "position", "about", "url",
+                        "recommandations", "recommandation_url", "city", "country_code", "region"]
+
+    # Ensure only existing columns are selected
+    existing_columns = [col for col in required_columns if col in profile_df.columns]
+
+    if not existing_columns:
+        raise ValueError("None of the required columns are present in the DataFrame")
+
+    profile_df = profile_df[existing_columns]
+
+    try:
+        profile_df.to_csv(destination_folder, index=False)
+    except Exception as e:
+        print(f"Error saving the file: {e}")
+        raise
+    return profile_df
