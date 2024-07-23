@@ -292,7 +292,8 @@ if __name__ == '__main__':
     raw_files = get_data_files()
 
     for file in raw_files:
-        upload_to_lake('raw', file)
+        # Need to fix bug [Errno 2] No such file or directory: 'fln_users_all.parquet' -
+        upload_to_lake(file)
 
     # # upload files to silver dir in bucket
     # silver_files = get_data_files(data_dir='silver')

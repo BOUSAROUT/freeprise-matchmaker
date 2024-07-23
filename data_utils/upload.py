@@ -24,7 +24,7 @@ def get_data_files(data_dir: str = 'raw') -> List[str]:
         return None
 
 
-def upload_to_lake(bucket_dir: str, file_name: str) -> None:
+def upload_to_lake(file_name: str, bucket_dir: str = 'raw') -> None:
     """
     Uploads a file to a GCP bucket, organizing it in a data lake's raw zone with a date-based structure.
 
@@ -39,6 +39,7 @@ def upload_to_lake(bucket_dir: str, file_name: str) -> None:
     year = date_today.strftime("%Y")
     month = date_today.strftime("%m")
     day = date_today.strftime("%d")
+    ifile_path = f"data/{bucket_dir}/{file_name}"
 
     blob_path = f"{bucket_dir}/freelancer/{year}/{month}/{day}/{file_name}"
 
@@ -48,5 +49,6 @@ def upload_to_lake(bucket_dir: str, file_name: str) -> None:
     bucket = storage_client.bucket(bucket_name)
 
     blob = bucket.blob(blob_path)
-    blob.upload_from_filename(file_name)
+    # This need to take the full path
+    blob.upload_from_filename(ifile_path)
     print(f"File {file_name} uploaded to {blob_path}.")
