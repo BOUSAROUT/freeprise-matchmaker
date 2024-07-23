@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["BOUSAROUT <mohamed.bousarout@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "data_utils" }
+]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.13"
@@ -18,6 +21,8 @@ docutils = "0.17"
 freelancersdk = "^0.1.20"
 pandera = "^0.20.3"
 pyarrow = "^17.0.0"
+utils = "^1.0.2"
+google-cloud-storage = "^2.18.0"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
