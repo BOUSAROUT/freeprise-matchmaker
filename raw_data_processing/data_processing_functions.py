@@ -1,5 +1,8 @@
 import json
 import re
+import subprocess
+import sys
+import os
 
 # Generalized function to clean and parse the JSON string
 def clean_and_parse_json(json_str):
@@ -97,3 +100,20 @@ def extract_profile_data(profile_df, destination_folder):
         print(f"Error saving the file: {e}")
         raise
     return profile_df
+
+def upload_to_bucket(local_path, bucket_path):
+    try:
+        # Run the gsutil command to copy files
+        result = subprocess.run(['gsutil', 'cp', local_path, bucket_path], check=True, capture_output=True, text=True)
+        print(result.stdout)
+    except subprocess.CalledProcessError as e:
+        print(f"An error occurred: {e.stderr}", file=sys.stderr)
+
+def upload_all_files_in_directory(local_directory, bucket_path):
+    try:
+        for root, dirs, files in os.walk(local_directory):
+            for file in files:
+                local_path = os.path.join(root, file)
+                upload_to_bucket(local_path, bucket_path)
+    except Exception as e:
+        print(f"An error occurred while uploading files: {e}", file=sys.stderr)
