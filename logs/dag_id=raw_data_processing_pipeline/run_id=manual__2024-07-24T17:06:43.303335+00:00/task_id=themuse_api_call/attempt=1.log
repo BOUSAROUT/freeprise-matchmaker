@@ -1,0 +1,32 @@
+[2024-07-24T17:06:48.496+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-24T17:06:48.555+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_data_processing_pipeline.themuse_api_call manual__2024-07-24T17:06:43.303335+00:00 [queued]>
+[2024-07-24T17:06:48.574+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_data_processing_pipeline.themuse_api_call manual__2024-07-24T17:06:43.303335+00:00 [queued]>
+[2024-07-24T17:06:48.575+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-24T17:06:48.622+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): themuse_api_call> on 2024-07-24 17:06:43.303335+00:00
+[2024-07-24T17:06:48.631+0000] {standard_task_runner.py:64} INFO - Started process 3152 to run task
+[2024-07-24T17:06:48.644+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'raw_data_processing_pipeline', 'themuse_api_call', 'manual__2024-07-24T17:06:43.303335+00:00', '--job-id', '132', '--raw', '--subdir', 'DAGS_FOLDER/raw_data_processing_pipeline.py', '--cfg-path', '/tmp/tmpjvg57msv']
+[2024-07-24T17:06:48.648+0000] {standard_task_runner.py:91} INFO - Job 132: Subtask themuse_api_call
+[2024-07-24T17:06:48.782+0000] {task_command.py:426} INFO - Running <TaskInstance: raw_data_processing_pipeline.themuse_api_call manual__2024-07-24T17:06:43.303335+00:00 [running]> on host e7d30dc62874
+[2024-07-24T17:06:48.943+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='raw_data_processing_pipeline' AIRFLOW_CTX_TASK_ID='themuse_api_call' AIRFLOW_CTX_EXECUTION_DATE='2024-07-24T17:06:43.303335+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-24T17:06:43.303335+00:00'
+[2024-07-24T17:06:48.945+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-24T17:06:54.077+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_1.csv': 200 jobs
+[2024-07-24T17:07:00.436+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_2.csv': 200 jobs
+[2024-07-24T17:07:07.011+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_3.csv': 200 jobs
+[2024-07-24T17:07:12.553+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_4.csv': 200 jobs
+[2024-07-24T17:07:17.696+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_5.csv': 200 jobs
+[2024-07-24T17:07:23.519+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_6.csv': 200 jobs
+[2024-07-24T17:07:28.253+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_7.csv': 200 jobs
+[2024-07-24T17:07:32.884+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_8.csv': 200 jobs
+[2024-07-24T17:07:37.191+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_9.csv': 200 jobs
+[2024-07-24T17:07:42.210+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_10.csv': 200 jobs
+[2024-07-24T17:07:42.406+0000] {logging_mixin.py:188} INFO - Error 400: Value `page` is too high
+[2024-07-24T17:07:45.960+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_companies_part_1.csv': 200 companies
+[2024-07-24T17:07:49.644+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_companies_part_2.csv': 200 companies
+[2024-07-24T17:07:53.593+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_companies_part_3.csv': 200 companies
+[2024-07-24T17:07:55.297+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_companies_part_4.csv': 94 companies
+[2024-07-24T17:07:55.298+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-24T17:07:55.299+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-24T17:07:55.318+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=raw_data_processing_pipeline, task_id=themuse_api_call, run_id=manual__2024-07-24T17:06:43.303335+00:00, execution_date=20240724T170643, start_date=20240724T170648, end_date=20240724T170755
+[2024-07-24T17:07:55.356+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-07-24T17:07:55.403+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-24T17:07:55.405+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -92,7 +92,7 @@ def themuse_api_call():
                 if page % 10 == 0 or page >= jobs_data['page_count']:
                     file_index += 1
                     df_jobs = pd.DataFrame(all_jobs)
-                    jobs_csv_path = os.path.join('data/source', f'themuse_jobs_part_{file_index}.csv')
+                    jobs_csv_path = os.path.join('data/raw', f'themuse_jobs_part_{file_index}.csv')
                     os.makedirs(os.path.dirname(jobs_csv_path), exist_ok=True)
                     df_jobs.to_csv(jobs_csv_path, index=False)
                     print(f"Saved to '{jobs_csv_path}': {len(all_jobs)} jobs")
@@ -130,7 +130,7 @@ def themuse_api_call():
                 if page % 10 == 0 or page >= companies_data['page_count']:
                     file_index += 1
                     df_companies = pd.DataFrame(all_companies)
-                    companies_csv_path = os.path.join('data/source', f'themuse_companies_part_{file_index}.csv')
+                    companies_csv_path = os.path.join('data/raw', f'themuse_companies_part_{file_index}.csv')
                     os.makedirs(os.path.dirname(companies_csv_path), exist_ok=True)
                     df_companies.to_csv(companies_csv_path, index=False)
                     print(f"Saved to '{companies_csv_path}': {len(all_companies)} companies")
@@ -157,3 +157,6 @@ def themuse_api_call():
 
     # Fetch all companies
     fetch_all_companies()
+
+if __name__=="__main__":
+    themuse_api_call()
