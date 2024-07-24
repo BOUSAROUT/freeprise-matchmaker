@@ -1,0 +1,21 @@
+# Ignore environment variable files
+.env
+.envrc
+
+# Ignore data files
+/data
+/linkedin_api
+/archive
+/database
+
+
+# Ignore Poetry lock file
+poetry.lock
+pyproject.toml
+
+# Ignore virtual environment directory
+.venv
+
+# Ignore other unwanted files
+*.pyc
+__pycache__/
