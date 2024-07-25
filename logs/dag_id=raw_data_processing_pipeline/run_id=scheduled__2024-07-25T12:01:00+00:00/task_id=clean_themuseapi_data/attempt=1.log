@@ -1,0 +1,19 @@
+[2024-07-25T13:02:05.421+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-25T13:02:05.469+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_data_processing_pipeline.clean_themuseapi_data scheduled__2024-07-25T12:01:00+00:00 [queued]>
+[2024-07-25T13:02:05.484+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_data_processing_pipeline.clean_themuseapi_data scheduled__2024-07-25T12:01:00+00:00 [queued]>
+[2024-07-25T13:02:05.484+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-25T13:02:05.506+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): clean_themuseapi_data> on 2024-07-25 12:01:00+00:00
+[2024-07-25T13:02:05.514+0000] {standard_task_runner.py:64} INFO - Started process 2977 to run task
+[2024-07-25T13:02:05.519+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'raw_data_processing_pipeline', 'clean_themuseapi_data', 'scheduled__2024-07-25T12:01:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/raw_data_processing_pipeline.py', '--cfg-path', '/tmp/tmp_gfm54_o']
+[2024-07-25T13:02:05.522+0000] {standard_task_runner.py:91} INFO - Job 51: Subtask clean_themuseapi_data
+[2024-07-25T13:02:05.620+0000] {task_command.py:426} INFO - Running <TaskInstance: raw_data_processing_pipeline.clean_themuseapi_data scheduled__2024-07-25T12:01:00+00:00 [running]> on host 5e8b32b69c95
+[2024-07-25T13:02:05.788+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='raw_data_processing_pipeline' AIRFLOW_CTX_TASK_ID='clean_themuseapi_data' AIRFLOW_CTX_EXECUTION_DATE='2024-07-25T12:01:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-25T12:01:00+00:00'
+[2024-07-25T13:02:05.790+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-25T13:02:07.349+0000] {logging_mixin.py:188} INFO - Combined cleaned jobs data saved to 'data/cleaned/themuse_jobs.csv'
+[2024-07-25T13:02:07.375+0000] {logging_mixin.py:188} INFO - Combined cleaned companies data saved to 'data/cleaned/themuse_companies.csv'
+[2024-07-25T13:02:07.377+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-25T13:02:07.378+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-25T13:02:07.397+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=raw_data_processing_pipeline, task_id=clean_themuseapi_data, run_id=scheduled__2024-07-25T12:01:00+00:00, execution_date=20240725T120100, start_date=20240725T130205, end_date=20240725T130207
+[2024-07-25T13:02:07.459+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-07-25T13:02:07.499+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-25T13:02:07.502+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
