@@ -46,7 +46,7 @@ def clean_themuseapi_data():
 
         return company_df
 
-    source_dir = 'data/source'
+    source_dir = 'data/raw'
     cleaned_dir = 'data/cleaned'
 
     os.makedirs(cleaned_dir, exist_ok=True)

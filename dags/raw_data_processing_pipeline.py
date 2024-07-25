@@ -33,6 +33,7 @@ with DAG(
     clean_themuseapi_data_task = PythonOperator(
         task_id="clean_themuseapi_data",
         python_callable=clean_themuseapi_data,
+        trigger_rule="all_done",  # Ensure this task runs regardless of the previous task's success
     )
 
     load_to_bucket_task = PythonOperator(
