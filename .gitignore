@@ -7,6 +7,7 @@
 /linkedin_api
 /archive
 /database
+/airbyte
 
 
 # Ignore Poetry lock file
