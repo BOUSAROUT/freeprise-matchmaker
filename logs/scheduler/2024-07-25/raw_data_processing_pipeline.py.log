@@ -4065,3 +4065,52 @@
 [2024-07-25T12:55:47.919+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:55:47.918+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2024-07-25T12:55:47.955+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:55:47.955+0000] {dag.py:3947} INFO - Setting next_dagrun for raw_data_processing_pipeline to 2024-07-25 12:01:00+00:00, run_after=2024-07-25 13:01:00+00:00
 [2024-07-25T12:55:48.140+0000] {processor.py:183} INFO - Processing /app/airflow/dags/raw_data_processing_pipeline.py took 0.758 seconds
+[2024-07-25T12:56:18.317+0000] {processor.py:161} INFO - Started process (PID=2867) to work on /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:56:18.319+0000] {processor.py:830} INFO - Processing file /app/airflow/dags/raw_data_processing_pipeline.py for tasks to queue
+[2024-07-25T12:56:18.322+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:56:18.321+0000] {dagbag.py:545} INFO - Filling up the DagBag from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:56:18.794+0000] {processor.py:840} INFO - DAG(s) 'raw_data_processing_pipeline' retrieved from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:56:18.845+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:56:18.844+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T12:56:19.034+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:56:19.033+0000] {dag.py:3947} INFO - Setting next_dagrun for raw_data_processing_pipeline to 2024-07-25 12:01:00+00:00, run_after=2024-07-25 13:01:00+00:00
+[2024-07-25T12:56:19.058+0000] {processor.py:183} INFO - Processing /app/airflow/dags/raw_data_processing_pipeline.py took 0.754 seconds
+[2024-07-25T12:56:49.122+0000] {processor.py:161} INFO - Started process (PID=2875) to work on /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:56:49.125+0000] {processor.py:830} INFO - Processing file /app/airflow/dags/raw_data_processing_pipeline.py for tasks to queue
+[2024-07-25T12:56:49.127+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:56:49.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:56:49.578+0000] {processor.py:840} INFO - DAG(s) 'raw_data_processing_pipeline' retrieved from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:56:49.626+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:56:49.626+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T12:56:49.815+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:56:49.814+0000] {dag.py:3947} INFO - Setting next_dagrun for raw_data_processing_pipeline to 2024-07-25 12:01:00+00:00, run_after=2024-07-25 13:01:00+00:00
+[2024-07-25T12:56:49.840+0000] {processor.py:183} INFO - Processing /app/airflow/dags/raw_data_processing_pipeline.py took 0.731 seconds
+[2024-07-25T12:57:20.037+0000] {processor.py:161} INFO - Started process (PID=2883) to work on /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:57:20.039+0000] {processor.py:830} INFO - Processing file /app/airflow/dags/raw_data_processing_pipeline.py for tasks to queue
+[2024-07-25T12:57:20.044+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:57:20.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:57:20.493+0000] {processor.py:840} INFO - DAG(s) 'raw_data_processing_pipeline' retrieved from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:57:20.699+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:57:20.699+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T12:57:20.731+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:57:20.731+0000] {dag.py:3947} INFO - Setting next_dagrun for raw_data_processing_pipeline to 2024-07-25 12:01:00+00:00, run_after=2024-07-25 13:01:00+00:00
+[2024-07-25T12:57:20.755+0000] {processor.py:183} INFO - Processing /app/airflow/dags/raw_data_processing_pipeline.py took 0.732 seconds
+[2024-07-25T12:57:50.936+0000] {processor.py:161} INFO - Started process (PID=2891) to work on /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:57:50.937+0000] {processor.py:830} INFO - Processing file /app/airflow/dags/raw_data_processing_pipeline.py for tasks to queue
+[2024-07-25T12:57:50.941+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:57:50.941+0000] {dagbag.py:545} INFO - Filling up the DagBag from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:57:51.400+0000] {processor.py:840} INFO - DAG(s) 'raw_data_processing_pipeline' retrieved from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:57:51.449+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:57:51.448+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T12:57:51.485+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:57:51.485+0000] {dag.py:3947} INFO - Setting next_dagrun for raw_data_processing_pipeline to 2024-07-25 12:01:00+00:00, run_after=2024-07-25 13:01:00+00:00
+[2024-07-25T12:57:51.513+0000] {processor.py:183} INFO - Processing /app/airflow/dags/raw_data_processing_pipeline.py took 0.590 seconds
+[2024-07-25T12:58:21.676+0000] {processor.py:161} INFO - Started process (PID=2899) to work on /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:58:21.679+0000] {processor.py:830} INFO - Processing file /app/airflow/dags/raw_data_processing_pipeline.py for tasks to queue
+[2024-07-25T12:58:21.681+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:58:21.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:58:22.124+0000] {processor.py:840} INFO - DAG(s) 'raw_data_processing_pipeline' retrieved from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:58:22.171+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:58:22.171+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T12:58:22.209+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:58:22.209+0000] {dag.py:3947} INFO - Setting next_dagrun for raw_data_processing_pipeline to 2024-07-25 12:01:00+00:00, run_after=2024-07-25 13:01:00+00:00
+[2024-07-25T12:58:22.243+0000] {processor.py:183} INFO - Processing /app/airflow/dags/raw_data_processing_pipeline.py took 0.580 seconds
+[2024-07-25T12:58:52.438+0000] {processor.py:161} INFO - Started process (PID=2907) to work on /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:58:52.440+0000] {processor.py:830} INFO - Processing file /app/airflow/dags/raw_data_processing_pipeline.py for tasks to queue
+[2024-07-25T12:58:52.442+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:58:52.442+0000] {dagbag.py:545} INFO - Filling up the DagBag from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:58:52.885+0000] {processor.py:840} INFO - DAG(s) 'raw_data_processing_pipeline' retrieved from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:58:52.933+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:58:52.933+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T12:58:53.125+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:58:53.124+0000] {dag.py:3947} INFO - Setting next_dagrun for raw_data_processing_pipeline to 2024-07-25 12:01:00+00:00, run_after=2024-07-25 13:01:00+00:00
+[2024-07-25T12:58:53.151+0000] {processor.py:183} INFO - Processing /app/airflow/dags/raw_data_processing_pipeline.py took 0.726 seconds
+[2024-07-25T12:59:23.333+0000] {processor.py:161} INFO - Started process (PID=2915) to work on /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:59:23.335+0000] {processor.py:830} INFO - Processing file /app/airflow/dags/raw_data_processing_pipeline.py for tasks to queue
+[2024-07-25T12:59:23.338+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:59:23.338+0000] {dagbag.py:545} INFO - Filling up the DagBag from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:59:23.791+0000] {processor.py:840} INFO - DAG(s) 'raw_data_processing_pipeline' retrieved from /app/airflow/dags/raw_data_processing_pipeline.py
+[2024-07-25T12:59:23.840+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:59:23.839+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T12:59:24.030+0000] {logging_mixin.py:188} INFO - [2024-07-25T12:59:24.029+0000] {dag.py:3947} INFO - Setting next_dagrun for raw_data_processing_pipeline to 2024-07-25 12:01:00+00:00, run_after=2024-07-25 13:01:00+00:00
+[2024-07-25T12:59:24.055+0000] {processor.py:183} INFO - Processing /app/airflow/dags/raw_data_processing_pipeline.py took 0.735 seconds
