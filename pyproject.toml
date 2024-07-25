@@ -23,6 +23,7 @@ pandera = "^0.20.3"
 pyarrow = "^17.0.0"
 utils = "^1.0.2"
 google-cloud-storage = "^2.18.0"
+pytest = "^8.3.2"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
