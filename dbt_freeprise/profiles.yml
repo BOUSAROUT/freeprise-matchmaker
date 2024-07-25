@@ -1,0 +1,25 @@
+dbt_freeprise:
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: freeprise-matchmaker
+      dataset: Bronze
+      keyfile: /home/mohamed.bousarout/.gcp_keys/freeprise-matchmaker-ea346a017ced.json
+      timeout_seconds: 300
+      location: EU
+      priority: interactive
+      retries: 1
+
+    prod:
+      type: bigquery
+      method: service-account
+      project: freeprise
+      dataset: bigquery-prod-dataset
+      keyfile: /home/service_admin/.gcp_keys/freeprise-7df722cb2f31.json
+      timeout_seconds: 300
+      location: EU
+      priority: interactive
+      retries: 1
+
+  target: dev
