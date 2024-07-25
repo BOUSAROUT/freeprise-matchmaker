@@ -1,0 +1,61 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: db
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ./database:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    networks:
+      - freeprise-network
+
+  scheduler:
+    build: .
+    command: ["scheduler"]
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:${POSTGRES_PASSWORD}@postgres:5432/db
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      PYTHONPATH: "/app/airflow:/app/airflow/raw_data_processing:/app/airflow/dags"
+    volumes:
+      - ./dags:/app/airflow/dags
+      - ./logs:/app/airflow/logs
+      - ./raw_data_processing:/app/airflow/raw_data_processing
+      - ./api_calls:/app/airflow/api_calls
+      - ./data:/app/airflow/data
+    networks:
+      - freeprise-network
+    entrypoint: ["./scripts/entrypoint.sh"]
+
+  webserver:
+    build: .
+    command: ["webserver"]
+    depends_on:
+      - postgres
+      - scheduler
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:${POSTGRES_PASSWORD}@postgres:5432/db
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      PYTHONPATH: "/app/airflow:/app/airflow/raw_data_processing:/app/airflow/dags"
+    volumes:
+      - ./dags:/app/airflow/dags
+      - ./logs:/app/airflow/logs
+      - ./raw_data_processing:/app/airflow/raw_data_processing
+      - ./api_calls:/app/airflow/api_calls
+      - ./data:/app/airflow/data
+    ports:
+      - "8080:8080"
+    networks:
+      - freeprise-network
+    entrypoint: ["./scripts/entrypoint.sh"]
+
+networks:
+  freeprise-network:
+    name: freeprise-network
