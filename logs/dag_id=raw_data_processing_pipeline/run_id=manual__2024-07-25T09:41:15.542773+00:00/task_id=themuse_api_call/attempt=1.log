@@ -1,0 +1,52 @@
+[2024-07-25T09:41:18.967+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-25T09:41:19.007+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_data_processing_pipeline.themuse_api_call manual__2024-07-25T09:41:15.542773+00:00 [queued]>
+[2024-07-25T09:41:19.020+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_data_processing_pipeline.themuse_api_call manual__2024-07-25T09:41:15.542773+00:00 [queued]>
+[2024-07-25T09:41:19.020+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-25T09:41:19.042+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): themuse_api_call> on 2024-07-25 09:41:15.542773+00:00
+[2024-07-25T09:41:19.048+0000] {standard_task_runner.py:64} INFO - Started process 212 to run task
+[2024-07-25T09:41:19.054+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'raw_data_processing_pipeline', 'themuse_api_call', 'manual__2024-07-25T09:41:15.542773+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/raw_data_processing_pipeline.py', '--cfg-path', '/tmp/tmp7ehihnvb']
+[2024-07-25T09:41:19.057+0000] {standard_task_runner.py:91} INFO - Job 28: Subtask themuse_api_call
+[2024-07-25T09:41:19.148+0000] {task_command.py:426} INFO - Running <TaskInstance: raw_data_processing_pipeline.themuse_api_call manual__2024-07-25T09:41:15.542773+00:00 [running]> on host 5e8b32b69c95
+[2024-07-25T09:41:19.309+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='raw_data_processing_pipeline' AIRFLOW_CTX_TASK_ID='themuse_api_call' AIRFLOW_CTX_EXECUTION_DATE='2024-07-25T09:41:15.542773+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-25T09:41:15.542773+00:00'
+[2024-07-25T09:41:19.310+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-25T09:41:26.654+0000] {logging_mixin.py:188} INFO - Saved to 'data/raw/themuse_jobs_part_1.csv': 200 jobs
+[2024-07-25T09:43:11.274+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-25T09:43:11.275+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/app/airflow/api_calls/themuse_api_call.py", line 156, in themuse_api_call
+    fetch_all_jobs()
+  File "/app/airflow/api_calls/themuse_api_call.py", line 86, in fetch_all_jobs
+    jobs_data, headers = fetch_jobs(page=page, descending=descending, company=company, category=category, level=level, location=location)
+  File "/app/airflow/api_calls/themuse_api_call.py", line 43, in fetch_jobs
+    error_data = response.json()
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2024-07-25T09:43:11.309+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=raw_data_processing_pipeline, task_id=themuse_api_call, run_id=manual__2024-07-25T09:41:15.542773+00:00, execution_date=20240725T094115, start_date=20240725T094119, end_date=20240725T094311
+[2024-07-25T09:43:11.337+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 28 for task themuse_api_call (Expecting value: line 1 column 1 (char 0); 212)
+[2024-07-25T09:43:11.349+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-07-25T09:43:11.389+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-25T09:43:11.395+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

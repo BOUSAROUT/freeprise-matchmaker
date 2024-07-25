@@ -1,0 +1,32 @@
+[2024-07-25T09:21:22.613+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-25T09:21:22.655+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_data_processing_pipeline.clean_themuseapi_data manual__2024-07-25T09:20:16.019779+00:00 [queued]>
+[2024-07-25T09:21:22.667+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_data_processing_pipeline.clean_themuseapi_data manual__2024-07-25T09:20:16.019779+00:00 [queued]>
+[2024-07-25T09:21:22.668+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-25T09:21:22.688+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): clean_themuseapi_data> on 2024-07-25 09:20:16.019779+00:00
+[2024-07-25T09:21:22.695+0000] {standard_task_runner.py:64} INFO - Started process 425 to run task
+[2024-07-25T09:21:22.702+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'raw_data_processing_pipeline', 'clean_themuseapi_data', 'manual__2024-07-25T09:20:16.019779+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/raw_data_processing_pipeline.py', '--cfg-path', '/tmp/tmpcnkj091k']
+[2024-07-25T09:21:22.704+0000] {standard_task_runner.py:91} INFO - Job 13: Subtask clean_themuseapi_data
+[2024-07-25T09:21:22.799+0000] {task_command.py:426} INFO - Running <TaskInstance: raw_data_processing_pipeline.clean_themuseapi_data manual__2024-07-25T09:20:16.019779+00:00 [running]> on host a2e39b95bff0
+[2024-07-25T09:21:22.950+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='raw_data_processing_pipeline' AIRFLOW_CTX_TASK_ID='clean_themuseapi_data' AIRFLOW_CTX_EXECUTION_DATE='2024-07-25T09:20:16.019779+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-25T09:20:16.019779+00:00'
+[2024-07-25T09:21:22.952+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-25T09:21:22.970+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-25T09:21:22.971+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/root/.cache/pypoetry/virtualenvs/freeprise-matchmaker-BsnH11MF-py3.8/lib/python3.8/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/app/airflow/api_calls/clean_themuseapi_data.py", line 57, in clean_themuseapi_data
+    for filename in os.listdir(source_dir):
+FileNotFoundError: [Errno 2] No such file or directory: 'data/source'
+[2024-07-25T09:21:22.989+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=raw_data_processing_pipeline, task_id=clean_themuseapi_data, run_id=manual__2024-07-25T09:20:16.019779+00:00, execution_date=20240725T092016, start_date=20240725T092122, end_date=20240725T092122
+[2024-07-25T09:21:23.009+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 13 for task clean_themuseapi_data ([Errno 2] No such file or directory: 'data/source'; 425)
+[2024-07-25T09:21:23.034+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-07-25T09:21:23.078+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-25T09:21:23.085+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
