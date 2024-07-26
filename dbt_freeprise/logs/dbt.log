@@ -1,0 +1,162 @@
+[0m12:54:18.856765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cd6d76550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cd52e9970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cd65990d0>]}
+
+
+============================== 12:54:18.861421 | 02bef0cf-f2ae-4556-b2f1-3b1a7bb3f7ba ==============================
+[0m12:54:18.861421 [info ] [MainThread]: Running with dbt=1.8.4
+[0m12:54:18.862701 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/service_admin/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/home/service_admin/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:54:18.885732 [info ] [MainThread]: dbt version: 1.8.4
+[0m12:54:18.886732 [info ] [MainThread]: python version: 3.8.14
+[0m12:54:18.887614 [info ] [MainThread]: python path: /home/service_admin/code/BOUSAROUT/freeprise-matchmaker/.venv/bin/python
+[0m12:54:18.888405 [info ] [MainThread]: os info: Linux-5.15.0-1062-gcp-x86_64-with-glibc2.2.5
+[0m12:54:19.946471 [info ] [MainThread]: Using profiles dir at /home/service_admin/.dbt
+[0m12:54:19.947668 [info ] [MainThread]: Using profiles.yml file at /home/service_admin/.dbt/profiles.yml
+[0m12:54:19.948722 [info ] [MainThread]: Using dbt_project.yml file at /home/service_admin/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/dbt_project.yml
+[0m12:54:19.949643 [info ] [MainThread]: adapter type: bigquery
+[0m12:54:19.950466 [info ] [MainThread]: adapter version: 1.8.2
+[0m12:54:20.112782 [info ] [MainThread]: Configuration:
+[0m12:54:20.113971 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:54:20.114902 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:54:20.115764 [info ] [MainThread]: Required dependencies:
+[0m12:54:20.116819 [debug] [MainThread]: Executing "git --help"
+[0m12:54:20.129614 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:54:20.131654 [debug] [MainThread]: STDERR: "b''"
+[0m12:54:20.132630 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:54:20.133623 [info ] [MainThread]: Connection:
+[0m12:54:20.134714 [info ] [MainThread]:   method: oauth
+[0m12:54:20.135574 [info ] [MainThread]:   database: freeprise
+[0m12:54:20.136459 [info ] [MainThread]:   execution_project: freeprise
+[0m12:54:20.137391 [info ] [MainThread]:   schema: Gold
+[0m12:54:20.138377 [info ] [MainThread]:   location: EU
+[0m12:54:20.139644 [info ] [MainThread]:   priority: interactive
+[0m12:54:20.140956 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:54:20.141868 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:54:20.142722 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:54:20.143564 [info ] [MainThread]:   job_retries: 1
+[0m12:54:20.144533 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:54:20.145448 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:54:20.146599 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:54:20.147460 [info ] [MainThread]:   client_id: None
+[0m12:54:20.148303 [info ] [MainThread]:   token_uri: None
+[0m12:54:20.149230 [info ] [MainThread]:   dataproc_region: None
+[0m12:54:20.150203 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:54:20.151426 [info ] [MainThread]:   gcs_bucket: None
+[0m12:54:20.152334 [info ] [MainThread]:   dataproc_batch: None
+[0m12:54:20.153956 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m12:54:20.166283 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:54:20.168755 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:54:20.206959 [debug] [MainThread]: On debug: select 1 as id
+[0m12:54:20.400669 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise&j=bq:EU:a52e52be-fbd1-4cf1-851f-9b5246c01322&page=queryresults
+[0m12:54:20.401988 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise&j=bq:EU:a52e52be-fbd1-4cf1-851f-9b5246c01322&page=queryresults
+[0m12:54:20.403322 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:54:20.404223 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:54:20.405089 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Access Denied: BigQuery BigQuery: Missing required OAuth scope. Need BigQuery or Cloud Platform read scope.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:54:20.406857 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.6401403, "process_user_time": 3.378529, "process_kernel_time": 0.40222, "process_mem_max_rss": "190856", "process_in_blocks": "224", "process_out_blocks": "120", "command_success": false}
+[0m12:54:20.408228 [debug] [MainThread]: Command `dbt debug` failed at 12:54:20.408011 after 1.64 seconds
+[0m12:54:20.409116 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:54:20.410102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cd6d76550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cc07d29d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cc07d2d00>]}
+[0m12:54:20.411106 [debug] [MainThread]: Flushing usage events
+[0m12:55:54.297963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc2c595e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc282ffd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc11c5d00>]}
+
+
+============================== 12:55:54.302894 | d7e3617d-badf-4f27-ac82-f58677383196 ==============================
+[0m12:55:54.302894 [info ] [MainThread]: Running with dbt=1.8.4
+[0m12:55:54.304152 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/service_admin/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/home/service_admin/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:55:54.320957 [info ] [MainThread]: dbt version: 1.8.4
+[0m12:55:54.322061 [info ] [MainThread]: python version: 3.8.14
+[0m12:55:54.322910 [info ] [MainThread]: python path: /home/service_admin/code/BOUSAROUT/freeprise-matchmaker/.venv/bin/python
+[0m12:55:54.323710 [info ] [MainThread]: os info: Linux-5.15.0-1062-gcp-x86_64-with-glibc2.2.5
+[0m12:55:55.393222 [info ] [MainThread]: Using profiles dir at /home/service_admin/.dbt
+[0m12:55:55.394207 [info ] [MainThread]: Using profiles.yml file at /home/service_admin/.dbt/profiles.yml
+[0m12:55:55.395068 [info ] [MainThread]: Using dbt_project.yml file at /home/service_admin/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/dbt_project.yml
+[0m12:55:55.395940 [info ] [MainThread]: adapter type: bigquery
+[0m12:55:55.396758 [info ] [MainThread]: adapter version: 1.8.2
+[0m12:55:55.553520 [info ] [MainThread]: Configuration:
+[0m12:55:55.554475 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:55:55.555428 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m12:55:55.556249 [info ] [MainThread]: Required dependencies:
+[0m12:55:55.557129 [debug] [MainThread]: Executing "git --help"
+[0m12:55:55.569706 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:55:55.571290 [debug] [MainThread]: STDERR: "b''"
+[0m12:55:55.572284 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:55:55.573271 [info ] [MainThread]: Connection:
+[0m12:55:55.574256 [info ] [MainThread]:   method: oauth
+[0m12:55:55.574951 [info ] [MainThread]:   database: freeprise
+[0m12:55:55.575719 [info ] [MainThread]:   execution_project: freeprise
+[0m12:55:55.576486 [info ] [MainThread]:   schema: Gold
+[0m12:55:55.577245 [info ] [MainThread]:   location: EU
+[0m12:55:55.578005 [info ] [MainThread]:   priority: interactive
+[0m12:55:55.578781 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:55:55.579747 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:55:55.580646 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:55:55.581500 [info ] [MainThread]:   job_retries: 1
+[0m12:55:55.582337 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:55:55.583273 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:55:55.584212 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:55:55.585154 [info ] [MainThread]:   client_id: None
+[0m12:55:55.586109 [info ] [MainThread]:   token_uri: None
+[0m12:55:55.586883 [info ] [MainThread]:   dataproc_region: None
+[0m12:55:55.587625 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:55:55.588421 [info ] [MainThread]:   gcs_bucket: None
+[0m12:55:55.589205 [info ] [MainThread]:   dataproc_batch: None
+[0m12:55:55.590692 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m12:55:55.601040 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:55:55.604533 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:55:56.283248 [debug] [MainThread]: On debug: select 1 as id
+[0m12:55:59.748088 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise&j=bq:EU:f2cb4b8f-eef9-46f7-80e6-a45f993253f4&page=queryresults
+[0m12:56:00.066926 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:56:00.068165 [info ] [MainThread]: [32mAll checks passed![0m
+[0m12:56:00.070462 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 5.8601933, "process_user_time": 3.353972, "process_kernel_time": 0.412791, "process_mem_max_rss": "190516", "process_out_blocks": "16", "process_in_blocks": "0"}
+[0m12:56:00.071805 [debug] [MainThread]: Command `dbt debug` succeeded at 12:56:00.071593 after 5.86 seconds
+[0m12:56:00.072688 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:56:00.073737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc2c595e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc23aa1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bac7a0eb0>]}
+[0m12:56:00.074874 [debug] [MainThread]: Flushing usage events
+[0m13:03:24.702366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8751a34640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f874ffac250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8750b79ee0>]}
+
+
+============================== 13:03:24.707280 | 3a4ece32-3a95-4e36-b71e-75a39d776345 ==============================
+[0m13:03:24.707280 [info ] [MainThread]: Running with dbt=1.8.4
+[0m13:03:24.708614 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/service_admin/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/service_admin/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m13:03:24.915319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3a4ece32-3a95-4e36-b71e-75a39d776345', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f874ff4d970>]}
+[0m13:03:24.960077 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-ot3i5kv4'
+[0m13:03:24.961400 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m13:03:25.008061 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m13:03:25.009577 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m13:03:25.034303 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m13:03:25.049417 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/calogica/dbt_expectations.json
+[0m13:03:25.072802 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/calogica/dbt_expectations.json 200
+[0m13:03:25.079606 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json
+[0m13:03:25.103149 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json 200
+[0m13:03:25.137033 [info ] [MainThread]: Updating lock file in file path: /home/service_admin/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/package-lock.yml
+[0m13:03:25.142427 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-9gd62_0s'
+[0m13:03:25.158183 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m13:03:25.388847 [info ] [MainThread]: Installed from version 0.8.6
+[0m13:03:25.390162 [info ] [MainThread]: Updated version available: 1.2.0
+[0m13:03:25.391351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '3a4ece32-3a95-4e36-b71e-75a39d776345', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f874ffa87c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f874ffa8c40>]}
+[0m13:03:25.392548 [info ] [MainThread]: Installing calogica/dbt_expectations
+[0m13:03:25.752067 [info ] [MainThread]: Installed from version 0.5.1
+[0m13:03:25.753427 [info ] [MainThread]: Updated version available: 0.10.3
+[0m13:03:25.754639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '3a4ece32-3a95-4e36-b71e-75a39d776345', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8751aec190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f87511f6c10>]}
+[0m13:03:25.755872 [info ] [MainThread]: Installing calogica/dbt_date
+[0m13:03:25.905239 [info ] [MainThread]: Installed from version 0.5.7
+[0m13:03:25.906595 [info ] [MainThread]: Updated version available: 0.10.1
+[0m13:03:25.907471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '3a4ece32-3a95-4e36-b71e-75a39d776345', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8751aec190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8751a5d1c0>]}
+[0m13:03:25.908214 [info ] [MainThread]: 
+[0m13:03:25.909295 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils', 'calogica/dbt_expectations', 'calogica/dbt_date']                 
+Update your versions in packages.yml, then run dbt deps
+[0m13:03:25.912988 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 1.3017015, "process_user_time": 2.515032, "process_kernel_time": 0.236334, "process_mem_max_rss": "94352", "process_in_blocks": "144", "process_out_blocks": "22880"}
+[0m13:03:25.914061 [debug] [MainThread]: Command `dbt deps` succeeded at 13:03:25.913868 after 1.30 seconds
+[0m13:03:25.914856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8751a34640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f874ff2ee50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f874ff4d970>]}
+[0m13:03:25.915587 [debug] [MainThread]: Flushing usage events
