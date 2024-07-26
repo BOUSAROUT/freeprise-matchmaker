@@ -3,23 +3,23 @@ dbt_freeprise:
     dev:
       type: bigquery
       method: service-account
-      project: freeprise-matchmaker
-      dataset: Bronze
+      project: "{{ env_var('PROJECT_ID') }}"
       keyfile: /home/mohamed.bousarout/.gcp_keys/freeprise-matchmaker-ea346a017ced.json
       timeout_seconds: 300
       location: EU
       priority: interactive
       retries: 1
+      schema: "{{ env_var('DEFAULT_SCHEMA', 'Bronze') }}"
 
     prod:
       type: bigquery
       method: service-account
-      project: freeprise
-      dataset: bigquery-prod-dataset
+      project: "{{ env_var('PROJECT_ID') }}"
       keyfile: /home/service_admin/.gcp_keys/freeprise-7df722cb2f31.json
       timeout_seconds: 300
       location: EU
       priority: interactive
       retries: 1
+      schema: "{{ env_var('DEFAULT_SCHEMA', 'bigquery-prod-dataset') }}"
 
   target: dev

@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: Gold
+    database: "{{ env_var('PROJECT_ID') }}"
+    tables:
+      - name: gold_profileHub
+        identifier: gold_profileHub
