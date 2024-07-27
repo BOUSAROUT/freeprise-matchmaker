@@ -1,9 +1,6 @@
 -- models/silver/silver_profile_data.sql
 
-{{ config(
-    materialized='table',
-    schema='Silver'
-) }}
+{{ config(materialized='table') }}
 
 SELECT
   id,
@@ -13,6 +10,7 @@ SELECT
   about,
   region,
   position,
-  country_code
+  country_code,
+  current_company_company_id as company_id
 FROM
-  {{ source('Bronze', 'raw_profiles_data') }}
+  {{ source('Bronze', 'raw_profiles') }}

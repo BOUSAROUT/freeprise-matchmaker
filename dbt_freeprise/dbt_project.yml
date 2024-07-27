@@ -16,8 +16,8 @@ clean-targets:
 models:
   dbt_freeprise:
     bronze:
-      +schema: "Bronze"
+      +schema: "{{ env_var('DEFAULT_SCHEMA', 'Bronze') }}"
     silver:
-      +schema: "Silver"
+      +schema: "{{ env_var('SILVER_SCHEMA', 'Silver') }}"
     gold:
-      +schema: "Gold"
+      +schema: "{{ env_var('GOLD_SCHEMA', 'Gold') }}"
