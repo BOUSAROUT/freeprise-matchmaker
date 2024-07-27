@@ -17,3 +17,5 @@ sources:
         identifier: raw_themuse_companies_data
       - name: raw_themuse_jobs_data
         identifier: raw_themuse_jobs_data
+      - name: raw_profiles
+        identifier: raw_profiles
