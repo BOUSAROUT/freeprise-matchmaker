@@ -9,7 +9,6 @@ SELECT
 FROM
   {{ ref('silver_linkedin_jobs') }}
 
-{{ config(materialized='table') }}
 
 Union all
 
