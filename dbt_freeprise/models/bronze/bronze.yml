@@ -25,3 +25,7 @@ sources:
         identifier: raw_skills_data
       - name: raw_job_summary_data
         identifier: raw_job_summary_data
+      - name: raw_fiverr
+        identifier: raw_fiverr
+      - name: raw_peopleperhour
+        identifier: raw_peopleperhour

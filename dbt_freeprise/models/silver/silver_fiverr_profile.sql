@@ -8,7 +8,7 @@ WITH cleaned_data AS (
         Subcat AS sub_category,
         _Category AS category
     FROM
-        {{ source('your_dataset', 'raw_fiverr') }}
+        {{ source('Bronze', 'raw_fiverr') }}
 ),
 summary AS (
     SELECT

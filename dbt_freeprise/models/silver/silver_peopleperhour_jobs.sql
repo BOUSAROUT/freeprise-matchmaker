@@ -20,7 +20,7 @@ WITH cleaned_peopleperhour AS (
         DATE(Client_Registration_Date) AS client_registration_date,
         Freelancer_Preferred_From
     FROM
-        {{ source('your_dataset', 'raw_peopleperhour') }}
+        {{ source('Bronze', 'raw_peopleperhour') }}
 ),
 
 -- Summarizing the PeoplePerHour projects data
@@ -29,7 +29,7 @@ peopleperhour_summary AS (
         category,
         COUNT(*) AS total_projects,
         AVG(budget) AS avg_budget,
-        AVG(TIMESTAMP_DIFF(TIMESTAMP(NOW()), TIMESTAMP(date_posted), DAY)) AS avg_days_since_posted,
+        AVG(TIMESTAMP_DIFF(CURRENT_TIMESTAMP(), TIMESTAMP(date_posted), DAY)) AS avg_days_since_posted,
         MIN(budget) AS min_budget,
         MAX(budget) AS max_budget,
         COUNT(DISTINCT Client_Country) AS distinct_client_countries,
@@ -46,7 +46,7 @@ sub_category_summary AS (
         sub_category,
         COUNT(*) AS total_projects,
         AVG(budget) AS avg_budget,
-        AVG(TIMESTAMP_DIFF(TIMESTAMP(NOW()), TIMESTAMP(date_posted), DAY)) AS avg_days_since_posted
+        AVG(TIMESTAMP_DIFF(CURRENT_TIMESTAMP(), TIMESTAMP(date_posted), DAY)) AS avg_days_since_posted
     FROM
         cleaned_peopleperhour
     GROUP BY
