@@ -9,6 +9,7 @@
 /database
 
 
+
 # Ignore Poetry lock file
 poetry.lock
 pyproject.toml

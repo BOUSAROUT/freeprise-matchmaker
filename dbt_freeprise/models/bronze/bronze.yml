@@ -1,0 +1,21 @@
+version: 2
+sources:
+  - name: Bronze
+    database: "{{ env_var('PROJECT_ID') }}"
+    tables:
+      - name: raw_profiles_data
+        identifier: raw_profiles_data
+      - name: raw_company
+        identifier: raw_company
+      - name: raw_education_data
+        identifier: raw_education_data
+      - name: raw_experiences_data
+        identifier: raw_experiences_data
+      - name: raw_job_posting
+        identifier: raw_job_posting
+      - name: raw_themuse_companies_data
+        identifier: raw_themuse_companies_data
+      - name: raw_themuse_jobs_data
+        identifier: raw_themuse_jobs_data
+      - name: raw_profiles
+        identifier: raw_profiles

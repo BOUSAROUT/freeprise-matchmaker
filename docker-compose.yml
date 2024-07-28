@@ -21,6 +21,10 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:${POSTGRES_PASSWORD}@postgres:5432/db
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      PROJECT_ID: ${PROJECT_ID}
+      BUCKET: ${BUCKET}
+
       PYTHONPATH: "/app/airflow:/app/airflow/raw_data_processing:/app/airflow/dags"
     volumes:
       - ./dags:/app/airflow/dags
@@ -41,6 +45,10 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:${POSTGRES_PASSWORD}@postgres:5432/db
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      PROJECT_ID: ${PROJECT_ID}
+      BUCKET: ${BUCKET}
+
       PYTHONPATH: "/app/airflow:/app/airflow/raw_data_processing:/app/airflow/dags"
     volumes:
       - ./dags:/app/airflow/dags

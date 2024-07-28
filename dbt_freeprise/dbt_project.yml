@@ -1,0 +1,23 @@
+name: 'dbt_freeprise'
+version: '1.0.0'
+profile: 'dbt_freeprise'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_freeprise:
+    bronze:
+      +schema: "{{ env_var('DEFAULT_SCHEMA', 'Bronze') }}"
+    silver:
+      +schema: "{{ env_var('SILVER_SCHEMA', 'Silver') }}"
+    gold:
+      +schema: "{{ env_var('GOLD_SCHEMA', 'Gold') }}"

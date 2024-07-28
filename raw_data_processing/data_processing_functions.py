@@ -1,13 +1,8 @@
 import json
 import re
-import hashlib
+import subprocess
 import os
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import udf
-from pyspark.sql.types import StringType
-
-# Initialize Spark session
-spark = SparkSession.builder.appName("DataProcessing").getOrCreate()
+import logging
 
 # Generalized function to clean and parse the JSON string
 def clean_and_parse_json(json_str):
@@ -83,27 +78,46 @@ def extract_certifications_data(parsed_data, profile_id):
         extracted_data.append(filtered_item)
     return extracted_data
 
-# Function to add hash ID to each row based on the job_link and save the file using PySpark
-def add_hash_id_and_save(input_file_path, output_dir, output_file_name):
-    # Load the CSV file using PySpark
-    df = spark.read.csv(input_file_path, header=True, inferSchema=True)
+# Function to extract the column needed from profiles
+def extract_profile_data(profile_df, destination_folder):
+    if profile_df.empty:
+        return profile_df
 
-    # Generate a new hash ID for each row based on the job_link
-    def generate_hash_id(job_link):
-        if job_link is None:
-            return None
-        return hashlib.sha256(job_link.encode('utf-8')).hexdigest()
+    required_columns = ["id", "name", "current_company:company_id", "position", "about", "url",
+                        "recommandations", "recommandation_url", "city", "country_code", "region"]
 
-    hash_udf = udf(generate_hash_id, StringType())
+    # Ensure only existing columns are selected
+    existing_columns = [col for col in required_columns if col in profile_df.columns]
 
-    # Add the hash_id column
-    df = df.withColumn("hash_id", hash_udf(df["job_link"]))
+    if not existing_columns:
+        raise ValueError("None of the required columns are present in the DataFrame")
 
-    # Create the output directory if it doesn't exist
-    os.makedirs(output_dir, exist_ok=True)
+    profile_df = profile_df[existing_columns]
 
-    # Save the cleaned data to the specified file path
-    output_file_path = os.path.join(output_dir, output_file_name)
-    df.write.csv(output_file_path, header=True, mode="overwrite")
+    try:
+        profile_df.to_csv(destination_folder, index=False)
+    except Exception as e:
+        print(f"Error saving the file: {e}")
+        raise
+    return profile_df
 
-    print(f"Data with hash IDs saved to {output_file_path}")
+def upload_to_bucket(local_path, bucket_path):
+    try:
+        logging.info(f"Uploading {local_path} to {bucket_path}")
+        # Run the gsutil command to copy files
+        result = subprocess.run(['gsutil', 'cp', local_path, bucket_path], check=True, capture_output=True, text=True)
+        logging.info(result.stdout)
+    except subprocess.CalledProcessError as e:
+        logging.error(f"An error occurred: {e.stderr}")
+        raise
+
+def upload_all_files_in_directory(local_directory, bucket_path):
+    try:
+        for root, dirs, files in os.walk(local_directory):
+            for file in files:
+                local_path = os.path.join(root, file)
+                upload_to_bucket(local_path, bucket_path)
+        logging.info(f"All files from {local_directory} have been successfully uploaded to {bucket_path}")
+    except Exception as e:
+        logging.error(f"An error occurred while uploading files: {e}")
+        raise

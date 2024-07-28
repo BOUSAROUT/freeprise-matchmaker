@@ -46,7 +46,7 @@ def clean_themuseapi_data():
 
         return company_df
 
-    source_dir = 'data/source'
+    source_dir = 'data/raw'
     cleaned_dir = 'data/cleaned'
 
     os.makedirs(cleaned_dir, exist_ok=True)
@@ -68,11 +68,11 @@ def clean_themuseapi_data():
     # Combine all cleaned jobs files into one
     if all_jobs_df:
         combined_jobs_df = pd.concat(all_jobs_df, ignore_index=True)
-        combined_jobs_df.to_csv(os.path.join(cleaned_dir, 'cleaned_all_jobs.csv'), index=False)
-        print(f"Combined cleaned jobs data saved to 'data/cleaned/cleaned_all_jobs.csv'")
+        combined_jobs_df.to_csv(os.path.join(cleaned_dir, 'themuse_jobs.csv'), index=False)
+        print(f"Combined cleaned jobs data saved to 'data/cleaned/themuse_jobs.csv'")
 
     # Combine all cleaned companies files into one
     if all_companies_df:
         combined_companies_df = pd.concat(all_companies_df, ignore_index=True)
-        combined_companies_df.to_csv(os.path.join(cleaned_dir, 'cleaned_all_companies.csv'), index=False)
-        print(f"Combined cleaned companies data saved to 'data/cleaned/cleaned_all_companies.csv'")
+        combined_companies_df.to_csv(os.path.join(cleaned_dir, 'themuse_companies.csv'), index=False)
+        print(f"Combined cleaned companies data saved to 'data/cleaned/themuse_companies.csv'")
