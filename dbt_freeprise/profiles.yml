@@ -22,4 +22,4 @@ dbt_freeprise:
       retries: 1
       schema: "{{ env_var('DEFAULT_SCHEMA', 'bigquery-prod-dataset') }}"
 
-  target: prod
+  target: dev
