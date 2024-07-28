@@ -3,4 +3,4 @@
 SELECT
 job_link,
 job_skills
-from   {{ source('Bronze', 'raw_skills_data') }}
+from   {{ source('Bronze', 'raw_job_skills_data') }}

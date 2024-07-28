@@ -21,8 +21,8 @@ sources:
         identifier: raw_profiles
       - name: raw_certifications_data
         identifier: raw_certifications_data
-      - name: raw_skills_data
-        identifier: raw_skills_data
+      - name: raw_job_skills_data
+        identifier: raw_job_skills_data
       - name: raw_job_summary_data
         identifier: raw_job_summary_data
       - name: raw_fiverr
