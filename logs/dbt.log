@@ -183,3 +183,18 @@ Runtime Error
 [0m06:18:01.962288 [debug] [MainThread]: Command `dbt run` failed at 06:18:01.962076 after 0.11 seconds
 [0m06:18:01.963180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e1cba580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e0272460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f67e03747c0>]}
 [0m06:18:01.963978 [debug] [MainThread]: Flushing usage events
+[0m08:58:46.995283 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3564077640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35631c1940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f356276d9a0>]}
+
+
+============================== 08:58:47.005387 | 79d27a45-bcce-42d7-99dd-4413a84208ef ==============================
+[0m08:58:47.005387 [info ] [MainThread]: Running with dbt=1.8.4
+[0m08:58:47.006820 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --models silver_education_data.sql', 'send_anonymous_usage_stats': 'True'}
+[0m08:58:47.007931 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m08:58:47.014649 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.12249297, "process_user_time": 2.666051, "process_kernel_time": 0.230428, "process_mem_max_rss": "84516", "process_in_blocks": "33248", "process_out_blocks": "8", "command_success": false}
+[0m08:58:47.016144 [debug] [MainThread]: Command `dbt run` failed at 08:58:47.015905 after 0.12 seconds
+[0m08:58:47.016953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3564077640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35631c1940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f35625e3a00>]}
+[0m08:58:47.017796 [debug] [MainThread]: Flushing usage events
