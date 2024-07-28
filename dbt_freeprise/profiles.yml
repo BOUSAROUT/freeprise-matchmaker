@@ -4,7 +4,7 @@ dbt_freeprise:
       type: bigquery
       method: service-account
       project: "{{ env_var('PROJECT_ID') }}"
-      keyfile: /home/liangma422/code/.gcp_keys/lm_key.json
+      keyfile: /home/mohamed.bousarout/.gcp_keys/freeprise-matchmaker-ea346a017ced.json
       timeout_seconds: 300
       location: EU
       priority: interactive
