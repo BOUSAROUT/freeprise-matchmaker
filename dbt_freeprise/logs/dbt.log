@@ -4291,3 +4291,1805 @@ FROM
 [0m09:43:18.707925 [debug] [MainThread]: Command `dbt run` succeeded at 09:43:18.707732 after 7.13 seconds
 [0m09:43:18.709050 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd8a817670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd899539a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd74427a60>]}
 [0m09:43:18.709958 [debug] [MainThread]: Flushing usage events
+[0m08:59:05.467246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6ef003670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6ed73b490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6ed6be820>]}
+
+
+============================== 08:59:05.473667 | ab533c6c-4f18-4e5e-8afc-bc8bda3b5114 ==============================
+[0m08:59:05.473667 [info ] [MainThread]: Running with dbt=1.8.4
+[0m08:59:05.474981 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --models silver_education_data.sql', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:59:08.345783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ab533c6c-4f18-4e5e-8afc-bc8bda3b5114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6d92ff130>]}
+[0m08:59:08.444961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ab533c6c-4f18-4e5e-8afc-bc8bda3b5114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6d8c0fa60>]}
+[0m08:59:08.446232 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m08:59:08.523793 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m08:59:09.183776 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m08:59:09.185065 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/silver/silver_education_data.sql
+[0m08:59:09.645744 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m08:59:09.673889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ab533c6c-4f18-4e5e-8afc-bc8bda3b5114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6d8376f10>]}
+[0m08:59:09.929844 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ab533c6c-4f18-4e5e-8afc-bc8bda3b5114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6d8406730>]}
+[0m08:59:09.931083 [info ] [MainThread]: Found 10 models, 11 sources, 907 macros
+[0m08:59:09.932225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ab533c6c-4f18-4e5e-8afc-bc8bda3b5114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6d837de50>]}
+[0m08:59:09.935214 [info ] [MainThread]: 
+[0m08:59:09.936935 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m08:59:09.939767 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m08:59:09.940870 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m08:59:10.184836 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Gold)
+[0m08:59:10.185991 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m08:59:10.463048 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now list_freeprise-matchmaker_Bronze_Silver)
+[0m08:59:10.465370 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m08:59:10.684226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ab533c6c-4f18-4e5e-8afc-bc8bda3b5114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6d92af3d0>]}
+[0m08:59:10.685530 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m08:59:10.686364 [info ] [MainThread]: 
+[0m08:59:10.690931 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.silver_education_data
+[0m08:59:10.692621 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Silver.silver_education_data ............... [RUN]
+[0m08:59:10.693908 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now model.dbt_freeprise.silver_education_data)
+[0m08:59:10.694730 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.silver_education_data
+[0m08:59:10.713275 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.silver_education_data"
+[0m08:59:10.715263 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.silver_education_data
+[0m08:59:10.788578 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.silver_education_data"
+[0m08:59:10.789869 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m08:59:10.840436 [debug] [Thread-1  ]: On model.dbt_freeprise.silver_education_data: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.silver_education_data"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Silver`.`silver_education_data`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+profile_id,
+title,
+degree,
+start_year,
+end_year,
+field,
+meta,
+url
+from   `freeprise-matchmaker`.`Bronze`.`raw_education_data`
+    );
+  
+[0m08:59:11.425028 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:57f45a9c-98d5-44f2-9bb1-fdff37468e10&page=queryresults
+[0m08:59:14.416342 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ab533c6c-4f18-4e5e-8afc-bc8bda3b5114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6d82ef430>]}
+[0m08:59:14.417893 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Silver.silver_education_data .......... [[32mCREATE TABLE (1.1k rows, 213.7 KiB processed)[0m in 3.72s]
+[0m08:59:14.419444 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.silver_education_data
+[0m08:59:14.422230 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m08:59:14.422990 [debug] [MainThread]: Connection 'model.dbt_freeprise.silver_education_data' was properly closed.
+[0m08:59:14.423790 [info ] [MainThread]: 
+[0m08:59:14.424924 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.49 seconds (4.49s).
+[0m08:59:14.426705 [debug] [MainThread]: Command end result
+[0m08:59:14.523933 [info ] [MainThread]: 
+[0m08:59:14.525228 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m08:59:14.526220 [info ] [MainThread]: 
+[0m08:59:14.527167 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m08:59:14.528852 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 9.157006, "process_user_time": 5.824777, "process_kernel_time": 0.673695, "process_mem_max_rss": "205536", "process_in_blocks": "177496", "process_out_blocks": "5824"}
+[0m08:59:14.530041 [debug] [MainThread]: Command `dbt run` succeeded at 08:59:14.529824 after 9.16 seconds
+[0m08:59:14.531037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6ef003670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6ee1ac3a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb6d92ff130>]}
+[0m08:59:14.532010 [debug] [MainThread]: Flushing usage events
+[0m09:01:01.365564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9b1ab65e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9b0c13310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9b0027490>]}
+
+
+============================== 09:01:01.370408 | cc98a6a4-cd5d-4159-a8b5-a3bc6a860104 ==============================
+[0m09:01:01.370408 [info ] [MainThread]: Running with dbt=1.8.4
+[0m09:01:01.371778 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run --models silver_certifications_data', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:01:02.858701 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cc98a6a4-cd5d-4159-a8b5-a3bc6a860104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9b0027df0>]}
+[0m09:01:02.972309 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cc98a6a4-cd5d-4159-a8b5-a3bc6a860104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc997653df0>]}
+[0m09:01:02.973765 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m09:01:03.094285 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m09:01:03.601487 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m09:01:03.602807 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/silver/silver_certifications_data.sql
+[0m09:01:03.929139 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_freeprise.silver_certifications_data' (models/silver/silver_certifications_data.sql) depends on a source named 'Bronze.raw_certifications_data' which was not found
+[0m09:01:03.931056 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 2.658275, "process_user_time": 5.139001, "process_kernel_time": 0.522637, "process_mem_max_rss": "197108", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m09:01:03.932418 [debug] [MainThread]: Command `dbt run` failed at 09:01:03.932194 after 2.66 seconds
+[0m09:01:03.933442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9b1ab65e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9971a5c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc99717f160>]}
+[0m09:01:03.934422 [debug] [MainThread]: Flushing usage events
+[0m09:12:43.779343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3932928790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3931ac54c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3930fd7460>]}
+
+
+============================== 09:12:43.784003 | fe3fe695-c9a1-4986-b8d3-5ab2dc8ef627 ==============================
+[0m09:12:43.784003 [info ] [MainThread]: Running with dbt=1.8.4
+[0m09:12:43.785202 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run --models silver_certifications_data', 'send_anonymous_usage_stats': 'True'}
+[0m09:12:45.087100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fe3fe695-c9a1-4986-b8d3-5ab2dc8ef627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f391c564ca0>]}
+[0m09:12:45.188601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fe3fe695-c9a1-4986-b8d3-5ab2dc8ef627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f391c4d4880>]}
+[0m09:12:45.190193 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m09:12:45.259250 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m09:12:45.717654 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 1 files changed.
+[0m09:12:45.719037 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/silver/silver_certifications_data.sql
+[0m09:12:45.721096 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/bronze/bronze.yml
+[0m09:12:46.425644 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m09:12:46.452399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fe3fe695-c9a1-4986-b8d3-5ab2dc8ef627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3917cc0760>]}
+[0m09:12:46.733625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fe3fe695-c9a1-4986-b8d3-5ab2dc8ef627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3917cbcbe0>]}
+[0m09:12:46.734880 [info ] [MainThread]: Found 11 models, 12 sources, 907 macros
+[0m09:12:46.736018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fe3fe695-c9a1-4986-b8d3-5ab2dc8ef627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3917d09250>]}
+[0m09:12:46.738834 [info ] [MainThread]: 
+[0m09:12:46.740239 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m09:12:46.742357 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m09:12:46.744389 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:12:46.972102 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m09:12:46.973493 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:12:47.220615 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m09:12:47.223390 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:12:47.442937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fe3fe695-c9a1-4986-b8d3-5ab2dc8ef627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f391cbd2790>]}
+[0m09:12:47.444336 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:12:47.445523 [info ] [MainThread]: 
+[0m09:12:47.449462 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.silver_certifications_data
+[0m09:12:47.450777 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Silver.silver_certifications_data .......... [RUN]
+[0m09:12:47.452159 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.silver_certifications_data)
+[0m09:12:47.453145 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.silver_certifications_data
+[0m09:12:47.472613 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.silver_certifications_data"
+[0m09:12:47.473818 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.silver_certifications_data
+[0m09:12:47.564908 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.silver_certifications_data"
+[0m09:12:47.566711 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m09:12:47.618741 [debug] [Thread-1  ]: On model.dbt_freeprise.silver_certifications_data: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.silver_certifications_data"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Silver`.`silver_certifications_data`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+profile_id,
+title,
+subtitle,
+meta
+from   `freeprise-matchmaker`.`Bronze`.`raw_certifications_data`
+    );
+  
+[0m09:12:48.182369 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:4e5639d4-5ed5-4933-b4e1-497ee43e0ea4&page=queryresults
+[0m09:12:51.294743 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fe3fe695-c9a1-4986-b8d3-5ab2dc8ef627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3917d59be0>]}
+[0m09:12:51.296329 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Silver.silver_certifications_data ..... [[32mCREATE TABLE (619.0 rows, 64.6 KiB processed)[0m in 3.84s]
+[0m09:12:51.297622 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.silver_certifications_data
+[0m09:12:51.300074 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:12:51.300743 [debug] [MainThread]: Connection 'model.dbt_freeprise.silver_certifications_data' was properly closed.
+[0m09:12:51.301481 [info ] [MainThread]: 
+[0m09:12:51.302230 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.56 seconds (4.56s).
+[0m09:12:51.303667 [debug] [MainThread]: Command end result
+[0m09:12:51.397179 [info ] [MainThread]: 
+[0m09:12:51.398218 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:12:51.398938 [info ] [MainThread]: 
+[0m09:12:51.399811 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m09:12:51.401351 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.7128067, "process_user_time": 6.07332, "process_kernel_time": 0.543961, "process_mem_max_rss": "208348", "process_out_blocks": "5848", "process_in_blocks": "0"}
+[0m09:12:51.402453 [debug] [MainThread]: Command `dbt run` succeeded at 09:12:51.402257 after 7.71 seconds
+[0m09:12:51.403313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3932928790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3931ac53d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f391c4d4880>]}
+[0m09:12:51.404328 [debug] [MainThread]: Flushing usage events
+[0m09:26:33.412821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efefe6606a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efefcd3ae20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efefcd188e0>]}
+
+
+============================== 09:26:33.417615 | 6bbc82e8-6d14-48fd-a339-9971fd24a554 ==============================
+[0m09:26:33.417615 [info ] [MainThread]: Running with dbt=1.8.4
+[0m09:26:33.419754 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --models gold_educationHub', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:26:34.716200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6bbc82e8-6d14-48fd-a339-9971fd24a554', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efefe3a5b50>]}
+[0m09:26:34.822826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6bbc82e8-6d14-48fd-a339-9971fd24a554', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efee89ac250>]}
+[0m09:26:34.824173 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m09:26:34.897059 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m09:26:35.363550 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m09:26:35.364774 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/gold/gold_educationHub.sql
+[0m09:26:35.817975 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m09:26:35.847238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6bbc82e8-6d14-48fd-a339-9971fd24a554', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efee39a9c70>]}
+[0m09:26:36.113994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6bbc82e8-6d14-48fd-a339-9971fd24a554', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efee38d5100>]}
+[0m09:26:36.115129 [info ] [MainThread]: Found 12 models, 12 sources, 907 macros
+[0m09:26:36.115965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6bbc82e8-6d14-48fd-a339-9971fd24a554', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efee397d820>]}
+[0m09:26:36.118381 [info ] [MainThread]: 
+[0m09:26:36.119733 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m09:26:36.121949 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m09:26:36.122896 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:26:36.384040 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m09:26:36.385185 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:26:36.596967 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m09:26:36.600388 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:26:36.808939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6bbc82e8-6d14-48fd-a339-9971fd24a554', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efefe660040>]}
+[0m09:26:36.810194 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:26:36.810965 [info ] [MainThread]: 
+[0m09:26:36.814701 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_educationHub
+[0m09:26:36.815964 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_educationHub ..................... [RUN]
+[0m09:26:36.817203 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.gold_educationHub)
+[0m09:26:36.818247 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_educationHub
+[0m09:26:36.836291 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_educationHub"
+[0m09:26:36.837744 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_educationHub
+[0m09:26:36.920085 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_educationHub"
+[0m09:26:36.921855 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m09:26:36.976216 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_educationHub: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_educationHub"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_educationHub`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  MD5(ifnull(CAST(title as string),0) || ifnull(CAST(degree as string),0)) AS education_id,
+  concat(ifnull(CAST(title as string),0),ifnull(CAST(degree as string),0)) AS BusinessKey_id,
+  CURRENT_TIMESTAMP AS LoadDate,
+  'Linkedin_dataset' AS RecordSource
+FROM
+  `freeprise-matchmaker`.`Bronze_Silver`.`silver_education_data`
+    );
+  
+[0m09:26:37.713150 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:5787ff07-1e0f-4be4-a791-9f04606a71ab&page=queryresults
+[0m09:26:37.918221 [debug] [Thread-1  ]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('GET https://bigquery.googleapis.com/bigquery/v2/projects/freeprise-matchmaker/queries/5787ff07-1e0f-4be4-a791-9f04606a71ab?maxResults=0&location=EU&prettyPrint=false: No matching signature for function IFNULL for argument types: STRING, INT64. Supported signature: IFNULL(ANY, ANY) at [16:7]')
+[0m09:26:39.580781 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:37d2442e-cd52-4544-9d3c-3d937e6209ed&page=queryresults
+[0m09:26:39.704797 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:37d2442e-cd52-4544-9d3c-3d937e6209ed&page=queryresults
+[0m09:26:39.733887 [debug] [Thread-1  ]: Database Error in model gold_educationHub (models/gold/gold_educationHub.sql)
+  No matching signature for function IFNULL for argument types: STRING, INT64. Supported signature: IFNULL(ANY, ANY) at [16:7]
+  compiled Code at target/run/dbt_freeprise/models/gold/gold_educationHub.sql
+[0m09:26:39.737317 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6bbc82e8-6d14-48fd-a339-9971fd24a554', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efee18aacd0>]}
+[0m09:26:39.738858 [error] [Thread-1  ]: 1 of 1 ERROR creating sql table model Bronze_Gold.gold_educationHub ............ [[31mERROR[0m in 2.92s]
+[0m09:26:39.740371 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_educationHub
+[0m09:26:39.743204 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:26:39.743983 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_educationHub' was properly closed.
+[0m09:26:39.744750 [info ] [MainThread]: 
+[0m09:26:39.745629 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 3.63 seconds (3.63s).
+[0m09:26:39.747128 [debug] [MainThread]: Command end result
+[0m09:26:39.852025 [info ] [MainThread]: 
+[0m09:26:39.853634 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m09:26:39.854648 [info ] [MainThread]: 
+[0m09:26:39.855722 [error] [MainThread]:   Database Error in model gold_educationHub (models/gold/gold_educationHub.sql)
+  No matching signature for function IFNULL for argument types: STRING, INT64. Supported signature: IFNULL(ANY, ANY) at [16:7]
+  compiled Code at target/run/dbt_freeprise/models/gold/gold_educationHub.sql
+[0m09:26:39.856497 [info ] [MainThread]: 
+[0m09:26:39.857284 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m09:26:39.859111 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 6.5472984, "process_user_time": 5.813796, "process_kernel_time": 0.625725, "process_mem_max_rss": "206308", "process_in_blocks": "752", "process_out_blocks": "5872", "command_success": false}
+[0m09:26:39.860471 [debug] [MainThread]: Command `dbt run` failed at 09:26:39.860233 after 6.55 seconds
+[0m09:26:39.861256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efefe6606a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efefe264c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efee397da30>]}
+[0m09:26:39.862024 [debug] [MainThread]: Flushing usage events
+[0m09:28:57.419816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2e9576a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2d030e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2d00e8e0>]}
+
+
+============================== 09:28:57.424722 | d913b21e-cef8-4706-a768-2c479ab4e796 ==============================
+[0m09:28:57.424722 [info ] [MainThread]: Running with dbt=1.8.4
+[0m09:28:57.426108 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --models gold_educationHub', 'send_anonymous_usage_stats': 'True'}
+[0m09:28:58.715810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd913b21e-cef8-4706-a768-2c479ab4e796', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2e68eb50>]}
+[0m09:28:58.814915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd913b21e-cef8-4706-a768-2c479ab4e796', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb18ca4250>]}
+[0m09:28:58.816410 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m09:28:58.885669 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m09:28:59.342700 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m09:28:59.344347 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/gold/gold_educationHub.sql
+[0m09:28:59.816716 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m09:28:59.846994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd913b21e-cef8-4706-a768-2c479ab4e796', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb13cacc40>]}
+[0m09:29:00.133335 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd913b21e-cef8-4706-a768-2c479ab4e796', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb13bd8100>]}
+[0m09:29:00.134683 [info ] [MainThread]: Found 12 models, 12 sources, 907 macros
+[0m09:29:00.135618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd913b21e-cef8-4706-a768-2c479ab4e796', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb183c6be0>]}
+[0m09:29:00.138061 [info ] [MainThread]: 
+[0m09:29:00.139769 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m09:29:00.141879 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m09:29:00.142891 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:29:00.362207 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Gold)
+[0m09:29:00.363359 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:29:00.617126 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now list_freeprise-matchmaker_Bronze_Silver)
+[0m09:29:00.619584 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:29:00.853011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd913b21e-cef8-4706-a768-2c479ab4e796', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2e957070>]}
+[0m09:29:00.854460 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:29:00.855297 [info ] [MainThread]: 
+[0m09:29:00.859832 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_educationHub
+[0m09:29:00.861143 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_educationHub ..................... [RUN]
+[0m09:29:00.862660 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now model.dbt_freeprise.gold_educationHub)
+[0m09:29:00.863810 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_educationHub
+[0m09:29:00.882629 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_educationHub"
+[0m09:29:00.884061 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_educationHub
+[0m09:29:00.958454 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_educationHub"
+[0m09:29:00.960254 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m09:29:01.012311 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_educationHub: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_educationHub"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_educationHub`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  MD5(ifnull(CAST(title AS STRING), '0') || ifnull(CAST(degree AS STRING), '0')) AS education_id,
+  concat(ifnull(CAST(title AS STRING), '0'), ifnull(CAST(degree AS STRING), '0')) AS BusinessKey_id,
+  CURRENT_TIMESTAMP AS LoadDate,
+  'Linkedin_dataset' AS RecordSource
+FROM
+  `freeprise-matchmaker`.`Bronze_Silver`.`silver_education_data`
+    );
+  
+[0m09:29:01.566040 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:14fcc74b-442d-46ba-a2bb-ecce2dec4286&page=queryresults
+[0m09:29:04.885907 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd913b21e-cef8-4706-a768-2c479ab4e796', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb13c5fee0>]}
+[0m09:29:04.887514 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Gold.gold_educationHub ................ [[32mCREATE TABLE (1.1k rows, 55.5 KiB processed)[0m in 4.02s]
+[0m09:29:04.889082 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_educationHub
+[0m09:29:04.891800 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:29:04.892498 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_educationHub' was properly closed.
+[0m09:29:04.893251 [info ] [MainThread]: 
+[0m09:29:04.894225 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.75 seconds (4.75s).
+[0m09:29:04.895809 [debug] [MainThread]: Command end result
+[0m09:29:05.003506 [info ] [MainThread]: 
+[0m09:29:05.005274 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:29:05.006347 [info ] [MainThread]: 
+[0m09:29:05.007805 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m09:29:05.009546 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.6816974, "process_user_time": 5.838741, "process_kernel_time": 0.543319, "process_mem_max_rss": "206140", "process_out_blocks": "5864", "process_in_blocks": "0"}
+[0m09:29:05.010875 [debug] [MainThread]: Command `dbt run` succeeded at 09:29:05.010645 after 7.68 seconds
+[0m09:29:05.012026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2da8aa90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb13c7c0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2e68eb50>]}
+[0m09:29:05.012835 [debug] [MainThread]: Flushing usage events
+[0m09:37:06.080895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8b6650670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8b4d8b490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8b4d16820>]}
+
+
+============================== 09:37:06.085694 | 99929f91-d120-4e7b-be33-70e64f122d8e ==============================
+[0m09:37:06.085694 [info ] [MainThread]: Running with dbt=1.8.4
+[0m09:37:06.086982 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --models gold_educationHub', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:37:07.387742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '99929f91-d120-4e7b-be33-70e64f122d8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8a094a130>]}
+[0m09:37:07.494433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '99929f91-d120-4e7b-be33-70e64f122d8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8a025ca60>]}
+[0m09:37:07.495817 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m09:37:07.563137 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m09:37:08.009190 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 1 files changed.
+[0m09:37:08.010524 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/gold/gold_certificationHub.sql
+[0m09:37:08.011698 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/gold/gold_educationHub.sql
+[0m09:37:08.464844 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m09:37:08.495920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '99929f91-d120-4e7b-be33-70e64f122d8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa89bbabee0>]}
+[0m09:37:08.742073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '99929f91-d120-4e7b-be33-70e64f122d8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa89bbc5b50>]}
+[0m09:37:08.743923 [info ] [MainThread]: Found 13 models, 12 sources, 907 macros
+[0m09:37:08.745368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '99929f91-d120-4e7b-be33-70e64f122d8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa89bc02f10>]}
+[0m09:37:08.748516 [info ] [MainThread]: 
+[0m09:37:08.749748 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m09:37:08.751813 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m09:37:08.752914 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:37:08.975932 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m09:37:08.977052 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:37:09.164464 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m09:37:09.167256 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:37:09.373235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '99929f91-d120-4e7b-be33-70e64f122d8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8b66500a0>]}
+[0m09:37:09.374614 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:37:09.375585 [info ] [MainThread]: 
+[0m09:37:09.379121 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_educationHub
+[0m09:37:09.380502 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_educationHub ..................... [RUN]
+[0m09:37:09.381807 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.gold_educationHub)
+[0m09:37:09.382800 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_educationHub
+[0m09:37:09.404088 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_educationHub"
+[0m09:37:09.405637 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_educationHub
+[0m09:37:09.434478 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m09:37:09.672763 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_educationHub"
+[0m09:37:09.674483 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_educationHub: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_educationHub"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_educationHub`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  MD5(ifnull(CAST(title AS STRING), '0') || ifnull(CAST(degree AS STRING), '0')) AS education_id,
+  concat(ifnull(CAST(title AS STRING), '0'), ifnull(CAST(degree AS STRING), '0')) AS BusinessKey_education_id,
+  CURRENT_TIMESTAMP AS LoadDate,
+  'Linkedin_dataset' AS RecordSource
+FROM
+  `freeprise-matchmaker`.`Bronze_Silver`.`silver_education_data`
+    );
+  
+[0m09:37:10.275922 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:603ea276-8064-4159-ab2b-7db096143427&page=queryresults
+[0m09:37:13.350282 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '99929f91-d120-4e7b-be33-70e64f122d8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa89bc75670>]}
+[0m09:37:13.351762 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Gold.gold_educationHub ................ [[32mCREATE TABLE (1.1k rows, 55.5 KiB processed)[0m in 3.97s]
+[0m09:37:13.353088 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_educationHub
+[0m09:37:13.355387 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:37:13.356167 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_educationHub' was properly closed.
+[0m09:37:13.357209 [info ] [MainThread]: 
+[0m09:37:13.358123 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.61 seconds (4.61s).
+[0m09:37:13.359827 [debug] [MainThread]: Command end result
+[0m09:37:13.471486 [info ] [MainThread]: 
+[0m09:37:13.472765 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:37:13.473719 [info ] [MainThread]: 
+[0m09:37:13.474671 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m09:37:13.476665 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.484793, "process_user_time": 5.893615, "process_kernel_time": 0.611971, "process_mem_max_rss": "206096", "process_out_blocks": "5880", "process_in_blocks": "0"}
+[0m09:37:13.478135 [debug] [MainThread]: Command `dbt run` succeeded at 09:37:13.477903 after 7.49 seconds
+[0m09:37:13.479027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8b6650670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8b578a9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8a094a130>]}
+[0m09:37:13.479972 [debug] [MainThread]: Flushing usage events
+[0m09:38:03.037064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0688604790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f068779b4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0686cb2460>]}
+
+
+============================== 09:38:03.042329 | 84e1c52a-5962-49a9-88a9-7f312179e6c8 ==============================
+[0m09:38:03.042329 [info ] [MainThread]: Running with dbt=1.8.4
+[0m09:38:03.043634 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run --models gold_certificationHub', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:38:04.318417 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '84e1c52a-5962-49a9-88a9-7f312179e6c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f066e228ca0>]}
+[0m09:38:04.417498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '84e1c52a-5962-49a9-88a9-7f312179e6c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f066e1ad880>]}
+[0m09:38:04.418795 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m09:38:04.517074 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m09:38:04.967219 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:38:04.968269 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:38:04.980029 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m09:38:05.045596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '84e1c52a-5962-49a9-88a9-7f312179e6c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f066dd8fc70>]}
+[0m09:38:05.318296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '84e1c52a-5962-49a9-88a9-7f312179e6c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f066dd49c70>]}
+[0m09:38:05.319519 [info ] [MainThread]: Found 13 models, 12 sources, 907 macros
+[0m09:38:05.320394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '84e1c52a-5962-49a9-88a9-7f312179e6c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f066dd411f0>]}
+[0m09:38:05.322893 [info ] [MainThread]: 
+[0m09:38:05.324154 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m09:38:05.326211 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m09:38:05.327272 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:38:05.531175 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m09:38:05.532461 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:38:05.773957 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m09:38:05.777375 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:38:05.986857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '84e1c52a-5962-49a9-88a9-7f312179e6c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f066e1cd760>]}
+[0m09:38:05.988305 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m09:38:05.989178 [info ] [MainThread]: 
+[0m09:38:05.993157 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_certificationHub
+[0m09:38:05.994626 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_certificationHub ................. [RUN]
+[0m09:38:05.995987 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.gold_certificationHub)
+[0m09:38:05.996920 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_certificationHub
+[0m09:38:06.019191 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_certificationHub"
+[0m09:38:06.020674 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_certificationHub
+[0m09:38:06.189022 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_certificationHub"
+[0m09:38:06.191731 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m09:38:06.245211 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_certificationHub: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_certificationHub"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_certificationHub`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  MD5(ifnull(CAST(title AS STRING), '0') || ifnull(CAST(subtitle AS STRING), '0')) AS certification_id,
+  concat(ifnull(CAST(title AS STRING), '0'), ifnull(CAST(subtitle AS STRING), '0')) AS BusinessKey_certification_id,
+  CURRENT_TIMESTAMP AS LoadDate,
+  'Linkedin_dataset' AS RecordSource
+FROM
+  `freeprise-matchmaker`.`Bronze_Silver`.`silver_certifications_data`
+    );
+  
+[0m09:38:06.644066 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:0f642f10-21f0-45a9-b88e-ef85164f81b7&page=queryresults
+[0m09:38:09.903845 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '84e1c52a-5962-49a9-88a9-7f312179e6c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f066dc9bee0>]}
+[0m09:38:09.905506 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Gold.gold_certificationHub ............ [[32mCREATE TABLE (619.0 rows, 32.8 KiB processed)[0m in 3.91s]
+[0m09:38:09.906932 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_certificationHub
+[0m09:38:09.909623 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:38:09.910371 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_certificationHub' was properly closed.
+[0m09:38:09.911176 [info ] [MainThread]: 
+[0m09:38:09.912300 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.59 seconds (4.59s).
+[0m09:38:09.913995 [debug] [MainThread]: Command end result
+[0m09:38:10.029828 [info ] [MainThread]: 
+[0m09:38:10.031155 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:38:10.032118 [info ] [MainThread]: 
+[0m09:38:10.033228 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m09:38:10.034949 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.0923142, "process_user_time": 5.431351, "process_kernel_time": 0.584498, "process_mem_max_rss": "200988", "process_out_blocks": "3880", "process_in_blocks": "0"}
+[0m09:38:10.036295 [debug] [MainThread]: Command `dbt run` succeeded at 09:38:10.036074 after 7.09 seconds
+[0m09:38:10.037168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0688604790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f068777b340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f066e1ad880>]}
+[0m09:38:10.038105 [debug] [MainThread]: Flushing usage events
+[0m10:10:50.162373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684ae30670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f68494ef220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684939d760>]}
+
+
+============================== 10:10:50.180690 | ef972e31-d814-432c-a233-c6f49e456aa8 ==============================
+[0m10:10:50.180690 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:10:50.182840 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --models silver_jobs_skills_data', 'send_anonymous_usage_stats': 'True'}
+[0m10:10:53.191205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ef972e31-d814-432c-a233-c6f49e456aa8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684a5389a0>]}
+[0m10:10:53.445119 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ef972e31-d814-432c-a233-c6f49e456aa8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6834a227f0>]}
+[0m10:10:53.447919 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m10:10:53.596090 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m10:10:54.734608 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 1 files changed.
+[0m10:10:54.737332 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/gold/gold_skillHub.sql
+[0m10:10:54.739217 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/silver/silver_job_skills_data.sql
+[0m10:10:54.744964 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/bronze/bronze.yml
+[0m10:10:56.636588 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m10:10:56.707989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ef972e31-d814-432c-a233-c6f49e456aa8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6834004b50>]}
+[0m10:10:57.353632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ef972e31-d814-432c-a233-c6f49e456aa8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f681ff4bcd0>]}
+[0m10:10:57.356009 [info ] [MainThread]: Found 15 models, 13 sources, 907 macros
+[0m10:10:57.357937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ef972e31-d814-432c-a233-c6f49e456aa8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f68340dacd0>]}
+[0m10:10:57.361008 [warn ] [MainThread]: The selection criterion 'silver_jobs_skills_data' does not match any enabled nodes
+[0m10:10:57.364485 [info ] [MainThread]: 
+[0m10:10:57.366195 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m10:10:57.368510 [debug] [MainThread]: Command end result
+[0m10:10:57.660902 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.688819, "process_user_time": 11.020947, "process_kernel_time": 0.966132, "process_mem_max_rss": "204888", "process_in_blocks": "184", "process_out_blocks": "5888"}
+[0m10:10:57.664568 [debug] [MainThread]: Command `dbt run` succeeded at 10:10:57.664056 after 7.69 seconds
+[0m10:10:57.666990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684ae30670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684aa37bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f68340dadc0>]}
+[0m10:10:57.669573 [debug] [MainThread]: Flushing usage events
+[0m10:11:32.806737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73f08456a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73eef1fe20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73eeef88e0>]}
+
+
+============================== 10:11:32.816737 | 39fbc2ef-739f-4ddd-bc5b-1b1b1c950230 ==============================
+[0m10:11:32.816737 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:11:32.819484 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run --models silver_job_skills_data', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:11:35.477560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '39fbc2ef-739f-4ddd-bc5b-1b1b1c950230', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73f057fb50>]}
+[0m10:11:35.700439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '39fbc2ef-739f-4ddd-bc5b-1b1b1c950230', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73d6b99250>]}
+[0m10:11:35.703106 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m10:11:35.854418 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m10:11:36.814599 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m10:11:36.817641 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/silver/silver_job_skills_data.sql
+[0m10:11:37.872573 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m10:11:37.941148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '39fbc2ef-739f-4ddd-bc5b-1b1b1c950230', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73d5b9ecd0>]}
+[0m10:11:38.508427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '39fbc2ef-739f-4ddd-bc5b-1b1b1c950230', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73d5c2cc10>]}
+[0m10:11:38.510512 [info ] [MainThread]: Found 15 models, 13 sources, 907 macros
+[0m10:11:38.512064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '39fbc2ef-739f-4ddd-bc5b-1b1b1c950230', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73d5c515e0>]}
+[0m10:11:38.516825 [info ] [MainThread]: 
+[0m10:11:38.518942 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m10:11:38.522325 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m10:11:38.523993 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:11:38.827049 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m10:11:38.829864 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:11:39.114624 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m10:11:39.116113 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:11:39.434128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '39fbc2ef-739f-4ddd-bc5b-1b1b1c950230', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73d5bdd250>]}
+[0m10:11:39.437488 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:11:39.440164 [info ] [MainThread]: 
+[0m10:11:39.450142 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.silver_job_skills_data
+[0m10:11:39.452721 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Silver.silver_job_skills_data .............. [RUN]
+[0m10:11:39.462475 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.silver_job_skills_data)
+[0m10:11:39.464852 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.silver_job_skills_data
+[0m10:11:39.510498 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.silver_job_skills_data"
+[0m10:11:39.514689 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.silver_job_skills_data
+[0m10:11:39.693590 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.silver_job_skills_data"
+[0m10:11:39.697908 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m10:11:39.791633 [debug] [Thread-1  ]: On model.dbt_freeprise.silver_job_skills_data: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.silver_job_skills_data"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Silver`.`silver_job_skills_data`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+job_link,
+job_skills
+meta
+from   `freeprise-matchmaker`.`Bronze`.`raw_skills_data`
+    );
+  
+[0m10:11:40.449464 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:9bdb1841-cde3-4a01-916a-f74bd532b0ba&page=queryresults
+[0m10:11:45.564269 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '39fbc2ef-739f-4ddd-bc5b-1b1b1c950230', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73d5c80f40>]}
+[0m10:11:45.567457 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Silver.silver_job_skills_data ......... [[32mCREATE TABLE (1.3m rows, 641.6 MiB processed)[0m in 6.10s]
+[0m10:11:45.571128 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.silver_job_skills_data
+[0m10:11:45.580623 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:11:45.582211 [debug] [MainThread]: Connection 'model.dbt_freeprise.silver_job_skills_data' was properly closed.
+[0m10:11:45.583849 [info ] [MainThread]: 
+[0m10:11:45.585458 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.07 seconds (7.07s).
+[0m10:11:45.588598 [debug] [MainThread]: Command end result
+[0m10:11:45.849777 [info ] [MainThread]: 
+[0m10:11:45.851883 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:11:45.853463 [info ] [MainThread]: 
+[0m10:11:45.855083 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:11:45.858544 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 13.256365, "process_user_time": 11.27059, "process_kernel_time": 0.744145, "process_mem_max_rss": "206040", "process_out_blocks": "5912", "process_in_blocks": "0"}
+[0m10:11:45.860887 [debug] [MainThread]: Command `dbt run` succeeded at 10:11:45.860515 after 13.26 seconds
+[0m10:11:45.862572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73f08456a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73f0447c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73d5c51880>]}
+[0m10:11:45.864222 [debug] [MainThread]: Flushing usage events
+[0m10:12:32.292274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cf9b48730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cf8ce14c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cf81f8400>]}
+
+
+============================== 10:12:32.306320 | 055a912a-d3f1-4e94-8ee7-74792fba79a5 ==============================
+[0m10:12:32.306320 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:12:32.308844 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --models silver_job_skills_data', 'send_anonymous_usage_stats': 'True'}
+[0m10:12:34.913116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '055a912a-d3f1-4e94-8ee7-74792fba79a5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cdf760ca0>]}
+[0m10:12:35.120581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '055a912a-d3f1-4e94-8ee7-74792fba79a5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cdf6d9880>]}
+[0m10:12:35.122822 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m10:12:35.308272 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m10:12:36.200421 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m10:12:36.203376 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/silver/silver_job_skills_data.sql
+[0m10:12:37.233101 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m10:12:37.312223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '055a912a-d3f1-4e94-8ee7-74792fba79a5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cdee7fd00>]}
+[0m10:12:37.959255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '055a912a-d3f1-4e94-8ee7-74792fba79a5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cdef6dca0>]}
+[0m10:12:37.960938 [info ] [MainThread]: Found 15 models, 13 sources, 907 macros
+[0m10:12:37.961992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '055a912a-d3f1-4e94-8ee7-74792fba79a5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cdef4b610>]}
+[0m10:12:37.965441 [info ] [MainThread]: 
+[0m10:12:37.967194 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m10:12:37.970589 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m10:12:37.972124 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:12:38.307647 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Gold)
+[0m10:12:38.309623 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:12:38.620240 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now list_freeprise-matchmaker_Bronze_Silver)
+[0m10:12:38.626320 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:12:38.888512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '055a912a-d3f1-4e94-8ee7-74792fba79a5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cdedd8f40>]}
+[0m10:12:38.892653 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:12:38.895808 [info ] [MainThread]: 
+[0m10:12:38.908590 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.silver_job_skills_data
+[0m10:12:38.910939 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Silver.silver_job_skills_data .............. [RUN]
+[0m10:12:38.913088 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now model.dbt_freeprise.silver_job_skills_data)
+[0m10:12:38.915105 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.silver_job_skills_data
+[0m10:12:38.956308 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.silver_job_skills_data"
+[0m10:12:38.959085 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.silver_job_skills_data
+[0m10:12:39.028761 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m10:12:39.406818 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.silver_job_skills_data"
+[0m10:12:39.409622 [debug] [Thread-1  ]: On model.dbt_freeprise.silver_job_skills_data: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.silver_job_skills_data"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Silver`.`silver_job_skills_data`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+job_link,
+job_skills
+from   `freeprise-matchmaker`.`Bronze`.`raw_skills_data`
+    );
+  
+[0m10:12:39.873210 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:7d69ebec-8ea9-4dbc-91c3-2a7e2fa3a6ff&page=queryresults
+[0m10:12:45.268006 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '055a912a-d3f1-4e94-8ee7-74792fba79a5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cdee7e580>]}
+[0m10:12:45.271825 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Silver.silver_job_skills_data ......... [[32mCREATE TABLE (1.3m rows, 641.6 MiB processed)[0m in 6.35s]
+[0m10:12:45.275617 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.silver_job_skills_data
+[0m10:12:45.281986 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:12:45.284518 [debug] [MainThread]: Connection 'model.dbt_freeprise.silver_job_skills_data' was properly closed.
+[0m10:12:45.288248 [info ] [MainThread]: 
+[0m10:12:45.295324 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.32 seconds (7.32s).
+[0m10:12:45.310021 [debug] [MainThread]: Command end result
+[0m10:12:45.638442 [info ] [MainThread]: 
+[0m10:12:45.641423 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:12:45.643878 [info ] [MainThread]: 
+[0m10:12:45.646923 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:12:45.650964 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 13.545559, "process_user_time": 11.364472, "process_kernel_time": 0.676512, "process_mem_max_rss": "205488", "process_out_blocks": "5920", "process_in_blocks": "0"}
+[0m10:12:45.653866 [debug] [MainThread]: Command `dbt run` succeeded at 10:12:45.653472 after 13.55 seconds
+[0m10:12:45.655967 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cf9b48730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cf974ec70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3cdef4b8b0>]}
+[0m10:12:45.658020 [debug] [MainThread]: Flushing usage events
+[0m10:17:57.307068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3aef6a8670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3aedde8490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3aedd69820>]}
+
+
+============================== 10:17:57.312003 | 21aea4cb-24e2-4d2a-b93c-51938dffe27a ==============================
+[0m10:17:57.312003 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:17:57.313261 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run --models gold_skillHub', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:17:58.644040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '21aea4cb-24e2-4d2a-b93c-51938dffe27a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad99ae130>]}
+[0m10:17:58.758530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '21aea4cb-24e2-4d2a-b93c-51938dffe27a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad92bfa60>]}
+[0m10:17:58.759914 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m10:17:58.830999 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m10:17:59.287884 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m10:17:59.289264 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/gold/gold_skillHub.sql
+[0m10:17:59.758718 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m10:17:59.791845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '21aea4cb-24e2-4d2a-b93c-51938dffe27a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad8a0ecd0>]}
+[0m10:18:00.060782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '21aea4cb-24e2-4d2a-b93c-51938dffe27a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad8a9a1c0>]}
+[0m10:18:00.062011 [info ] [MainThread]: Found 15 models, 13 sources, 907 macros
+[0m10:18:00.062872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '21aea4cb-24e2-4d2a-b93c-51938dffe27a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad8ac05b0>]}
+[0m10:18:00.065401 [info ] [MainThread]: 
+[0m10:18:00.066606 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m10:18:00.068753 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m10:18:00.069807 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:18:00.304305 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Gold)
+[0m10:18:00.305723 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:18:00.489286 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now list_freeprise-matchmaker_Bronze_Silver)
+[0m10:18:00.492317 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:18:00.708854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '21aea4cb-24e2-4d2a-b93c-51938dffe27a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad99623d0>]}
+[0m10:18:00.710302 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:18:00.711152 [info ] [MainThread]: 
+[0m10:18:00.715497 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_skillHub
+[0m10:18:00.717336 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_skillHub ......................... [RUN]
+[0m10:18:00.718727 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now model.dbt_freeprise.gold_skillHub)
+[0m10:18:00.719647 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_skillHub
+[0m10:18:00.738898 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_skillHub"
+[0m10:18:00.740316 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_skillHub
+[0m10:18:00.819374 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_skillHub"
+[0m10:18:00.820760 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m10:18:00.872913 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_skillHub: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_skillHub"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_skillHub`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  MD5(job_link) AS Skill_id,
+  job_link AS BusinessKey_job_link,
+  CURRENT_TIMESTAMP AS LoadDate,
+  'Linkedin_dataset' AS RecordSource
+FROM
+  `freeprise-matchmaker`.`Bronze_Silver`.`silver_job_skills_data`
+    );
+  
+[0m10:18:01.376644 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:c0387750-1e2d-40ca-9dba-9366e3bfb517&page=queryresults
+[0m10:18:08.455878 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '21aea4cb-24e2-4d2a-b93c-51938dffe27a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad8988580>]}
+[0m10:18:08.457680 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Gold.gold_skillHub .................... [[32mCREATE TABLE (1.3m rows, 127.5 MiB processed)[0m in 7.74s]
+[0m10:18:08.459592 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_skillHub
+[0m10:18:08.462689 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:18:08.463712 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_skillHub' was properly closed.
+[0m10:18:08.465050 [info ] [MainThread]: 
+[0m10:18:08.466226 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 8.40 seconds (8.40s).
+[0m10:18:08.467909 [debug] [MainThread]: Command end result
+[0m10:18:08.581381 [info ] [MainThread]: 
+[0m10:18:08.582692 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:18:08.584080 [info ] [MainThread]: 
+[0m10:18:08.585114 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:18:08.587023 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 11.370183, "process_user_time": 6.0134, "process_kernel_time": 0.570393, "process_mem_max_rss": "206244", "process_out_blocks": "5920", "process_in_blocks": "0"}
+[0m10:18:08.588404 [debug] [MainThread]: Command `dbt run` succeeded at 10:18:08.588142 after 11.37 seconds
+[0m10:18:08.589271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad99623d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad8ac0790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ad99ae130>]}
+[0m10:18:08.590127 [debug] [MainThread]: Flushing usage events
+[0m10:21:07.317584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51f9bf1730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51f8d93460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51f829e400>]}
+
+
+============================== 10:21:07.322252 | f4cbf78f-c7e7-488b-8eac-ba8bde8141cc ==============================
+[0m10:21:07.322252 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:21:07.323321 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run --models silver_job_summary_data', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:21:08.681259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f4cbf78f-c7e7-488b-8eac-ba8bde8141cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51df828ca0>]}
+[0m10:21:08.781603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f4cbf78f-c7e7-488b-8eac-ba8bde8141cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51df793880>]}
+[0m10:21:08.782960 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m10:21:08.851561 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m10:21:09.315817 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 1 files changed.
+[0m10:21:09.317149 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/silver/silver_job_summary_data.sql
+[0m10:21:09.319597 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/bronze/bronze.yml
+[0m10:21:10.059667 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m10:21:10.086533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f4cbf78f-c7e7-488b-8eac-ba8bde8141cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51defc5310>]}
+[0m10:21:10.330770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f4cbf78f-c7e7-488b-8eac-ba8bde8141cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51df041100>]}
+[0m10:21:10.331994 [info ] [MainThread]: Found 16 models, 14 sources, 907 macros
+[0m10:21:10.332910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f4cbf78f-c7e7-488b-8eac-ba8bde8141cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51df05a610>]}
+[0m10:21:10.335408 [info ] [MainThread]: 
+[0m10:21:10.336774 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m10:21:10.338907 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m10:21:10.340011 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:21:10.543075 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Gold)
+[0m10:21:10.544441 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:21:10.755980 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now list_freeprise-matchmaker_Bronze_Silver)
+[0m10:21:10.758992 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:21:10.984973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f4cbf78f-c7e7-488b-8eac-ba8bde8141cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51f9bdac10>]}
+[0m10:21:10.986409 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:21:10.987502 [info ] [MainThread]: 
+[0m10:21:10.992190 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.silver_job_summary_data
+[0m10:21:10.994480 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Silver.silver_job_summary_data ............. [RUN]
+[0m10:21:10.997317 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now model.dbt_freeprise.silver_job_summary_data)
+[0m10:21:10.999746 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.silver_job_summary_data
+[0m10:21:11.019878 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.silver_job_summary_data"
+[0m10:21:11.021226 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.silver_job_summary_data
+[0m10:21:11.099118 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.silver_job_summary_data"
+[0m10:21:11.100805 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m10:21:11.151461 [debug] [Thread-1  ]: On model.dbt_freeprise.silver_job_summary_data: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.silver_job_summary_data"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Silver`.`silver_job_summary_data`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+job_link,
+job_summary
+from   `freeprise-matchmaker`.`Bronze`.`raw_job_summary_data`
+    );
+  
+[0m10:21:11.765669 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:227bb8ad-869c-4bf4-a4e4-579b645b06d7&page=queryresults
+[0m10:21:18.150911 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4cbf78f-c7e7-488b-8eac-ba8bde8141cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51df0b08e0>]}
+[0m10:21:18.152488 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Silver.silver_job_summary_data ........ [[32mCREATE TABLE (1.3m rows, 4.8 GiB processed)[0m in 7.15s]
+[0m10:21:18.154035 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.silver_job_summary_data
+[0m10:21:18.157066 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:21:18.157824 [debug] [MainThread]: Connection 'model.dbt_freeprise.silver_job_summary_data' was properly closed.
+[0m10:21:18.158791 [info ] [MainThread]: 
+[0m10:21:18.159770 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.82 seconds (7.82s).
+[0m10:21:18.161171 [debug] [MainThread]: Command end result
+[0m10:21:18.268683 [info ] [MainThread]: 
+[0m10:21:18.269885 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:21:18.270710 [info ] [MainThread]: 
+[0m10:21:18.271852 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:21:18.273928 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 11.044326, "process_user_time": 6.05955, "process_kernel_time": 0.574881, "process_mem_max_rss": "208304", "process_out_blocks": "5920", "process_in_blocks": "0"}
+[0m10:21:18.275435 [debug] [MainThread]: Command `dbt run` succeeded at 10:21:18.275166 after 11.05 seconds
+[0m10:21:18.276586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51f9bf1730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51df041d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51df041040>]}
+[0m10:21:18.277470 [debug] [MainThread]: Flushing usage events
+[0m10:26:35.594829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c21234790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c203da490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c21cb59d0>]}
+
+
+============================== 10:26:35.599521 | d7a87fcb-d6c8-40e4-825c-176b05bda6e5 ==============================
+[0m10:26:35.599521 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:26:35.600614 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run --models gold_jobSummary_Sat', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:26:36.898934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd7a87fcb-d6c8-40e4-825c-176b05bda6e5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c0755e0a0>]}
+[0m10:26:37.013884 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd7a87fcb-d6c8-40e4-825c-176b05bda6e5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c06de18b0>]}
+[0m10:26:37.015407 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m10:26:37.086089 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m10:26:37.530079 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m10:26:37.531622 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/gold/gold_jobSummary_Sat.sql
+[0m10:26:38.512689 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m10:26:38.577040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd7a87fcb-d6c8-40e4-825c-176b05bda6e5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c06593940>]}
+[0m10:26:39.113017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd7a87fcb-d6c8-40e4-825c-176b05bda6e5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c06d9fd30>]}
+[0m10:26:39.116337 [info ] [MainThread]: Found 17 models, 14 sources, 907 macros
+[0m10:26:39.118445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd7a87fcb-d6c8-40e4-825c-176b05bda6e5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c20369640>]}
+[0m10:26:39.126498 [info ] [MainThread]: 
+[0m10:26:39.130466 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m10:26:39.135247 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m10:26:39.138072 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:26:39.431044 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m10:26:39.432419 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:26:39.681794 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m10:26:39.691257 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:26:39.965064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd7a87fcb-d6c8-40e4-825c-176b05bda6e5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c064e7a90>]}
+[0m10:26:39.968123 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:26:39.971666 [info ] [MainThread]: 
+[0m10:26:39.979685 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_jobSummary_Sat
+[0m10:26:39.982472 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_jobSummary_Sat ................... [RUN]
+[0m10:26:39.984121 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.gold_jobSummary_Sat)
+[0m10:26:39.986753 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_jobSummary_Sat
+[0m10:26:40.023766 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_jobSummary_Sat"
+[0m10:26:40.026467 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_jobSummary_Sat
+[0m10:26:40.195457 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_jobSummary_Sat"
+[0m10:26:40.198775 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m10:26:40.284678 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_jobSummary_Sat: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_jobSummary_Sat"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_jobSummary_Sat`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  MD5(job_link) AS job_id,
+  job_summary,
+  CURRENT_TIMESTAMP AS LoadDate,
+  'Linkedin_dataset' AS RecordSource
+FROM
+  `freeprise-matchmaker`.`Bronze_Silver`.`silver_job_summary_data`
+    );
+  
+[0m10:26:40.870489 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:f5b1d7e1-af79-4feb-8539-dee28857379f&page=queryresults
+[0m10:26:46.939867 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd7a87fcb-d6c8-40e4-825c-176b05bda6e5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c06683f10>]}
+[0m10:26:46.942915 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Gold.gold_jobSummary_Sat .............. [[32mCREATE TABLE (1.3m rows, 4.8 GiB processed)[0m in 6.95s]
+[0m10:26:46.945055 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_jobSummary_Sat
+[0m10:26:46.949453 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:26:46.951391 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_jobSummary_Sat' was properly closed.
+[0m10:26:46.952543 [info ] [MainThread]: 
+[0m10:26:46.955546 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 7.82 seconds (7.82s).
+[0m10:26:46.957990 [debug] [MainThread]: Command end result
+[0m10:26:47.195995 [info ] [MainThread]: 
+[0m10:26:47.200346 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:26:47.201566 [info ] [MainThread]: 
+[0m10:26:47.202757 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:26:47.207816 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 11.702291, "process_user_time": 7.080663, "process_kernel_time": 0.643303, "process_mem_max_rss": "206228", "process_out_blocks": "5944", "process_in_blocks": "0"}
+[0m10:26:47.213330 [debug] [MainThread]: Command `dbt run` succeeded at 10:26:47.212523 after 11.71 seconds
+[0m10:26:47.215236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c21234790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c203da3a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c06de18b0>]}
+[0m10:26:47.218538 [debug] [MainThread]: Flushing usage events
+[0m10:42:50.760831 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f958a218790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95893af4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95888c6400>]}
+
+
+============================== 10:42:50.765830 | 22a9a01c-7983-4917-b1df-68bf35d20efe ==============================
+[0m10:42:50.765830 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:42:50.766985 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --models gold_jobDetails_Sat', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:42:52.089194 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '22a9a01c-7983-4917-b1df-68bf35d20efe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f956fe28ca0>]}
+[0m10:42:52.189047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '22a9a01c-7983-4917-b1df-68bf35d20efe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f956fd99880>]}
+[0m10:42:52.190503 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m10:42:52.291315 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m10:42:52.737098 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m10:42:52.738477 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/gold/gold_jobDetails_Sat.sql
+[0m10:42:53.197771 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m10:42:53.228104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '22a9a01c-7983-4917-b1df-68bf35d20efe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f956f7dfe20>]}
+[0m10:42:53.483557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '22a9a01c-7983-4917-b1df-68bf35d20efe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f956f95bd30>]}
+[0m10:42:53.484849 [info ] [MainThread]: Found 18 models, 14 sources, 907 macros
+[0m10:42:53.485816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '22a9a01c-7983-4917-b1df-68bf35d20efe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f956f72e6a0>]}
+[0m10:42:53.488489 [info ] [MainThread]: 
+[0m10:42:53.489751 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m10:42:53.491852 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m10:42:53.492889 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:42:53.729007 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Gold)
+[0m10:42:53.730341 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:42:53.912279 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now list_freeprise-matchmaker_Bronze_Silver)
+[0m10:42:53.915615 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:42:54.116084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '22a9a01c-7983-4917-b1df-68bf35d20efe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9589dfa280>]}
+[0m10:42:54.117525 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:42:54.118403 [info ] [MainThread]: 
+[0m10:42:54.122081 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_jobDetails_Sat
+[0m10:42:54.123295 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_jobDetails_Sat ................... [RUN]
+[0m10:42:54.124564 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now model.dbt_freeprise.gold_jobDetails_Sat)
+[0m10:42:54.125460 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_jobDetails_Sat
+[0m10:42:54.144702 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_jobDetails_Sat"
+[0m10:42:54.146150 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_jobDetails_Sat
+[0m10:42:54.228648 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_jobDetails_Sat"
+[0m10:42:54.230205 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m10:42:54.279575 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_jobDetails_Sat: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_jobDetails_Sat"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_jobDetails_Sat`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  MD5(job_link) AS job_id,
+  CURRENT_TIMESTAMP AS LoadDate,
+  job_title,
+  search_position,
+  job_level,
+  job_type,
+  got_summary,
+  got_ner,
+  is_being_worked,
+  job_location,
+  search_city,
+  search_country,
+  company,
+  'Linkedin_dataset' AS RecordSource
+FROM
+  `freeprise-matchmaker`.`Bronze_Silver`.`silver_linkedin_jobs`
+
+
+
+Union all
+
+SELECT
+  MD5(job_link) AS job_id,
+  CURRENT_TIMESTAMP AS LoadDate,
+  job_title,
+  null as search_position,
+  job_level,
+  null as job_type,
+  null as got_summary,
+  null as got_ner,
+  null as is_being_worked,
+  job_location,
+  null as search_city,
+  null as search_country,
+  company,
+  'Themuse_dataset' AS RecordSource
+FROM
+  `freeprise-matchmaker`.`Bronze_Silver`.`silver_themuse_jobs`
+    );
+  
+[0m10:42:54.809558 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:849e4e90-17bc-4d31-bfa1-48a18fcf395b&page=queryresults
+[0m10:42:59.566355 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '22a9a01c-7983-4917-b1df-68bf35d20efe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f956f6ba910>]}
+[0m10:42:59.567936 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Gold.gold_jobDetails_Sat .............. [[32mCREATE TABLE (1.4m rows, 323.1 MiB processed)[0m in 5.44s]
+[0m10:42:59.569262 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_jobDetails_Sat
+[0m10:42:59.571794 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:42:59.572479 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_jobDetails_Sat' was properly closed.
+[0m10:42:59.573328 [info ] [MainThread]: 
+[0m10:42:59.574414 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 6.08 seconds (6.08s).
+[0m10:42:59.575971 [debug] [MainThread]: Command end result
+[0m10:42:59.673216 [info ] [MainThread]: 
+[0m10:42:59.674475 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:42:59.675275 [info ] [MainThread]: 
+[0m10:42:59.676085 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:42:59.677610 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 9.010278, "process_user_time": 5.818969, "process_kernel_time": 0.535582, "process_mem_max_rss": "206376", "process_out_blocks": "5984", "process_in_blocks": "0"}
+[0m10:42:59.678690 [debug] [MainThread]: Command `dbt run` succeeded at 10:42:59.678502 after 9.01 seconds
+[0m10:42:59.679690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f958a218790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f956fe3f9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f958878e5b0>]}
+[0m10:42:59.680568 [debug] [MainThread]: Flushing usage events
+[0m10:46:24.847958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cdf729670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cdde69490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cddde6820>]}
+
+
+============================== 10:46:24.853129 | 4b2a3007-25ed-4467-a0f7-b62b05c852d4 ==============================
+[0m10:46:24.853129 [info ] [MainThread]: Running with dbt=1.8.4
+[0m10:46:24.854344 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'fail_fast': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --models gold_profileCompany_Link', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:46:26.182543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4b2a3007-25ed-4467-a0f7-b62b05c852d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cc9a2f130>]}
+[0m10:46:26.284218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4b2a3007-25ed-4467-a0f7-b62b05c852d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cc9340a60>]}
+[0m10:46:26.285624 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m10:46:26.370176 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m10:46:26.823831 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 2 files added, 0 files changed.
+[0m10:46:26.825222 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/gold/gold_jobCompany_Link.sql
+[0m10:46:26.826103 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/gold/gold_profileCompany_Link.sql
+[0m10:46:26.826825 [debug] [MainThread]: Partial parsing: deleted file: dbt_freeprise://models/gold/gold_link_ProfileCompany.sql
+[0m10:46:27.293572 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m10:46:27.328611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4b2a3007-25ed-4467-a0f7-b62b05c852d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cc8b122e0>]}
+[0m10:46:27.585940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4b2a3007-25ed-4467-a0f7-b62b05c852d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cdf3664c0>]}
+[0m10:46:27.587498 [info ] [MainThread]: Found 19 models, 14 sources, 907 macros
+[0m10:46:27.588427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4b2a3007-25ed-4467-a0f7-b62b05c852d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cdf322d00>]}
+[0m10:46:27.591147 [info ] [MainThread]: 
+[0m10:46:27.592496 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m10:46:27.594589 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m10:46:27.595639 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:46:27.836689 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Gold)
+[0m10:46:27.837861 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:46:28.026033 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now list_freeprise-matchmaker_Bronze_Silver)
+[0m10:46:28.030205 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m10:46:28.267513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4b2a3007-25ed-4467-a0f7-b62b05c852d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cc99e03d0>]}
+[0m10:46:28.268888 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:46:28.269724 [info ] [MainThread]: 
+[0m10:46:28.273545 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_profileCompany_Link
+[0m10:46:28.274781 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_profileCompany_Link .............. [RUN]
+[0m10:46:28.276025 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now model.dbt_freeprise.gold_profileCompany_Link)
+[0m10:46:28.276836 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_profileCompany_Link
+[0m10:46:28.295577 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_profileCompany_Link"
+[0m10:46:28.297025 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_profileCompany_Link
+[0m10:46:28.386775 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_profileCompany_Link"
+[0m10:46:28.388549 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m10:46:28.439041 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_profileCompany_Link: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_profileCompany_Link"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_profileCompany_Link`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+    MD5(silver_profile_data.id || ifnull(CAST(silver_company_data.id AS STRING), '0')) AS link_ProfileCompany_id,
+    MD5(silver_profile_data.id) AS Profile_id,
+    MD5(ifnull(CAST(silver_company_data.id AS STRING), '0')) AS company_id,
+    CURRENT_TIMESTAMP AS LoadDate,
+    'Linkedin_Dataset' AS RecordSource
+FROM
+    `freeprise-matchmaker`.`Bronze_Silver`.`silver_profile_data` AS silver_profile_data
+    LEFT JOIN `freeprise-matchmaker`.`Bronze_Silver`.`silver_company_data` AS silver_company_data
+        ON silver_company_data.id = silver_profile_data.company_id
+
+UNION ALL
+
+SELECT
+    MD5(silver_profile_data.id || ifnull(CAST(silver_themuse_company_data.id AS STRING), '0')) AS link_ProfileCompany_id,
+    MD5(silver_profile_data.id) AS Profile_id,
+    MD5(ifnull(CAST(silver_themuse_company_data.id AS STRING), '0')) AS company_id,
+    CURRENT_TIMESTAMP AS LoadDate,
+    'Themuse_Dataset' AS RecordSource
+FROM
+    `freeprise-matchmaker`.`Bronze_Silver`.`silver_profile_data` AS silver_profile_data
+    LEFT JOIN `freeprise-matchmaker`.`Bronze_Silver`.`silver_themuse_company_data` AS silver_themuse_company_data
+        ON silver_themuse_company_data.id = silver_profile_data.company_id
+    );
+  
+[0m10:46:29.052430 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:e2f19c5c-db9e-4a51-b734-484ecd0da6d9&page=queryresults
+[0m10:46:32.576728 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4b2a3007-25ed-4467-a0f7-b62b05c852d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cc8b80c70>]}
+[0m10:46:32.578383 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Gold.gold_profileCompany_Link ......... [[32mCREATE TABLE (2.0k rows, 69.1 KiB processed)[0m in 4.30s]
+[0m10:46:32.579922 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_profileCompany_Link
+[0m10:46:32.582494 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:46:32.583184 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_profileCompany_Link' was properly closed.
+[0m10:46:32.583977 [info ] [MainThread]: 
+[0m10:46:32.584907 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.99 seconds (4.99s).
+[0m10:46:32.586499 [debug] [MainThread]: Command end result
+[0m10:46:32.684890 [info ] [MainThread]: 
+[0m10:46:32.686149 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:46:32.687000 [info ] [MainThread]: 
+[0m10:46:32.687871 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:46:32.689475 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.9350533, "process_user_time": 5.869287, "process_kernel_time": 0.581808, "process_mem_max_rss": "206536", "process_out_blocks": "5984", "process_in_blocks": "0"}
+[0m10:46:32.690551 [debug] [MainThread]: Command `dbt run` succeeded at 10:46:32.690364 after 7.94 seconds
+[0m10:46:32.691322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cdf729670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cde8d1400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4cc8e22250>]}
+[0m10:46:32.692244 [debug] [MainThread]: Flushing usage events
+[0m11:02:15.231171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0af0e76670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0aef5aa490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0aef52a820>]}
+
+
+============================== 11:02:15.236153 | e495efd5-aebb-4b2d-ad93-144e08344ef4 ==============================
+[0m11:02:15.236153 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:02:15.237332 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --models gold_jobCompany_Link', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:02:16.646208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e495efd5-aebb-4b2d-ad93-144e08344ef4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ad716e130>]}
+[0m11:02:16.748399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e495efd5-aebb-4b2d-ad93-144e08344ef4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ad6a7fa60>]}
+[0m11:02:16.749830 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m11:02:16.862440 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m11:02:17.412967 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:02:17.415586 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/gold/gold_jobCompany_Link.sql
+[0m11:02:17.993127 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m11:02:18.023267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e495efd5-aebb-4b2d-ad93-144e08344ef4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ad62584c0>]}
+[0m11:02:18.343597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e495efd5-aebb-4b2d-ad93-144e08344ef4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ad64f9940>]}
+[0m11:02:18.344843 [info ] [MainThread]: Found 19 models, 14 sources, 907 macros
+[0m11:02:18.345982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e495efd5-aebb-4b2d-ad93-144e08344ef4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ad615caf0>]}
+[0m11:02:18.348874 [info ] [MainThread]: 
+[0m11:02:18.350318 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:02:18.352516 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m11:02:18.353610 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:02:18.607454 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m11:02:18.608720 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:02:18.833534 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m11:02:18.835352 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:02:19.109325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e495efd5-aebb-4b2d-ad93-144e08344ef4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ad6568cd0>]}
+[0m11:02:19.110729 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:02:19.111752 [info ] [MainThread]: 
+[0m11:02:19.115530 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_jobCompany_Link
+[0m11:02:19.116823 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_jobCompany_Link .................. [RUN]
+[0m11:02:19.118195 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.gold_jobCompany_Link)
+[0m11:02:19.119096 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_jobCompany_Link
+[0m11:02:19.138776 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_jobCompany_Link"
+[0m11:02:19.140203 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_jobCompany_Link
+[0m11:02:19.216498 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_jobCompany_Link"
+[0m11:02:19.218009 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m11:02:19.270774 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_jobCompany_Link: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_jobCompany_Link"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_jobCompany_Link`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+    MD5(silver_linkedin_jobs.id || ifnull(CAST(silver_company_data.id AS STRING), '0')) AS link_jobCompany_id,
+    MD5(silver_linkedin_jobs.job_link) AS job_id,
+    MD5(ifnull(CAST(silver_company_data.id AS STRING), '0')) AS company_id,
+    CURRENT_TIMESTAMP AS LoadDate,
+    'Linkedin_Dataset' AS RecordSource
+FROM
+    `freeprise-matchmaker`.`Bronze_Silver`.`silver_linkedin_jobs` AS silver_linkedin_jobs
+    LEFT JOIN `freeprise-matchmaker`.`Bronze_Silver`.`silver_company_data` AS silver_company_data
+        ON trim(replace(upper(silver_company_data.name),' ','')) = trim(replace(upper(silver_linkedin_jobs.company),' ',''))
+
+UNION ALL
+
+SELECT
+    MD5(silver_themuse_jobs.job_link|| ifnull(CAST(silver_themuse_company_data.id AS STRING), '0')) AS link_ProfileCompany_id,
+    MD5(silver_themuse_jobs.job_link) AS job_id,
+    MD5(ifnull(CAST(silver_themuse_company_data.id AS STRING), '0')) AS company_id,
+    CURRENT_TIMESTAMP AS LoadDate,
+    'Themuse_Dataset' AS RecordSource
+FROM
+    `freeprise-matchmaker`.`Bronze_Silver`.`silver_themuse_jobs` AS silver_themuse_jobs
+    LEFT JOIN `freeprise-matchmaker`.`Bronze_Silver`.`silver_themuse_company_data` AS silver_themuse_company_data
+        ON trim(replace(upper(silver_themuse_company_data.name), '','')) = trim(replace(upper(silver_themuse_jobs.company),' ',''))
+    );
+  
+[0m11:02:19.832183 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:95f9b68c-55df-4bfa-b7dd-03771e55ee12&page=queryresults
+[0m11:02:20.052997 [debug] [Thread-1  ]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('GET https://bigquery.googleapis.com/bigquery/v2/projects/freeprise-matchmaker/queries/95f9b68c-55df-4bfa-b7dd-03771e55ee12?maxResults=0&location=EU&prettyPrint=false: Name id not found inside silver_linkedin_jobs at [16:30]')
+[0m11:02:21.504595 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:2df6efad-1351-4b52-b0c2-271e885caf2b&page=queryresults
+[0m11:02:21.662491 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:2df6efad-1351-4b52-b0c2-271e885caf2b&page=queryresults
+[0m11:02:21.668956 [debug] [Thread-1  ]: Database Error in model gold_jobCompany_Link (models/gold/gold_jobCompany_Link.sql)
+  Name id not found inside silver_linkedin_jobs at [16:30]
+  compiled Code at target/run/dbt_freeprise/models/gold/gold_jobCompany_Link.sql
+[0m11:02:21.672422 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e495efd5-aebb-4b2d-ad93-144e08344ef4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ad6193f10>]}
+[0m11:02:21.673950 [error] [Thread-1  ]: 1 of 1 ERROR creating sql table model Bronze_Gold.gold_jobCompany_Link ......... [[31mERROR[0m in 2.55s]
+[0m11:02:21.675605 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_jobCompany_Link
+[0m11:02:21.678488 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:02:21.679354 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_jobCompany_Link' was properly closed.
+[0m11:02:21.680305 [info ] [MainThread]: 
+[0m11:02:21.681171 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 3.33 seconds (3.33s).
+[0m11:02:21.682819 [debug] [MainThread]: Command end result
+[0m11:02:21.796720 [info ] [MainThread]: 
+[0m11:02:21.797938 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m11:02:21.798763 [info ] [MainThread]: 
+[0m11:02:21.799891 [error] [MainThread]:   Database Error in model gold_jobCompany_Link (models/gold/gold_jobCompany_Link.sql)
+  Name id not found inside silver_linkedin_jobs at [16:30]
+  compiled Code at target/run/dbt_freeprise/models/gold/gold_jobCompany_Link.sql
+[0m11:02:21.800949 [info ] [MainThread]: 
+[0m11:02:21.801844 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m11:02:21.803562 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 6.6582255, "process_user_time": 6.649208, "process_kernel_time": 0.551058, "process_mem_max_rss": "207228", "process_out_blocks": "6016", "command_success": false, "process_in_blocks": "0"}
+[0m11:02:21.805042 [debug] [MainThread]: Command `dbt run` failed at 11:02:21.804704 after 6.66 seconds
+[0m11:02:21.806337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0af0e76670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0af0a7abb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0aeffa89a0>]}
+[0m11:02:21.807388 [debug] [MainThread]: Flushing usage events
+[0m11:04:37.127409 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb33c5e640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb321e7a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb32da9d60>]}
+
+
+============================== 11:04:37.132182 | d5910882-c178-4429-8cf7-ef45b7f06431 ==============================
+[0m11:04:37.132182 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:04:37.133794 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run --models gold_jobCompany_Link', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:04:38.420970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd5910882-c178-4429-8cf7-ef45b7f06431', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb339a5ac0>]}
+[0m11:04:38.520650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd5910882-c178-4429-8cf7-ef45b7f06431', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb1dfa6250>]}
+[0m11:04:38.522029 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m11:04:38.587930 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m11:04:39.037087 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:04:39.038452 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/gold/gold_jobCompany_Link.sql
+[0m11:04:39.492387 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m11:04:39.521971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd5910882-c178-4429-8cf7-ef45b7f06431', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb1d04d490>]}
+[0m11:04:39.798507 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd5910882-c178-4429-8cf7-ef45b7f06431', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb33878490>]}
+[0m11:04:39.799695 [info ] [MainThread]: Found 19 models, 14 sources, 907 macros
+[0m11:04:39.800561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd5910882-c178-4429-8cf7-ef45b7f06431', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb1d857310>]}
+[0m11:04:39.803219 [info ] [MainThread]: 
+[0m11:04:39.804462 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:04:39.806507 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m11:04:39.807629 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:04:40.050568 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m11:04:40.051780 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:04:40.331738 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m11:04:40.335194 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:04:40.560311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd5910882-c178-4429-8cf7-ef45b7f06431', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb1d857310>]}
+[0m11:04:40.561717 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:04:40.562561 [info ] [MainThread]: 
+[0m11:04:40.566003 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_jobCompany_Link
+[0m11:04:40.567159 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_jobCompany_Link .................. [RUN]
+[0m11:04:40.568281 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.gold_jobCompany_Link)
+[0m11:04:40.569166 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_jobCompany_Link
+[0m11:04:40.588623 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_jobCompany_Link"
+[0m11:04:40.590086 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_jobCompany_Link
+[0m11:04:40.662305 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_jobCompany_Link"
+[0m11:04:40.664024 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m11:04:40.714467 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_jobCompany_Link: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_jobCompany_Link"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_jobCompany_Link`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+    MD5(silver_linkedin_jobs.job_link || ifnull(CAST(silver_company_data.id AS STRING), '0')) AS link_jobCompany_id,
+    MD5(silver_linkedin_jobs.job_link) AS job_id,
+    MD5(ifnull(CAST(silver_company_data.id AS STRING), '0')) AS company_id,
+    CURRENT_TIMESTAMP AS LoadDate,
+    'Linkedin_Dataset' AS RecordSource
+FROM
+    `freeprise-matchmaker`.`Bronze_Silver`.`silver_linkedin_jobs` AS silver_linkedin_jobs
+    LEFT JOIN `freeprise-matchmaker`.`Bronze_Silver`.`silver_company_data` AS silver_company_data
+        ON trim(replace(upper(silver_company_data.name),' ','')) = trim(replace(upper(silver_linkedin_jobs.company),' ',''))
+
+UNION ALL
+
+SELECT
+    MD5(silver_themuse_jobs.job_link|| ifnull(CAST(silver_themuse_company_data.id AS STRING), '0')) AS link_ProfileCompany_id,
+    MD5(silver_themuse_jobs.job_link) AS job_id,
+    MD5(ifnull(CAST(silver_themuse_company_data.id AS STRING), '0')) AS company_id,
+    CURRENT_TIMESTAMP AS LoadDate,
+    'Themuse_Dataset' AS RecordSource
+FROM
+    `freeprise-matchmaker`.`Bronze_Silver`.`silver_themuse_jobs` AS silver_themuse_jobs
+    LEFT JOIN `freeprise-matchmaker`.`Bronze_Silver`.`silver_themuse_company_data` AS silver_themuse_company_data
+        ON trim(replace(upper(silver_themuse_company_data.name), '','')) = trim(replace(upper(silver_themuse_jobs.company),' ',''))
+    );
+  
+[0m11:04:41.365724 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:f9c80dfb-5a69-4057-949b-9cea9dfb54cf&page=queryresults
+[0m11:04:46.780470 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd5910882-c178-4429-8cf7-ef45b7f06431', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb1cf79eb0>]}
+[0m11:04:46.782015 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Gold.gold_jobCompany_Link ............. [[32mCREATE TABLE (1.4m rows, 158.4 MiB processed)[0m in 6.21s]
+[0m11:04:46.783333 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_jobCompany_Link
+[0m11:04:46.785796 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:04:46.786539 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_jobCompany_Link' was properly closed.
+[0m11:04:46.787385 [info ] [MainThread]: 
+[0m11:04:46.788264 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 6.98 seconds (6.98s).
+[0m11:04:46.789743 [debug] [MainThread]: Command end result
+[0m11:04:46.892071 [info ] [MainThread]: 
+[0m11:04:46.893315 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:04:46.894229 [info ] [MainThread]: 
+[0m11:04:46.895114 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m11:04:46.896762 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 9.856947, "process_user_time": 5.650152, "process_kernel_time": 0.600773, "process_mem_max_rss": "205904", "process_out_blocks": "6008", "process_in_blocks": "0"}
+[0m11:04:46.897915 [debug] [MainThread]: Command `dbt run` succeeded at 11:04:46.897710 after 9.86 seconds
+[0m11:04:46.899079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb33c5e640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb1d387e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcb33837130>]}
+[0m11:04:46.900214 [debug] [MainThread]: Flushing usage events
+[0m11:33:36.506056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5c490e6a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5c2ff0e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5c2fd48e0>]}
+
+
+============================== 11:33:36.510724 | 3b5d484e-bf40-4748-bdf5-6e8683cd628b ==============================
+[0m11:33:36.510724 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:33:36.512083 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run --models silver_profile_data', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:33:37.853516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3b5d484e-bf40-4748-bdf5-6e8683cd628b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5c4650c10>]}
+[0m11:33:37.965990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3b5d484e-bf40-4748-bdf5-6e8683cd628b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5aac61250>]}
+[0m11:33:37.967957 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m11:33:38.043519 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m11:33:38.500605 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 2 files changed.
+[0m11:33:38.501919 [debug] [MainThread]: Partial parsing: added file: dbt_freeprise://models/gold/gold_profileDetails_Sat.sql
+[0m11:33:38.502833 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/gold/gold_jobDetails_Sat.sql
+[0m11:33:38.504527 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/silver/silver_profile_data.sql
+[0m11:33:39.035314 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m11:33:39.067583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3b5d484e-bf40-4748-bdf5-6e8683cd628b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5a9ce2a00>]}
+[0m11:33:39.327159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3b5d484e-bf40-4748-bdf5-6e8683cd628b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5aa1a39a0>]}
+[0m11:33:39.328349 [info ] [MainThread]: Found 20 models, 14 sources, 907 macros
+[0m11:33:39.329316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3b5d484e-bf40-4748-bdf5-6e8683cd628b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5a9c586d0>]}
+[0m11:33:39.332032 [info ] [MainThread]: 
+[0m11:33:39.333329 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:33:39.335479 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m11:33:39.336750 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:33:39.565567 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m11:33:39.566739 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:33:39.780870 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m11:33:39.787849 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:33:40.006923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3b5d484e-bf40-4748-bdf5-6e8683cd628b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5aa093f40>]}
+[0m11:33:40.008565 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:33:40.009638 [info ] [MainThread]: 
+[0m11:33:40.014350 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.silver_profile_data
+[0m11:33:40.015860 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Silver.silver_profile_data ................. [RUN]
+[0m11:33:40.017137 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.silver_profile_data)
+[0m11:33:40.018007 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.silver_profile_data
+[0m11:33:40.037886 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.silver_profile_data"
+[0m11:33:40.039665 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.silver_profile_data
+[0m11:33:40.082020 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m11:33:40.411311 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.silver_profile_data"
+[0m11:33:40.413124 [debug] [Thread-1  ]: On model.dbt_freeprise.silver_profile_data: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.silver_profile_data"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Silver`.`silver_profile_data`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      -- models/silver/silver_profile_data.sql
+
+
+
+SELECT
+  id,
+  url,
+  city,
+  name,
+  about,
+  region,
+  position,
+  recommandations,
+  recommandations_count,
+  current_company,
+  country_code,
+  current_company_company_id as company_id
+FROM
+  `freeprise-matchmaker`.`Bronze`.`raw_profiles`
+    );
+  
+[0m11:33:40.874223 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:5a7a3442-c1e7-48f4-9fab-f647024b5430&page=queryresults
+[0m11:33:41.024570 [debug] [Thread-1  ]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: recommandations; Did you mean recommendations? at [25:3]; reason: invalidQuery, location: query, message: Unrecognized name: recommandations; Did you mean recommendations? at [25:3]')
+[0m11:33:41.574156 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:abf581ac-1cd8-482e-ac41-68dc20805309&page=queryresults
+[0m11:33:41.810012 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:abf581ac-1cd8-482e-ac41-68dc20805309&page=queryresults
+[0m11:33:41.822954 [debug] [Thread-1  ]: Database Error in model silver_profile_data (models/silver/silver_profile_data.sql)
+  Unrecognized name: recommandations; Did you mean recommendations? at [25:3]
+  compiled Code at target/run/dbt_freeprise/models/silver/silver_profile_data.sql
+[0m11:33:41.826421 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3b5d484e-bf40-4748-bdf5-6e8683cd628b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5c3a8c310>]}
+[0m11:33:41.828059 [error] [Thread-1  ]: 1 of 1 ERROR creating sql table model Bronze_Silver.silver_profile_data ........ [[31mERROR[0m in 1.81s]
+[0m11:33:41.829441 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.silver_profile_data
+[0m11:33:41.831983 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:33:41.832730 [debug] [MainThread]: Connection 'model.dbt_freeprise.silver_profile_data' was properly closed.
+[0m11:33:41.833586 [info ] [MainThread]: 
+[0m11:33:41.834696 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 2.50 seconds (2.50s).
+[0m11:33:41.836478 [debug] [MainThread]: Command end result
+[0m11:33:41.950834 [info ] [MainThread]: 
+[0m11:33:41.952345 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m11:33:41.953433 [info ] [MainThread]: 
+[0m11:33:41.954695 [error] [MainThread]:   Database Error in model silver_profile_data (models/silver/silver_profile_data.sql)
+  Unrecognized name: recommandations; Did you mean recommendations? at [25:3]
+  compiled Code at target/run/dbt_freeprise/models/silver/silver_profile_data.sql
+[0m11:33:41.955517 [info ] [MainThread]: 
+[0m11:33:41.956561 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m11:33:41.958617 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 5.5430365, "process_user_time": 5.905044, "process_kernel_time": 0.657004, "process_mem_max_rss": "207592", "process_in_blocks": "384", "process_out_blocks": "6024", "command_success": false}
+[0m11:33:41.960180 [debug] [MainThread]: Command `dbt run` failed at 11:33:41.959964 after 5.54 seconds
+[0m11:33:41.961076 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5c490e6a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5aac61250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5c3a4aa90>]}
+[0m11:33:41.961952 [debug] [MainThread]: Flushing usage events
+[0m11:34:00.584193 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9f63aa610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9f4ad5df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9f4923fd0>]}
+
+
+============================== 11:34:00.588863 | edeacc0f-b0af-4dd4-b7fe-cdf4d4396cb3 ==============================
+[0m11:34:00.588863 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:34:00.590089 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --models silver_profile_data', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:34:01.894679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'edeacc0f-b0af-4dd4-b7fe-cdf4d4396cb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9e0617160>]}
+[0m11:34:01.991788 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'edeacc0f-b0af-4dd4-b7fe-cdf4d4396cb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9e07042e0>]}
+[0m11:34:01.993102 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m11:34:02.097751 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m11:34:02.535082 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:34:02.537146 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/silver/silver_profile_data.sql
+[0m11:34:02.993454 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m11:34:03.022237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'edeacc0f-b0af-4dd4-b7fe-cdf4d4396cb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9db6d0940>]}
+[0m11:34:03.273262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'edeacc0f-b0af-4dd4-b7fe-cdf4d4396cb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9dbb26100>]}
+[0m11:34:03.274490 [info ] [MainThread]: Found 20 models, 14 sources, 907 macros
+[0m11:34:03.275386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'edeacc0f-b0af-4dd4-b7fe-cdf4d4396cb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9db7045b0>]}
+[0m11:34:03.278107 [info ] [MainThread]: 
+[0m11:34:03.279314 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:34:03.281595 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m11:34:03.282733 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:34:03.505214 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m11:34:03.506640 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:34:03.717533 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m11:34:03.721392 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:34:03.908058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'edeacc0f-b0af-4dd4-b7fe-cdf4d4396cb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9dbf9cdf0>]}
+[0m11:34:03.909426 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:34:03.910429 [info ] [MainThread]: 
+[0m11:34:03.914356 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.silver_profile_data
+[0m11:34:03.915834 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Silver.silver_profile_data ................. [RUN]
+[0m11:34:03.917123 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.silver_profile_data)
+[0m11:34:03.918087 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.silver_profile_data
+[0m11:34:03.935727 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.silver_profile_data"
+[0m11:34:03.937218 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.silver_profile_data
+[0m11:34:03.969146 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m11:34:04.311041 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.silver_profile_data"
+[0m11:34:04.313258 [debug] [Thread-1  ]: On model.dbt_freeprise.silver_profile_data: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.silver_profile_data"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Silver`.`silver_profile_data`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      -- models/silver/silver_profile_data.sql
+
+
+
+SELECT
+  id,
+  url,
+  city,
+  name,
+  about,
+  region,
+  position,
+  recommendations,
+  recommandations_count,
+  current_company,
+  country_code,
+  current_company_company_id as company_id
+FROM
+  `freeprise-matchmaker`.`Bronze`.`raw_profiles`
+    );
+  
+[0m11:34:04.782770 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:6c8e14ea-38b0-445f-a033-ca0f1e1602a4&page=queryresults
+[0m11:34:04.880532 [debug] [Thread-1  ]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: recommandations_count; Did you mean recommendations_count? at [26:3]; reason: invalidQuery, location: query, message: Unrecognized name: recommandations_count; Did you mean recommendations_count? at [26:3]')
+[0m11:34:06.319941 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:6ae0dd8a-f4b6-407b-bbf9-f3b53e121c4c&page=queryresults
+[0m11:34:06.406480 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:6ae0dd8a-f4b6-407b-bbf9-f3b53e121c4c&page=queryresults
+[0m11:34:06.412179 [debug] [Thread-1  ]: Database Error in model silver_profile_data (models/silver/silver_profile_data.sql)
+  Unrecognized name: recommandations_count; Did you mean recommendations_count? at [26:3]
+  compiled Code at target/run/dbt_freeprise/models/silver/silver_profile_data.sql
+[0m11:34:06.415629 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'edeacc0f-b0af-4dd4-b7fe-cdf4d4396cb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9dbe89190>]}
+[0m11:34:06.417091 [error] [Thread-1  ]: 1 of 1 ERROR creating sql table model Bronze_Silver.silver_profile_data ........ [[31mERROR[0m in 2.50s]
+[0m11:34:06.418519 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.silver_profile_data
+[0m11:34:06.421355 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:34:06.422113 [debug] [MainThread]: Connection 'model.dbt_freeprise.silver_profile_data' was properly closed.
+[0m11:34:06.422844 [info ] [MainThread]: 
+[0m11:34:06.424023 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 3.14 seconds (3.14s).
+[0m11:34:06.425384 [debug] [MainThread]: Command end result
+[0m11:34:06.541724 [info ] [MainThread]: 
+[0m11:34:06.542820 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m11:34:06.543682 [info ] [MainThread]: 
+[0m11:34:06.544628 [error] [MainThread]:   Database Error in model silver_profile_data (models/silver/silver_profile_data.sql)
+  Unrecognized name: recommandations_count; Did you mean recommendations_count? at [26:3]
+  compiled Code at target/run/dbt_freeprise/models/silver/silver_profile_data.sql
+[0m11:34:06.545435 [info ] [MainThread]: 
+[0m11:34:06.546215 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m11:34:06.547887 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 6.070099, "process_user_time": 5.810201, "process_kernel_time": 0.538446, "process_mem_max_rss": "207032", "process_out_blocks": "6008", "command_success": false, "process_in_blocks": "0"}
+[0m11:34:06.549403 [debug] [MainThread]: Command `dbt run` failed at 11:34:06.549191 after 6.07 seconds
+[0m11:34:06.550588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9f63aa610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9db7047c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9f5fafb50>]}
+[0m11:34:06.551948 [debug] [MainThread]: Flushing usage events
+[0m11:34:20.621711 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d67db6730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d66f4e4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d66465460>]}
+
+
+============================== 11:34:20.626868 | b0769c73-e2d5-43fd-8fe7-500b4c7049a2 ==============================
+[0m11:34:20.626868 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:34:20.628156 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --models silver_profile_data', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:34:21.948030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b0769c73-e2d5-43fd-8fe7-500b4c7049a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d519f2ca0>]}
+[0m11:34:22.047230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b0769c73-e2d5-43fd-8fe7-500b4c7049a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5195d880>]}
+[0m11:34:22.048689 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m11:34:22.117721 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m11:34:22.558322 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:34:22.560527 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/silver/silver_profile_data.sql
+[0m11:34:23.010820 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m11:34:23.039340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b0769c73-e2d5-43fd-8fe7-500b4c7049a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d51199a00>]}
+[0m11:34:23.291650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b0769c73-e2d5-43fd-8fe7-500b4c7049a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d519d2b80>]}
+[0m11:34:23.293140 [info ] [MainThread]: Found 20 models, 14 sources, 907 macros
+[0m11:34:23.294000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b0769c73-e2d5-43fd-8fe7-500b4c7049a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d51521c40>]}
+[0m11:34:23.296912 [info ] [MainThread]: 
+[0m11:34:23.298587 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:34:23.301574 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m11:34:23.302734 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:34:23.557628 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m11:34:23.559152 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:34:23.769715 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m11:34:23.773452 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:34:23.961182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b0769c73-e2d5-43fd-8fe7-500b4c7049a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d51a099d0>]}
+[0m11:34:23.962647 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:34:23.963712 [info ] [MainThread]: 
+[0m11:34:23.967521 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.silver_profile_data
+[0m11:34:23.968963 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Silver.silver_profile_data ................. [RUN]
+[0m11:34:23.970274 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.silver_profile_data)
+[0m11:34:23.971176 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.silver_profile_data
+[0m11:34:23.989648 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.silver_profile_data"
+[0m11:34:23.991124 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.silver_profile_data
+[0m11:34:24.022767 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m11:34:24.323558 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.silver_profile_data"
+[0m11:34:24.325264 [debug] [Thread-1  ]: On model.dbt_freeprise.silver_profile_data: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.silver_profile_data"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Silver`.`silver_profile_data`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      -- models/silver/silver_profile_data.sql
+
+
+
+SELECT
+  id,
+  url,
+  city,
+  name,
+  about,
+  region,
+  position,
+  recommendations,
+  recommendations_count,
+  current_company,
+  country_code,
+  current_company_company_id as company_id
+FROM
+  `freeprise-matchmaker`.`Bronze`.`raw_profiles`
+    );
+  
+[0m11:34:24.868040 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:c1f1ae33-94a5-42c7-a792-83c8c190ddeb&page=queryresults
+[0m11:34:28.001539 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b0769c73-e2d5-43fd-8fe7-500b4c7049a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d510bc400>]}
+[0m11:34:28.003333 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Silver.silver_profile_data ............ [[32mCREATE TABLE (1.0k rows, 724.0 KiB processed)[0m in 4.03s]
+[0m11:34:28.004816 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.silver_profile_data
+[0m11:34:28.007322 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:34:28.008099 [debug] [MainThread]: Connection 'model.dbt_freeprise.silver_profile_data' was properly closed.
+[0m11:34:28.009100 [info ] [MainThread]: 
+[0m11:34:28.010205 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.71 seconds (4.71s).
+[0m11:34:28.011847 [debug] [MainThread]: Command end result
+[0m11:34:28.121877 [info ] [MainThread]: 
+[0m11:34:28.123144 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:34:28.124089 [info ] [MainThread]: 
+[0m11:34:28.124915 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m11:34:28.126660 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.6010237, "process_user_time": 5.830865, "process_kernel_time": 0.49309, "process_mem_max_rss": "206160", "process_out_blocks": "6016", "process_in_blocks": "0"}
+[0m11:34:28.127921 [debug] [MainThread]: Command `dbt run` succeeded at 11:34:28.127685 after 7.60 seconds
+[0m11:34:28.128761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d67db6730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d514e82e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d51123910>]}
+[0m11:34:28.129674 [debug] [MainThread]: Flushing usage events
+[0m11:34:46.033538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1e3157790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1e182f040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1e1805430>]}
+
+
+============================== 11:34:46.038261 | 3304d763-d5a1-47c2-ab66-2aef0ef317dc ==============================
+[0m11:34:46.038261 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:34:46.039607 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --models silver_profile_data', 'send_anonymous_usage_stats': 'True'}
+[0m11:34:47.623561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3304d763-d5a1-47c2-ab66-2aef0ef317dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1ccde0ac0>]}
+[0m11:34:47.733809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3304d763-d5a1-47c2-ab66-2aef0ef317dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cd4a4250>]}
+[0m11:34:47.735229 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m11:34:47.805262 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m11:34:48.248405 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:34:48.250004 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/silver/silver_profile_data.sql
+[0m11:34:48.710687 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m11:34:48.739874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3304d763-d5a1-47c2-ab66-2aef0ef317dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cc5349d0>]}
+[0m11:34:49.002315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3304d763-d5a1-47c2-ab66-2aef0ef317dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cc8c9550>]}
+[0m11:34:49.003605 [info ] [MainThread]: Found 20 models, 14 sources, 907 macros
+[0m11:34:49.004549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3304d763-d5a1-47c2-ab66-2aef0ef317dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cc4a9640>]}
+[0m11:34:49.007120 [info ] [MainThread]: 
+[0m11:34:49.008419 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:34:49.010700 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m11:34:49.011603 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:34:49.241198 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Gold)
+[0m11:34:49.242446 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:34:49.451672 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now list_freeprise-matchmaker_Bronze_Silver)
+[0m11:34:49.455723 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:34:49.641008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3304d763-d5a1-47c2-ab66-2aef0ef317dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cc8d6880>]}
+[0m11:34:49.642531 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:34:49.643507 [info ] [MainThread]: 
+[0m11:34:49.647335 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.silver_profile_data
+[0m11:34:49.648707 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Silver.silver_profile_data ................. [RUN]
+[0m11:34:49.650243 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now model.dbt_freeprise.silver_profile_data)
+[0m11:34:49.651038 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.silver_profile_data
+[0m11:34:49.669077 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.silver_profile_data"
+[0m11:34:49.670345 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.silver_profile_data
+[0m11:34:49.702814 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m11:34:50.033810 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.silver_profile_data"
+[0m11:34:50.035240 [debug] [Thread-1  ]: On model.dbt_freeprise.silver_profile_data: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.silver_profile_data"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Silver`.`silver_profile_data`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      -- models/silver/silver_profile_data.sql
+
+
+
+SELECT
+  id,
+  url,
+  city,
+  name,
+  about,
+  region,
+  position,
+  recommendations,
+  recommendations_count,
+  current_company as company,
+  country_code,
+  current_company_company_id as company_id
+FROM
+  `freeprise-matchmaker`.`Bronze`.`raw_profiles`
+    );
+  
+[0m11:34:50.341732 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:4b16f720-2ea0-4abc-9e0f-2af6f1dee752&page=queryresults
+[0m11:34:53.454728 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3304d763-d5a1-47c2-ab66-2aef0ef317dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cc4ec580>]}
+[0m11:34:53.456452 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Silver.silver_profile_data ............ [[32mCREATE TABLE (1.0k rows, 724.0 KiB processed)[0m in 3.80s]
+[0m11:34:53.457869 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.silver_profile_data
+[0m11:34:53.460383 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:34:53.461083 [debug] [MainThread]: Connection 'model.dbt_freeprise.silver_profile_data' was properly closed.
+[0m11:34:53.461841 [info ] [MainThread]: 
+[0m11:34:53.462691 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.45 seconds (4.45s).
+[0m11:34:53.464239 [debug] [MainThread]: Command end result
+[0m11:34:53.592374 [info ] [MainThread]: 
+[0m11:34:53.593521 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:34:53.594441 [info ] [MainThread]: 
+[0m11:34:53.595222 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m11:34:53.596843 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.6534696, "process_user_time": 5.966466, "process_kernel_time": 0.536569, "process_mem_max_rss": "206188", "process_out_blocks": "6008", "process_in_blocks": "0"}
+[0m11:34:53.597977 [debug] [MainThread]: Command `dbt run` succeeded at 11:34:53.597776 after 7.65 seconds
+[0m11:34:53.598958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1e3157790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1e2d59c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1e2e65d30>]}
+[0m11:34:53.599888 [debug] [MainThread]: Flushing usage events
+[0m11:36:59.040831 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ecdc02580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ecc6b8640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ecc2b78b0>]}
+
+
+============================== 11:36:59.045568 | 3d83ce60-22d7-45af-a203-a29aa813ba0a ==============================
+[0m11:36:59.045568 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:36:59.047152 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --models gold_profilDetails_Sat', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:37:00.352270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3d83ce60-22d7-45af-a203-a29aa813ba0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ecc2caa00>]}
+[0m11:37:00.456045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3d83ce60-22d7-45af-a203-a29aa813ba0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9eb3833ee0>]}
+[0m11:37:00.457342 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m11:37:00.524834 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m11:37:00.976460 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:37:00.977962 [debug] [MainThread]: Partial parsing: updated file: dbt_freeprise://models/gold/gold_profileDetails_Sat.sql
+[0m11:37:01.429881 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m11:37:01.458756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3d83ce60-22d7-45af-a203-a29aa813ba0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9eb2fc48b0>]}
+[0m11:37:01.714617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3d83ce60-22d7-45af-a203-a29aa813ba0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9eb357c4c0>]}
+[0m11:37:01.715755 [info ] [MainThread]: Found 20 models, 14 sources, 907 macros
+[0m11:37:01.716525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3d83ce60-22d7-45af-a203-a29aa813ba0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9eb37afeb0>]}
+[0m11:37:01.717935 [warn ] [MainThread]: The selection criterion 'gold_profilDetails_Sat' does not match any enabled nodes
+[0m11:37:01.719706 [info ] [MainThread]: 
+[0m11:37:01.720415 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m11:37:01.721524 [debug] [MainThread]: Command end result
+[0m11:37:01.819446 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 2.8670332, "process_user_time": 5.302455, "process_kernel_time": 0.535126, "process_mem_max_rss": "202652", "process_out_blocks": "5992", "process_in_blocks": "0"}
+[0m11:37:01.820745 [debug] [MainThread]: Command `dbt run` succeeded at 11:37:01.820521 after 2.87 seconds
+[0m11:37:01.821572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ecdc02580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9eb2f92a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9eb33160a0>]}
+[0m11:37:01.822346 [debug] [MainThread]: Flushing usage events
+[0m11:38:13.644849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80616275e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f805fba40d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f805fba4700>]}
+
+
+============================== 11:38:13.649817 | c8f52bac-65f0-4011-8ca6-a1b4e3b69d11 ==============================
+[0m11:38:13.649817 [info ] [MainThread]: Running with dbt=1.8.4
+[0m11:38:13.651103 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise/logs', 'profiles_dir': '/home/mohamed.bousarout/code/BOUSAROUT/freeprise-matchmaker/dbt_freeprise', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --models gold_profileDetails_Sat', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:38:14.978597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c8f52bac-65f0-4011-8ca6-a1b4e3b69d11', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8060d45760>]}
+[0m11:38:15.077434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c8f52bac-65f0-4011-8ca6-a1b4e3b69d11', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8047982280>]}
+[0m11:38:15.078714 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m11:38:15.145493 [debug] [MainThread]: checksum: 54398663eddc8e4ac172fdab397e09b2aa6984947a84e6ec7983096c3fae7b7a, vars: {}, profile: , target: , version: 1.8.4
+[0m11:38:15.586180 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m11:38:15.587108 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m11:38:15.599645 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_freeprise.bronze
+[0m11:38:15.664358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c8f52bac-65f0-4011-8ca6-a1b4e3b69d11', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8046cdc6d0>]}
+[0m11:38:15.962197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c8f52bac-65f0-4011-8ca6-a1b4e3b69d11', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80471a3bb0>]}
+[0m11:38:15.963487 [info ] [MainThread]: Found 20 models, 14 sources, 907 macros
+[0m11:38:15.964302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c8f52bac-65f0-4011-8ca6-a1b4e3b69d11', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80471a3220>]}
+[0m11:38:15.966933 [info ] [MainThread]: 
+[0m11:38:15.968147 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:38:15.970319 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_freeprise-matchmaker'
+[0m11:38:15.971582 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:38:16.183804 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker, now list_freeprise-matchmaker_Bronze_Silver)
+[0m11:38:16.185013 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:38:16.379061 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Silver, now list_freeprise-matchmaker_Bronze_Gold)
+[0m11:38:16.382895 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:38:16.597821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c8f52bac-65f0-4011-8ca6-a1b4e3b69d11', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8046d180d0>]}
+[0m11:38:16.599196 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:38:16.600039 [info ] [MainThread]: 
+[0m11:38:16.604205 [debug] [Thread-1  ]: Began running node model.dbt_freeprise.gold_profileDetails_Sat
+[0m11:38:16.605738 [info ] [Thread-1  ]: 1 of 1 START sql table model Bronze_Gold.gold_profileDetails_Sat ............... [RUN]
+[0m11:38:16.607351 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_freeprise-matchmaker_Bronze_Gold, now model.dbt_freeprise.gold_profileDetails_Sat)
+[0m11:38:16.608284 [debug] [Thread-1  ]: Began compiling node model.dbt_freeprise.gold_profileDetails_Sat
+[0m11:38:16.631209 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_freeprise.gold_profileDetails_Sat"
+[0m11:38:16.632703 [debug] [Thread-1  ]: Began executing node model.dbt_freeprise.gold_profileDetails_Sat
+[0m11:38:16.717676 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_freeprise.gold_profileDetails_Sat"
+[0m11:38:16.719002 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m11:38:16.770918 [debug] [Thread-1  ]: On model.dbt_freeprise.gold_profileDetails_Sat: /* {"app": "dbt", "dbt_version": "1.8.4", "profile_name": "dbt_freeprise", "target_name": "dev", "node_id": "model.dbt_freeprise.gold_profileDetails_Sat"} */
+
+  
+    
+
+    create or replace table `freeprise-matchmaker`.`Bronze_Gold`.`gold_profileDetails_Sat`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+SELECT
+  MD5(id) AS Profile_id,
+  CURRENT_TIMESTAMP AS LoadDate,
+  name,
+  about,
+  region,
+  position,
+  recommendations,
+  recommendations_count,
+  country_code,
+  'Linkedin_dataset' AS RecordSource
+FROM
+  `freeprise-matchmaker`.`Bronze_Silver`.`silver_profile_data`
+    );
+  
+[0m11:38:17.157518 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=freeprise-matchmaker&j=bq:EU:b2da938f-6d41-4cc2-81b3-3d3f9693c515&page=queryresults
+[0m11:38:20.192396 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c8f52bac-65f0-4011-8ca6-a1b4e3b69d11', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8046d5baf0>]}
+[0m11:38:20.194083 [info ] [Thread-1  ]: 1 of 1 OK created sql table model Bronze_Gold.gold_profileDetails_Sat .......... [[32mCREATE TABLE (1.0k rows, 522.9 KiB processed)[0m in 3.58s]
+[0m11:38:20.195593 [debug] [Thread-1  ]: Finished running node model.dbt_freeprise.gold_profileDetails_Sat
+[0m11:38:20.198074 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:38:20.198784 [debug] [MainThread]: Connection 'model.dbt_freeprise.gold_profileDetails_Sat' was properly closed.
+[0m11:38:20.199773 [info ] [MainThread]: 
+[0m11:38:20.200936 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 4.23 seconds (4.23s).
+[0m11:38:20.202525 [debug] [MainThread]: Command end result
+[0m11:38:20.300860 [info ] [MainThread]: 
+[0m11:38:20.301947 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:38:20.302699 [info ] [MainThread]: 
+[0m11:38:20.303499 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m11:38:20.305251 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 6.75522, "process_user_time": 5.421239, "process_kernel_time": 0.588011, "process_mem_max_rss": "201460", "process_out_blocks": "3976", "process_in_blocks": "0"}
+[0m11:38:20.306499 [debug] [MainThread]: Command `dbt run` succeeded at 11:38:20.306291 after 6.76 seconds
+[0m11:38:20.307525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80616275e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80607d3340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f806123baf0>]}
+[0m11:38:20.308377 [debug] [MainThread]: Flushing usage events

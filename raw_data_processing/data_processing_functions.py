@@ -83,9 +83,8 @@ def extract_profile_data(profile_df, destination_folder):
     if profile_df.empty:
         return profile_df
 
-    required_columns = ["id", "name", "current_company:company_id", "position", "about", "url",
-                        "recommandations", "recommandation_url", "city", "country_code", "region"]
-
+    required_columns = ["id", "name", "current_company:company_id","city","country_code", "region","current_company:name","current_company","educations_details","position", "about", "url",
+                        "recommendations","recommendations_count"]
     # Ensure only existing columns are selected
     existing_columns = [col for col in required_columns if col in profile_df.columns]
 
