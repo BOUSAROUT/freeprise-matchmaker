@@ -12,10 +12,6 @@
 /dbt_freeprise/logs
 
 
-# Ignore Poetry lock file
-poetry.lock
-pyproject.toml
-
 # Ignore virtual environment directory
 .venv
 
