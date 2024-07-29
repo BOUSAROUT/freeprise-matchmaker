@@ -1,10 +1,12 @@
 
 {{ config(materialized='table') }}
 
+select * from (
 SELECT
   MD5(job_link) AS job_id,
   MD5(job_link) AS Skill_id,
   CURRENT_TIMESTAMP AS LoadDate,
   'Linkedin_dataset' AS RecordSource
 FROM
-  {{ ref('silver_linkedin_jobs') }}
+  {{ ref('silver_linkedin_jobs') }} )
+limit 10000

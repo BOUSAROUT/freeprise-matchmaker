@@ -12,6 +12,7 @@ is_being_worked,
 job_location,
 search_city,
 search_country,
-company
-
+company,
+last_processed_time,
+first_seen
 from   {{ source('Bronze', 'raw_job_posting') }}
