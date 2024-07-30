@@ -7,12 +7,10 @@
 /linkedin_api
 /archive
 /database
+/logs
+/dbt_freeprise/dbt_packages
+/dbt_freeprise/logs
 
-
-
-# Ignore Poetry lock file
-poetry.lock
-pyproject.toml
 
 # Ignore virtual environment directory
 .venv
