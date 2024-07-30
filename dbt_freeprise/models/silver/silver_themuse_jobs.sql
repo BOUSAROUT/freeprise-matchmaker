@@ -8,6 +8,7 @@ job_title,
 locations as job_location,
 categories,
 company_name as company,
-job_description
+job_description,
+publication_date
 
 from   {{ source('Bronze', 'raw_themuse_jobs_data') }}

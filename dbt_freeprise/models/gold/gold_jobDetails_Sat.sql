@@ -1,6 +1,7 @@
 
 {{ config(materialized='table') }}
 
+select * from (
 SELECT
   MD5(job_link) AS job_id,
   CURRENT_TIMESTAMP AS LoadDate,
@@ -15,6 +16,7 @@ SELECT
   search_city,
   search_country,
   company,
+  cast(first_seen as TIMESTAMP) as publication_date,
   'Linkedin_dataset' AS RecordSource
 FROM
   {{ ref('silver_linkedin_jobs') }}
@@ -35,6 +37,8 @@ SELECT
   null as search_city,
   null as search_country,
   company,
+  cast(publication_date as TIMESTAMP) as publication_date,
   'Themuse_dataset' AS RecordSource
 FROM
-  {{ ref('silver_themuse_jobs') }}
+  {{ ref('silver_themuse_jobs') }})
+Limit 10000
