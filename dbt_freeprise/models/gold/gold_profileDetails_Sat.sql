@@ -1,6 +1,5 @@
 {{ config(materialized='table') }}
 
-SELECT * FROM (
   SELECT
     MD5(id) AS Profile_id,
     CURRENT_TIMESTAMP AS LoadDate,
@@ -28,9 +27,8 @@ SELECT * FROM (
     WHEN country_code = 'MY' THEN 'Malaysia'
     WHEN country_code = 'NG' THEN 'Nigeria'
     ELSE 'Not Specified' END AS country,
+    company_id,
     'Linkedin_dataset' AS RecordSource
   FROM
     {{ ref('silver_profile_data') }}
   where ifnull(name,'') <> '' and name <> ''
-)
-LIMIT 10000

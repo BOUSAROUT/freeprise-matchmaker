@@ -1,6 +1,5 @@
 {{ config(materialized='table') }}
 
-select * from (
     select
         md5(silver_linkedin_jobs.job_link || silver_company_data.id) as link_jobcompany_id,
         md5(silver_linkedin_jobs.job_link) as job_id,
@@ -12,20 +11,16 @@ select * from (
         join {{ ref('silver_company_data') }} as silver_company_data
             on trim(replace(upper(silver_company_data.name), ' ', '')) = trim(replace(upper(silver_linkedin_jobs.company), ' ', ''))
     where ifnull(silver_company_data.id, '') <> ''
-    order by company_id, job_id
-  -- union all
 
-  --  select
-  --      md5(silver_themuse_jobs.job_link || silver_themuse_company_data.id) as link_profilecompany_id,
-  --      md5(silver_themuse_jobs.job_link) as job_id,
-  --      md5(silver_themuse_company_data.id) as company_id,
-  --      current_timestamp as loaddate,
-  --      'themuse_dataset' as recordsource
-  --  from
-  --      {{ ref('silver_themuse_jobs') }} as silver_themuse_jobs
-  --      join {{ ref('silver_themuse_company_data') }} as silver_themuse_company_data
-  --          on trim(regexp_replace(upper(silver_themuse_company_data.name), ' ', '')) = trim(replace(upper(silver_themuse_jobs.company), ' ', ''))
-  --  where ifnull(silver_themuse_company_data.id, '') <> ''
-)
-
-limit 100000
+   union all
+    select
+        md5(silver_themuse_jobs.job_link || silver_themuse_company_data.id) as link_profilecompany_id,
+        md5(silver_themuse_jobs.job_link) as job_id,
+        md5(silver_themuse_company_data.id) as company_id,
+        current_timestamp as loaddate,
+        'themuse_dataset' as recordsource
+    from
+        {{ ref('silver_themuse_jobs') }} as silver_themuse_jobs
+        join {{ ref('silver_themuse_company_data') }} as silver_themuse_company_data
+            on trim(regexp_replace(upper(silver_themuse_company_data.name), ' ', '')) = trim(replace(upper(silver_themuse_jobs.company), ' ', ''))
+    where ifnull(silver_themuse_company_data.id, '') <> ''

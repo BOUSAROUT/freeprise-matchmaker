@@ -1,4 +1,4 @@
-{{ config(materialized='view') }}
+{{ config(materialized='materialized_view') }}
 
 SELECT
 case when job_type is null then 'Not Defined' else job_type end as job_type ,

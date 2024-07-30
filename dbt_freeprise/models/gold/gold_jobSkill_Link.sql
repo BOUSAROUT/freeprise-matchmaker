@@ -1,7 +1,6 @@
 
 {{ config(materialized='table') }}
 
-select * from (
 SELECT
   MD5(job_link) AS job_id,
   MD5(job_link) AS Skill_id,
@@ -10,5 +9,4 @@ SELECT
 FROM
   {{ ref('silver_linkedin_jobs') }}
 
-order by job_link asc )
-limit 10000
+order by job_link asc

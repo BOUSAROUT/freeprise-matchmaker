@@ -1,7 +1,7 @@
 {{ config(materialized='table', schema='Gold') }}
 
 
-select * from (
+
 
 SELECT
   MD5(title || subtitle ) AS certification_id,
@@ -11,5 +11,4 @@ SELECT
   'Linkedin_dataset' AS RecordSource
 FROM
   {{ ref('silver_certifications_data') }}
-Where ifnull(title, '') <> '' and ifnull(subtitle, '') <> '')
-Limit 10000
+Where ifnull(title, '') <> '' and ifnull(subtitle, '') <> ''

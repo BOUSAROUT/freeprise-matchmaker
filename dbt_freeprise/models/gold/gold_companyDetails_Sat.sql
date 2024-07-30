@@ -3,7 +3,7 @@
 {{ config(materialized='table') }}
 
 
-Select * from (
+
 
 SELECT
   MD5(id) AS company_id,
@@ -41,6 +41,4 @@ SELECT
   null as organization_type,
   'Themuse_dataset' AS RecordSource
 FROM
-  {{ ref('silver_themuse_company_data') }} )
-
-Limit 10000
+  {{ ref('silver_themuse_company_data') }}

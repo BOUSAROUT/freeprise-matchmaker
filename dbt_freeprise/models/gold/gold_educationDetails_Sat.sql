@@ -1,8 +1,8 @@
 {{ config(materialized='table', schema='Gold') }}
 
-select * from (
+
 SELECT
-  MD5(title || dregree) AS education_id,
+  MD5(title || degree) AS education_id,
   CURRENT_TIMESTAMP AS LoadDate,
   title,
   degree,
@@ -15,6 +15,3 @@ SELECT
 FROM
   {{ ref('silver_education_data') }}
   where ifnull(title, '') <> '' and ifnull(degree, '') <> ''
-   )
-
-limit 10000
