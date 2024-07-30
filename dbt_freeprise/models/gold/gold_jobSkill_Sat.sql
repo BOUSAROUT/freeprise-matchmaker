@@ -8,5 +8,6 @@ SELECT
   job_skills,
   'Linkedin_dataset' AS RecordSource
 FROM
-  {{ ref('silver_job_skills_data') }} )
+  {{ ref('silver_job_skills_data') }}
+  order by job_link asc )
 limit 10000

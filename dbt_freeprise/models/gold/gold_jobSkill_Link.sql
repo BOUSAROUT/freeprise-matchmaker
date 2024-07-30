@@ -8,5 +8,7 @@ SELECT
   CURRENT_TIMESTAMP AS LoadDate,
   'Linkedin_dataset' AS RecordSource
 FROM
-  {{ ref('silver_linkedin_jobs') }} )
+  {{ ref('silver_linkedin_jobs') }}
+
+order by job_link asc )
 limit 10000

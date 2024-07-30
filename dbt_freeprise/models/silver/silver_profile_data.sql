@@ -12,8 +12,9 @@ SELECT
   position,
   recommendations,
   recommendations_count,
-  current_company as company,
+  current_company_name as company,
   country_code,
   current_company_company_id as company_id
+
 FROM
   {{ source('Bronze', 'raw_profiles') }}

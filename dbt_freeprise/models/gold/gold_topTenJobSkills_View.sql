@@ -5,12 +5,12 @@ WITH SkillsExpanded AS (
     TRIM(skill) AS skill
   FROM
     {{ ref('gold_jobSkill_Sat') }},
-    UNNEST(SPLIT(job_skills, ',')) AS skill
+    UNNEST(SPLIT(lower(job_skills), ',')) AS skill
   WHERE
     IFNULL(job_skills, '') <> ''
 )
 
-SELECT
+SELECT distinct
   skill,
   COUNT(*) AS count
 FROM
